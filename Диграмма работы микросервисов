@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.1.3" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="2956" dy="1292" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6185" dy="2938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача &lt;br&gt;рассчитанного&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;маршрута&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fCV6vDZKke5qMm3hZ0_q-72" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;маршрута&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fCV6vDZKke5qMm3hZ0_q-72" vertex="1" connectable="0">
           <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
             <mxPoint x="-51" y="-40" as="offset" />
           </mxGeometry>
@@ -60,12 +60,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-14" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-79" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-14" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-79" vertex="1" connectable="0">
           <mxGeometry x="0.1377" y="-4" relative="1" as="geometry">
             <mxPoint x="-32" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VtboDuphbKT7lYOSHLzX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" edge="1" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="ERfC5En5p1jtPBikgfM7-1">
+        <mxCell id="VtboDuphbKT7lYOSHLzX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="ERfC5En5p1jtPBikgfM7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-372" y="916" />
@@ -87,7 +87,7 @@
             <mxRectangle x="80" y="120" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-56" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Интеграция с системой управления складом&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;(WMS) для получения и отправки данных.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(20, 54, 66), rgb(173, 202, 213)); font-size: 16px; text-indent: -24px;&quot;&gt;Сохранение в БД информации от заданиях и статусе их выполнения&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Передача информации о выполненных&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;задачах обратно в WMS.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействует с WMS для координации работы роботов и обновления данных о&lt;br&gt;складе.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-55" vertex="1">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-56" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Интеграция с системой управления складом&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;(WMS) для получения и отправки данных.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(20, 54, 66), rgb(173, 202, 213)); font-size: 16px; text-indent: -24px;&quot;&gt;Сохранение в БД информации от заданиях&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Передача информации о выполненных&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;задачах обратно в WMS.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействует с WMS для координации работы роботов и обновления данных о&lt;br&gt;складе.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-55" vertex="1">
           <mxGeometry y="130" width="401" height="359" as="geometry" />
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-57" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;Микросервис&lt;/span&gt; управления зарядкой&lt;span lang=&quot;EN-US&quot; style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;(Charging Management Service)&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-68" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Создание симуляций работы склада для&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;тестирования алгоритмов и сценариев.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Проверка обновлений и новых функций в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;безопасной среде перед внедрением.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Обучение операторов на основе симуляции&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;реальных складских операций.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействует с другими микросервисами для создания и проведения симуляций.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-67" vertex="1">
           <mxGeometry y="130" width="364" height="484" as="geometry" />
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-76" value="&lt;font&gt;Передача информации&lt;/font&gt;&lt;div&gt;&lt;font&gt;об ошибках&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;и неисправностях&lt;br&gt;&lt;span&gt;via Kafka&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-60" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-76" value="&lt;font&gt;Передача&amp;nbsp;&lt;/font&gt;ошибок&amp;nbsp;&lt;div&gt;&lt;font&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-60" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
           <mxGeometry x="0.6297" y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="536" />
@@ -138,7 +138,7 @@
             <mxPoint x="-878" y="531" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XG9xQ9TA239qcNCrTwis-1" value="&lt;font&gt;Передача заданий от WMS&lt;/font&gt;&lt;div&gt;&lt;font&gt;&amp;nbsp;в правильном формате&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-81" vertex="1" connectable="0">
+        <mxCell id="XG9xQ9TA239qcNCrTwis-1" value="&lt;font&gt;Передача заданий&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-81" vertex="1" connectable="0">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
             <mxPoint x="-188" y="139" as="offset" />
           </mxGeometry>
@@ -150,7 +150,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-86" value="Ошибки и предупреждения&lt;br&gt;от устройств&lt;br&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;via Kafka&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="fCV6vDZKke5qMm3hZ0_q-85" connectable="0" vertex="1">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-86" value="Ошибки и предупреждения&lt;br&gt;от устройств&lt;br&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;via RabbitMQ&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="fCV6vDZKke5qMm3hZ0_q-85" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="18" y="5" as="offset" />
           </mxGeometry>
@@ -189,12 +189,12 @@
             <mxPoint x="977" y="1480.0011076443056" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-92" value="Получение уровня заряда&lt;br&gt;от рашиошаттлов&lt;br&gt;&lt;span&gt;via Kafka&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="fCV6vDZKke5qMm3hZ0_q-91" connectable="0" vertex="1">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-92" value="Получение уровня заряда&lt;br&gt;шаттла&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="fCV6vDZKke5qMm3hZ0_q-91" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-74" value="&lt;font&gt;Передача информации &lt;br&gt;надо ли заряжать &lt;br&gt;шаттл или нет&lt;br&gt;&lt;span&gt;via Kafka&lt;/span&gt;&lt;/font&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-54" edge="1">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-74" value="Управление зарядкой шаттла&amp;nbsp;&lt;div&gt;via RbbitMQ&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-54" edge="1">
           <mxGeometry x="0.0422" y="-65" relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -216,8 +216,8 @@
             <mxPoint x="-10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-109" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по заданиям&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;exitX=0.007;exitY=0.121;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="fCV6vDZKke5qMm3hZ0_q-55" edge="1">
-          <mxGeometry x="0.2303" y="9" relative="1" as="geometry">
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-109" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по заданиям&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;exitX=0.007;exitY=0.121;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="fCV6vDZKke5qMm3hZ0_q-55" edge="1">
+          <mxGeometry x="0.2305" y="9" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-452" y="522" />
             </Array>
@@ -238,16 +238,16 @@
             <mxPoint x="-6" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="177" y="756" as="sourcePoint" />
-            <mxPoint x="568" y="623" as="targetPoint" />
+            <mxPoint x="719" y="725.9979841897235" as="sourcePoint" />
+            <mxPoint x="71" y="895.5195424836598" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="497" y="920" />
+              <mxPoint x="501" y="898.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;по шагам маршрута&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YevxfUHGe2POKEr9c9RH-7" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YevxfUHGe2POKEr9c9RH-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
             <mxPoint x="-100" y="1" as="offset" />
           </mxGeometry>
@@ -261,7 +261,7 @@
             <mxPoint x="-196" y="519" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-11" value="&lt;font&gt;Передача заданий от WMS&lt;/font&gt;&lt;div&gt;&lt;font&gt;&amp;nbsp;в правильном формате&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-10" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-11" value="&lt;font&gt;Передача заданий&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-10" vertex="1" connectable="0">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
             <mxPoint x="157" y="262" as="offset" />
           </mxGeometry>
@@ -275,9 +275,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача рассчитанного&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;маршрута&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YevxfUHGe2POKEr9c9RH-15" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YevxfUHGe2POKEr9c9RH-15" vertex="1" connectable="0">
           <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
-            <mxPoint x="13" y="6" as="offset" />
+            <mxPoint x="66" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YevxfUHGe2POKEr9c9RH-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
@@ -289,12 +289,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-18" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;устройств&lt;br&gt;via Kafka&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-17" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-18" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;устройств&lt;br&gt;via Redis&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-17" vertex="1" connectable="0">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
             <mxPoint x="-41" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача информации&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;об ошибках&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;и неисправностях&lt;br&gt;&lt;span style=&quot;&quot;&gt;via Kafka&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-59" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача ошибок&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-59" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
           <mxGeometry x="-0.1973" y="44" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="423" y="-59" />
@@ -304,9 +304,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача информации &lt;br&gt;надо ли заряжать &lt;br&gt;шаттл или нет&lt;br&gt;&lt;span style=&quot;&quot;&gt;via Kafka&lt;/span&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
-          <mxGeometry x="0.6109" y="19" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+        <mxCell id="YevxfUHGe2POKEr9c9RH-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Управление зарядкой шаттла&lt;br&gt;&lt;span style=&quot;&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
+          <mxGeometry x="0.6121" y="20" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
             <mxPoint x="812" y="1398" as="sourcePoint" />
             <mxPoint x="77" y="1110" as="targetPoint" />
             <Array as="points">
@@ -323,7 +323,7 @@
             <mxPoint x="-226" y="-359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;Передача информации&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;об расположенных на складе грузах&lt;br&gt;&lt;/span&gt;&lt;span&gt;via Kafka&lt;/span&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;&lt;/span&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-24" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;Передача информации&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;о грузах&lt;br&gt;&lt;/span&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;&lt;/span&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-24" vertex="1" connectable="0">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
             <mxPoint x="275" y="175" as="offset" />
           </mxGeometry>
@@ -355,12 +355,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jmlxg8_6Hy9SVGBgoG8l-4" value="&lt;font&gt;Обновление&lt;/font&gt;&lt;div&gt;&lt;font&gt;конфигурации&lt;br&gt;&lt;span&gt;via Kafka&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Jmlxg8_6Hy9SVGBgoG8l-3" vertex="1" connectable="0">
+        <mxCell id="Jmlxg8_6Hy9SVGBgoG8l-4" value="&lt;font&gt;Обновление&lt;/font&gt;&lt;div&gt;&lt;font&gt;конфигурации&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Jmlxg8_6Hy9SVGBgoG8l-3" vertex="1" connectable="0">
           <mxGeometry x="0.2388" y="-113" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="froScCtPznVjM8ChZChh-3" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via Kafka&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
+        <mxCell id="froScCtPznVjM8ChZChh-3" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via RabbitMQ&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
           <mxGeometry x="0.4195" y="12" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint as="offset" />
@@ -391,21 +391,7 @@
             <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lnz1XAdqa88vIdmP5yJq-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-48" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-227" y="667" as="sourcePoint" />
-            <mxPoint x="-231" y="514" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2" y="583" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lnz1XAdqa88vIdmP5yJq-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Передача информации&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;о конфигурации склада&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;via Kafka&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lnz1XAdqa88vIdmP5yJq-1" vertex="1" connectable="0">
-          <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
-            <mxPoint x="-19" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WJ-vce08hOPYEohGvkGB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" edge="1" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="ERfC5En5p1jtPBikgfM7-1">
+        <mxCell id="WJ-vce08hOPYEohGvkGB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="ERfC5En5p1jtPBikgfM7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1003" y="131" />
@@ -413,7 +399,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ-vce08hOPYEohGvkGB-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Сохранение шагов и их статусов&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WJ-vce08hOPYEohGvkGB-1">
+        <mxCell id="WJ-vce08hOPYEohGvkGB-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Сохранение шагов и их статусов&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WJ-vce08hOPYEohGvkGB-1" vertex="1" connectable="0">
           <mxGeometry x="0.3781" y="17" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
