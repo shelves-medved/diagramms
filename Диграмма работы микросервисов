@@ -10281,7 +10281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8IMP7-U5TjNopF1GykGq" name="br-motion">
-    <mxGraphModel dx="3260" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3915" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10391,61 +10391,61 @@
             <mxGeometry x="230" y="-60" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-10" target="0u8uiL8KO-L0rkjdK38B-2">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-10" target="0u8uiL8KO-L0rkjdK38B-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-2" value="В сервисе есть экземпляры всех устройств с информацией от конфигурации склада и атрибутами, которые передаются и считываются с ПЛК через OPCUA" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-2" value="В сервисе есть экземпляры всех устройств с информацией от конфигурации склада и атрибутами, которые передаются и считываются с ПЛК через OPCUA" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1750" y="85" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-4" value="Сервис считывает информацию из топиков кафки и передает информацию в топики кафки&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-4" value="Сервис считывает информацию из топиков кафки и передает информацию в топики кафки&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="85" width="260" height="72.5" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-8" target="0u8uiL8KO-L0rkjdK38B-18">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-8" target="0u8uiL8KO-L0rkjdK38B-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-8" value="В топик кафки пришел маршрут" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-8" value="В топик кафки пришел маршрут" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1090" y="-20" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-9" value="Этапы обработки маршрута сервисом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-9" value="Этапы обработки маршрута сервисом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1085" y="-60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-10" value="Сервис подключается к OPCUA и подписывается на узлы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-10" value="Сервис подключается к OPCUA и подписывается на узлы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1730" y="-20" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-12" value="Этапы инициализации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1535" y="-60" width="190" height="30" as="geometry" />
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-12" value="Этапы инициализации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1535" y="-190" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-13" value="Сервис подключается к Kafka и подписывается на топики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-13" value="Сервис подключается к Kafka и подписывается на топики" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="-20" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-18" target="0u8uiL8KO-L0rkjdK38B-20">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-18" target="0u8uiL8KO-L0rkjdK38B-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-18" value="Сервис считывает маршрут и распарсивает его передавая шаги соответствующим устройствам (если несколько шагов, то организовать структуру данных - Очередь/дек)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-18" value="Сервис считывает маршрут и распарсивает его передавая шаги соответствующим устройствам (если несколько шагов, то организовать структуру данных - Очередь/дек)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="105" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-20" target="0u8uiL8KO-L0rkjdK38B-22">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-20" target="0u8uiL8KO-L0rkjdK38B-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-20" value="Каждое устройство ждёт выполнения начальных условий&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-20" value="Каждое устройство ждёт выполнения начальных условий&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="227.5" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-22" target="0u8uiL8KO-L0rkjdK38B-24">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-22" target="0u8uiL8KO-L0rkjdK38B-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-22" value="При выполнении начальных условий сервис отправляет команду через OPCUA. Изменяет статус шага и отправляет его в кафку" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-22" value="При выполнении начальных условий сервис отправляет команду через OPCUA. Изменяет статус шага и отправляет его в кафку" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="330" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-24" target="0u8uiL8KO-L0rkjdK38B-26">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-24" target="0u8uiL8KO-L0rkjdK38B-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-24" value="Когда от OPCUA приходит статус, что команда выполнена, сервис снимает команду. Изменяет статус шага на &quot;выполнено&quot; и отправляет в кафку (структура для шага: НУ + зависимости от др. шагов)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-24" value="Когда от OPCUA приходит статус, что команда выполнена, сервис снимает команду. Изменяет статус шага на &quot;выполнено&quot; и отправляет в кафку (структура для шага: НУ + зависимости от др. шагов)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="450" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-26" value="Устройство переходит к отслеживанию начальных условий необходимых для выполнения следующего шага" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-26" value="Устройство переходит к отслеживанию начальных условий необходимых для выполнения следующего шага" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="570" width="260" height="80" as="geometry" />
         </mxCell>
       </root>
