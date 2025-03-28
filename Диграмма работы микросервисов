@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="4049" dy="1854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="7736" dy="3752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,21 +32,21 @@
           <mxGeometry y="130" width="364" height="504" as="geometry" />
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-50" value="&lt;a style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;Микросервис управления движением (Motion Control Service)&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="715" y="237" width="576" height="566" as="geometry">
+          <mxGeometry x="715" y="237" width="576" height="678" as="geometry">
             <mxRectangle x="80" y="120" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-51" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Подключение и контроль связи с ПЛК&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Подписка на узлы данных ПЛК через OPC&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Преобразование данных от ПЛК в правильный формат для передачи в брокер сообщений&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Преобразование данных от брокера сообщений для передачи в ПЛК&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Выполнение последовательности команд для устройств (отправка соответствующих команд) в соответствии с заданным маршрутом&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Отслеживание выполнения маршрута и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;обновление статуса (&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-indent: -24px; background-color: initial;&quot;&gt;для корректировки маршрутов в том числе)&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12pt; text-indent: -18pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 12.84px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с ПЛК по протоколу OPC&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Передача данных в брокер сообщений для других микросервисов&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-50" vertex="1">
-          <mxGeometry y="130" width="576" height="434" as="geometry" />
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-51" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Подключение и контроль связи с ПЛК&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Подписка на узлы данных ПЛК через OPC&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Преобразование данных от ПЛК в правильный формат для передачи в Redis&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Преобразование данных от ПЛК в правильный формат для передачи в RabbitMQ&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Преобразование данных от &lt;/font&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(20, 54, 66), rgb(173, 202, 213));&quot;&gt;RabbitMQ&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(20, 54, 66), rgb(173, 202, 213));&quot;&gt;сообщений для передачи в ПЛК&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Выполнение последовательности команд для устройств (отправка соответствующих команд) в соответствии с заданным маршрутом&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Отслеживание выполнения маршрута и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;обновление статуса (&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-indent: -24px; background-color: initial;&quot;&gt;для корректировки маршрутов в том числе)&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12pt; text-indent: -18pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 12.84px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с ПЛК по протоколу OPC&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Передача данных в Redis&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с RabbitMQ&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с Postgres&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-50" vertex="1">
+          <mxGeometry y="130" width="576" height="548" as="geometry" />
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-72" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="fCV6vDZKke5qMm3hZ0_q-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="551" y="1079" />
+              <mxPoint x="500" y="1206" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;маршрута&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fCV6vDZKke5qMm3hZ0_q-72" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-9" value="&lt;font&gt;Передача &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;маршрута&lt;/span&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-72" vertex="1" connectable="0">
           <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
             <mxPoint x="-51" y="-59" as="offset" />
           </mxGeometry>
@@ -63,20 +63,6 @@
         <mxCell id="YevxfUHGe2POKEr9c9RH-14" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-79" vertex="1" connectable="0">
           <mxGeometry x="0.1377" y="-4" relative="1" as="geometry">
             <mxPoint x="-32" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VtboDuphbKT7lYOSHLzX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="ERfC5En5p1jtPBikgfM7-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-372" y="916" />
-              <mxPoint x="-372" y="123" />
-              <mxPoint x="-376" y="123" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-yX1zaWKJmXgBAtPQqaU-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Получение конфигурации&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;склада&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="VtboDuphbKT7lYOSHLzX-1" vertex="1" connectable="0">
-          <mxGeometry x="0.7369" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-53" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;Микросервис планирования маршрутов&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(&lt;/b&gt;&lt;b&gt;Route &lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Planning Service)&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
@@ -96,12 +82,12 @@
           <mxGeometry y="130" width="401" height="359" as="geometry" />
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-57" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;Микросервис&lt;/span&gt; управления зарядкой&lt;span lang=&quot;EN-US&quot; style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;(Charging Management Service)&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="807" y="981" width="364" height="614" as="geometry">
+          <mxGeometry x="804" y="1181" width="364" height="494" as="geometry">
             <mxRectangle x="80" y="120" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-58" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Мониторинг уровня заряда батарей&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;роботов.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Планирование и управление процессом&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;зарядки роботов, чтобы минимизировать время простоя.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Управление расписанием зарядки, чтобы не&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;перегружать зарядные станции. &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: rgb(255, 255, 255);&quot;&gt;(У каждого сателлита 1 шаттл, но в перспективе возможно, что сателлит будет управлять не 1 шаттлом а несколькими)&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; background-color: initial;&quot;&gt;Получает данные о состоянии батарей от роботов и координирует их движение к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; background-color: initial;&quot;&gt;зарядным станциям через сервис планирования маршрутов.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-57" vertex="1">
-          <mxGeometry y="130" width="364" height="484" as="geometry" />
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-58" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Мониторинг уровня заряда батарей&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;шаттлов.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Планирование и управление процессом&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;зарядки шаттлов, чтобы минимизировать время простоя.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Управление расписанием зарядки, чтобы не&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;перегружать зарядные станции.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; background-color: initial;&quot;&gt;Получает данные о состоянии батарей от шаттлов и координирует их движение к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; background-color: initial;&quot;&gt;зарядным станциям через сервис планирования маршрутов.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="fCV6vDZKke5qMm3hZ0_q-57" vertex="1">
+          <mxGeometry y="130" width="364" height="364" as="geometry" />
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-59" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Микросервис безопасности и предотвращения столкновений&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(Safety and Collision Avoidance Service)&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="-550" width="364" height="614" as="geometry">
@@ -130,7 +116,7 @@
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-76" value="&lt;font&gt;Передача&amp;nbsp;&lt;/font&gt;ошибок&amp;nbsp;&lt;div&gt;&lt;font&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-60" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
           <mxGeometry x="0.6297" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="536" />
+              <mxPoint x="458" y="444" />
             </Array>
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -145,7 +131,7 @@
         </mxCell>
         <mxCell id="XG9xQ9TA239qcNCrTwis-1" value="&lt;font&gt;Передача заданий&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="fCV6vDZKke5qMm3hZ0_q-81" vertex="1" connectable="0">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
-            <mxPoint x="-188" y="139" as="offset" />
+            <mxPoint x="36" y="273" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-85" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-59" edge="1">
@@ -187,7 +173,7 @@
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-90" value="Передача информации&lt;div&gt;устройствам&lt;br&gt;via OPCUA&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="fCV6vDZKke5qMm3hZ0_q-89" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-22" y="-40" as="offset" />
+            <mxPoint x="-28" y="-52" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-91" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;exitX=0.427;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-51" target="fCV6vDZKke5qMm3hZ0_q-57" edge="1">
@@ -201,9 +187,9 @@
             <mxPoint x="-4" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fCV6vDZKke5qMm3hZ0_q-74" value="Управление зарядкой шаттла&amp;nbsp;&lt;div&gt;via RabbitMQ&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-54" edge="1">
-          <mxGeometry x="0.0422" y="-65" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="fCV6vDZKke5qMm3hZ0_q-74" value="Управление&lt;div&gt;зарядкой&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;шаттла&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;via RabbitMQ&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-54" edge="1">
+          <mxGeometry x="0.4378" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
             <Array as="points">
               <mxPoint x="390" y="1237" />
             </Array>
@@ -221,24 +207,24 @@
             <mxPoint x="-11" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" edge="1" source="fCV6vDZKke5qMm3hZ0_q-50">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" edge="1" target="fCV6vDZKke5qMm3hZ0_q-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="719" y="725.9979841897235" as="sourcePoint" />
             <mxPoint x="71" y="895.5195424836598" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="501" y="898.33" />
+              <mxPoint x="484" y="924" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YevxfUHGe2POKEr9c9RH-7" vertex="1" connectable="0">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-8" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
-            <mxPoint x="-59" y="-48" as="offset" />
+            <mxPoint x="-127" y="-36" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;entryX=-0.008;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="fCV6vDZKke5qMm3hZ0_q-48" edge="1">
+        <mxCell id="YevxfUHGe2POKEr9c9RH-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-556" y="360" />
+              <mxPoint x="-534" y="108" />
             </Array>
             <mxPoint x="-773" y="380" as="sourcePoint" />
             <mxPoint x="-323" y="203.00270270270272" as="targetPoint" />
@@ -246,7 +232,7 @@
         </mxCell>
         <mxCell id="YevxfUHGe2POKEr9c9RH-11" value="&lt;font&gt;Передача заданий&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="YevxfUHGe2POKEr9c9RH-10" vertex="1" connectable="0">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
-            <mxPoint x="132" y="240" as="offset" />
+            <mxPoint x="436" y="98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YevxfUHGe2POKEr9c9RH-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
@@ -278,18 +264,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YevxfUHGe2POKEr9c9RH-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача ошибок&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-59" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
-          <mxGeometry x="-0.175" y="17" relative="1" as="geometry">
+          <mxGeometry x="0.6849" y="4" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="423" y="-59" />
             </Array>
             <mxPoint x="812" y="247" as="sourcePoint" />
             <mxPoint x="77" y="770" as="targetPoint" />
-            <mxPoint x="-1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YevxfUHGe2POKEr9c9RH-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Управление зарядкой шаттла&lt;br&gt;&lt;span style=&quot;&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
-          <mxGeometry x="0.6121" y="20" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+        <mxCell id="YevxfUHGe2POKEr9c9RH-21" value="&lt;font&gt;Управление&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;зарядкой шаттла&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-57" target="fCV6vDZKke5qMm3hZ0_q-47" edge="1">
+          <mxGeometry x="0.6394" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="812" y="1398" as="sourcePoint" />
             <mxPoint x="77" y="1110" as="targetPoint" />
             <Array as="points">
@@ -320,7 +306,7 @@
         <mxCell id="Jmlxg8_6Hy9SVGBgoG8l-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;" parent="1" target="fCV6vDZKke5qMm3hZ0_q-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-603" y="622" />
+              <mxPoint x="-796" y="924" />
             </Array>
             <mxPoint x="-261.17941176470595" y="1335" as="sourcePoint" />
             <mxPoint x="-291.63200000000006" y="294.68000000000006" as="targetPoint" />
@@ -328,12 +314,14 @@
         </mxCell>
         <mxCell id="Jmlxg8_6Hy9SVGBgoG8l-4" value="&lt;font&gt;Обновление&lt;/font&gt;&lt;div&gt;&lt;font&gt;конфигурации&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Jmlxg8_6Hy9SVGBgoG8l-3" vertex="1" connectable="0">
           <mxGeometry x="0.2388" y="-113" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="150" y="-378" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="froScCtPznVjM8ChZChh-3" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via Redis&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="fCV6vDZKke5qMm3hZ0_q-53" edge="1">
           <mxGeometry x="0.4207" y="12" relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="406" y="716" />
+            </Array>
             <mxPoint as="offset" />
             <mxPoint x="860" y="38" as="sourcePoint" />
             <mxPoint x="77" y="792" as="targetPoint" />
@@ -362,19 +350,6 @@
             <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ-vce08hOPYEohGvkGB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;curved=1;flowAnimation=0;shadow=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="ERfC5En5p1jtPBikgfM7-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1003" y="131" />
-              <mxPoint x="189" y="131" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WJ-vce08hOPYEohGvkGB-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Сохранение шагов и их статусов&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WJ-vce08hOPYEohGvkGB-1" vertex="1" connectable="0">
-          <mxGeometry x="0.3781" y="17" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4gWPFHTWFHTB2d961clX-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;exitX=0.168;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fCV6vDZKke5qMm3hZ0_q-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="793.9720000000009" y="542.9960000000001" as="sourcePoint" />
@@ -382,13 +357,47 @@
             <Array as="points">
               <mxPoint x="655" y="1305" />
               <mxPoint x="94" y="1310" />
-              <mxPoint x="-578" y="1172" />
+              <mxPoint x="-618" y="1262" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4gWPFHTWFHTB2d961clX-2" value="&lt;font&gt;Передача информации&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;от габаритной рамки&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="4gWPFHTWFHTB2d961clX-1" vertex="1" connectable="0">
           <mxGeometry x="0.1377" y="-4" relative="1" as="geometry">
-            <mxPoint x="372" y="47" as="offset" />
+            <mxPoint x="-644" y="-397" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgipQZ2gRLYtr21kRZVU-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Сохранение шагов&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;и их статусов&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="fCV6vDZKke5qMm3hZ0_q-50" target="ERfC5En5p1jtPBikgfM7-1">
+          <mxGeometry x="0.3458" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="433" y="-49" />
+            </Array>
+            <mxPoint x="860" y="-178" as="sourcePoint" />
+            <mxPoint x="77" y="127" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgipQZ2gRLYtr21kRZVU-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Получение параметров&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;устройств&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="ERfC5En5p1jtPBikgfM7-1" target="fCV6vDZKke5qMm3hZ0_q-50">
+          <mxGeometry x="0.5363" y="-91" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="719" y="-119" />
+            </Array>
+            <mxPoint x="1006" y="167" as="sourcePoint" />
+            <mxPoint x="82" y="-454" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgipQZ2gRLYtr21kRZVU-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" edge="1" parent="1" source="fCV6vDZKke5qMm3hZ0_q-53" target="ERfC5En5p1jtPBikgfM7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-746" y="350" />
+            </Array>
+            <mxPoint x="-763" y="390" as="sourcePoint" />
+            <mxPoint x="-290" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgipQZ2gRLYtr21kRZVU-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Получение конфигурации&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;склада и параметров&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;устройств&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZgipQZ2gRLYtr21kRZVU-3">
+          <mxGeometry x="0.6286" y="-22" relative="1" as="geometry">
+            <mxPoint x="36" y="-82" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -10283,7 +10292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8IMP7-U5TjNopF1GykGq" name="br-motion">
-    <mxGraphModel dx="3676" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3198" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10399,17 +10408,17 @@
         <mxCell id="0u8uiL8KO-L0rkjdK38B-2" value="В сервисе есть экземпляры всех устройств с информацией от конфигурации склада и атрибутами, которые передаются и считываются с ПЛК через OPCUA" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1750" y="85" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-4" value="В сервис приходят данные о маршруте из RabbitMQ" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1440" y="85" width="260" height="72.5" as="geometry" />
+        <mxCell id="0u8uiL8KO-L0rkjdK38B-4" value="В сервис приходят данные о маршрутах (tracks)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1440" y="80" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-8" target="0u8uiL8KO-L0rkjdK38B-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-8" value="В топик кафки пришел маршрут" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1090" y="-20" width="200" height="70" as="geometry" />
+          <mxGeometry x="-700" y="10" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-9" value="Этапы обработки маршрута сервисом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1085" y="-60" width="190" height="30" as="geometry" />
+          <mxGeometry x="-695" y="-30" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-10" value="Сервис подключается к OPCUA и подписывается на узлы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1730" y="-20" width="220" height="60" as="geometry" />
@@ -10420,6 +10429,12 @@
         <mxCell id="0u8uiL8KO-L0rkjdK38B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-IQclkNntqKUj1FdSF-X-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IQclkNntqKUj1FdSF-X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="-IQclkNntqKUj1FdSF-X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-13" value="Сервис подключается к RabbitMQ и ждёт информацию" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="-20" width="260" height="60" as="geometry" />
         </mxCell>
@@ -10427,37 +10442,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-18" value="Сервис считывает маршрут и распарсивает его передавая шаги соответствующим устройствам (если несколько шагов, то организовать структуру данных - Очередь/дек)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="105" width="260" height="90" as="geometry" />
+          <mxGeometry x="-730" y="135" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-20" target="0u8uiL8KO-L0rkjdK38B-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-20" value="Каждое устройство ждёт выполнения начальных условий&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="227.5" width="260" height="60" as="geometry" />
+          <mxGeometry x="-730" y="257.5" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-22" target="0u8uiL8KO-L0rkjdK38B-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-22" value="При выполнении начальных условий сервис отправляет команду через OPCUA. Изменяет статус шага и отправляет его в кафку" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="330" width="260" height="80" as="geometry" />
+          <mxGeometry x="-730" y="360" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-24" target="0u8uiL8KO-L0rkjdK38B-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-24" value="Когда от OPCUA приходит статус, что команда выполнена, сервис снимает команду. Изменяет статус шага на &quot;выполнено&quot; и отправляет в кафку (структура для шага: НУ + зависимости от др. шагов)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="450" width="260" height="80" as="geometry" />
+          <mxGeometry x="-730" y="480" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0u8uiL8KO-L0rkjdK38B-26" value="Устройство переходит к отслеживанию начальных условий необходимых для выполнения следующего шага" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="570" width="260" height="80" as="geometry" />
+          <mxGeometry x="-730" y="600" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-10">
+        <mxCell id="6k0DcQTbJYoY5I9RZhIi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-13">
+        <mxCell id="6k0DcQTbJYoY5I9RZhIi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-1" value="Запуск докер файла" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6k0DcQTbJYoY5I9RZhIi-1" value="Запуск докер файла" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1535" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IQclkNntqKUj1FdSF-X-2" value="Сервис передаёт статусы по шагам маршрута (tracks)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="80" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
