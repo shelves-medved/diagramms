@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="6068" dy="3076" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2534" y="-1117" width="5633" height="3854" as="geometry" />
+        </mxCell>
         <mxCell id="fCV6vDZKke5qMm3hZ0_q-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;Микросервис&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial; font-size: 16px;&quot;&gt;аутентификации&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;и управления доступом&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap; font-size: 16px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;(Authentication and Access Control Service)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-1463" y="1197" width="364" height="614" as="geometry">
             <mxRectangle x="-1047" y="-118" width="342" height="172" as="alternateBounds" />
@@ -401,7 +404,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;Микросервис&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial; font-size: 16px;&quot;&gt;аутентификации&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;и управления доступом&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap; font-size: 16px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-size: 16px;&quot;&gt;(Authentication and Access Control Service)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-2523" y="6137" width="364" height="614" as="geometry">
+          <mxGeometry x="-1943" y="5797" width="364" height="614" as="geometry">
             <mxRectangle x="-1047" y="-118" width="342" height="172" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -410,8 +413,8 @@
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=21;startSize=8;endSize=8;curved=1;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" target="xf8wSa7g_moZZBRLcRxI-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2932" y="6435" as="sourcePoint" />
-            <mxPoint x="-1023" y="6867" as="targetPoint" />
+            <mxPoint x="-2352" y="6095" as="sourcePoint" />
+            <mxPoint x="-443" y="6527" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-7" value="Вход в систему&amp;nbsp;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" connectable="0" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-6">
@@ -442,23 +445,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-13" value="&lt;font&gt;Передача &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;маршрута&lt;/span&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-12">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-13" value="&lt;span lang=&quot;EN-US&quot;&gt;br-route-plan.tracks&lt;/span&gt;&lt;br&gt;via RabbitMQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;fontSize=21;labelBackgroundColor=#FFFFCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-12">
           <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
             <mxPoint x="-51" y="-59" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-9">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-69" target="xf8wSa7g_moZZBRLcRxI-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-386" y="5073" as="sourcePoint" />
             <mxPoint x="-354.5031446540879" y="4920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="306" y="4334" />
+              <mxPoint x="228" y="4602" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-15" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-14">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-15" value="&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;br-motion.tracks&lt;/span&gt;&lt;br&gt;via RabbitMQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;labelBackgroundColor=#CCFFCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-14">
           <mxGeometry x="0.1377" y="-4" relative="1" as="geometry">
-            <mxPoint x="-68" y="42" as="offset" />
+            <mxPoint x="-187" y="-86" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-16" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;Микросервис планирования маршрутов&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(&lt;/b&gt;&lt;b&gt;Route &lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Planning Service)&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -502,19 +505,19 @@
           <mxGeometry y="130" width="364" height="335" as="geometry" />
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-26" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;Микросервис&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;симуляции&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;тестирования&lt;/span&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot; lang=&quot;EN-US&quot;&gt;(Simulation and Testing Service)&lt;/span&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;fillColor=#FAE5C7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;strokeColor=#0F8B8D;fontColor=#143642;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-2118" y="6137" width="364" height="614" as="geometry">
+          <mxGeometry x="-1538" y="5797" width="364" height="614" as="geometry">
             <mxRectangle x="80" y="120" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-27" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Создание симуляций работы склада для&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;тестирования алгоритмов и сценариев.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Проверка обновлений и новых функций в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;безопасной среде перед внедрением.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Обучение операторов на основе симуляции&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;реальных складских операций.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;Взаимодействует с другими микросервисами для создания и проведения симуляций.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-26">
           <mxGeometry y="130" width="364" height="484" as="geometry" />
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-28" value="&lt;font&gt;Передача&amp;nbsp;&lt;/font&gt;ошибок&amp;nbsp;&lt;div&gt;&lt;font&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-23" target="xf8wSa7g_moZZBRLcRxI-16">
-          <mxGeometry x="0.6297" y="10" relative="1" as="geometry">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-28" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;br-collision.errors&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-23" target="xf8wSa7g_moZZBRLcRxI-16">
+          <mxGeometry x="0.8276" y="-5" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="208" y="4889" />
             </Array>
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-18" target="xf8wSa7g_moZZBRLcRxI-16">
@@ -525,7 +528,7 @@
             <mxPoint x="-1128" y="4976" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-30" value="&lt;font&gt;Передача заданий&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-29">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-30" value="&lt;font&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;br-invent.tasks&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Helvetica;labelBackgroundColor=#FFCCCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-29">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
             <mxPoint x="-159" y="164" as="offset" />
           </mxGeometry>
@@ -539,7 +542,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-32" value="Ошибки и предупреждения&lt;br&gt;от устройств&lt;br&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;via&amp;nbsp;&lt;/span&gt;RabbitMQ" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" connectable="0" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-31">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-32" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;rror&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;arning&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;br&gt;via&amp;nbsp;RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" connectable="0" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="18" y="5" as="offset" />
           </mxGeometry>
@@ -581,15 +584,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-38" value="Получение уровня заряда&lt;br&gt;шаттла&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" connectable="0" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-37">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-38" value="&lt;font&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;shuttle-battery&lt;/span&gt;&lt;br&gt;via RabbitMQ&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" connectable="0" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-39" value="Управление&lt;div&gt;зарядкой&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;шаттла&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;via RabbitMQ&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-20" target="xf8wSa7g_moZZBRLcRxI-17">
-          <mxGeometry x="0.4378" y="-3" relative="1" as="geometry">
-            <mxPoint x="1" y="1" as="offset" />
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-39" value="&lt;div&gt;&lt;font style=&quot;background-color: rgb(204, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;br-charging.battery-control&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;background-color: rgb(204, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-20" target="xf8wSa7g_moZZBRLcRxI-16">
+          <mxGeometry x="0.435" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
+              <mxPoint x="-60" y="6021" />
               <mxPoint x="-415" y="5753" />
             </Array>
           </mxGeometry>
@@ -615,7 +619,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-43" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;по шагам маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-42">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-43" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-motion.tracks&lt;/span&gt;&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;labelBackgroundColor=#CCFFCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-42">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
             <mxPoint x="-51" y="-28" as="offset" />
           </mxGeometry>
@@ -629,9 +633,9 @@
             <mxPoint x="-573" y="4648.002702702703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-45" value="&lt;font&gt;Передача заданий&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-44">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-45" value="&lt;span lang=&quot;EN-US&quot;&gt;br-invent.tasks&lt;/span&gt;&amp;nbsp;&lt;div&gt;via RabbitMQ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;labelBackgroundColor=#FFCCCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-44">
           <mxGeometry x="-0.393" y="281" relative="1" as="geometry">
-            <mxPoint x="436" y="98" as="offset" />
+            <mxPoint x="389" y="62" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-16" target="xf8wSa7g_moZZBRLcRxI-8">
@@ -643,7 +647,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;маршрута&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-46">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-47" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;br-route-plan.tracks&lt;/font&gt;&lt;/span&gt;&lt;br&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;labelBackgroundColor=#FFFFCC;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-46">
           <mxGeometry x="0.0581" y="14" relative="1" as="geometry">
             <mxPoint x="68" y="-224" as="offset" />
           </mxGeometry>
@@ -657,12 +661,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-49" value="&lt;font&gt;Передача статусов&lt;/font&gt;&lt;div&gt;&lt;font&gt;и состояний датчиков&lt;br&gt;via&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RabbitMQ&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-48">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-49" value="&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.statuses&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;current-positions&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;ensors&lt;/span&gt;&lt;br&gt;via&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-48">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
-            <mxPoint x="-75" y="45" as="offset" />
+            <mxPoint x="-85" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-50" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Передача ошибок&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-22" target="xf8wSa7g_moZZBRLcRxI-8">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-50" value="&lt;span style=&quot;font-size: 21px; background-color: rgb(204, 204, 255);&quot;&gt;br-collision.errors&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;via RabbitMQ&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-22" target="xf8wSa7g_moZZBRLcRxI-8">
           <mxGeometry x="0.6849" y="4" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="74" y="3786" />
@@ -672,13 +676,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-51" value="&lt;font&gt;Управление&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;зарядкой шаттла&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-20" target="xf8wSa7g_moZZBRLcRxI-8">
-          <mxGeometry x="0.6394" y="-2" relative="1" as="geometry">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-51" value="&lt;font style=&quot;background-color: rgb(204, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;br-charging.battery-control&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: rgb(204, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;curved=1;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-20" target="xf8wSa7g_moZZBRLcRxI-8">
+          <mxGeometry x="0.6723" y="44" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="562" y="5843" as="sourcePoint" />
             <mxPoint x="-173" y="5555" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="4994" />
+              <mxPoint x="669" y="5102" />
+              <mxPoint x="280" y="4378" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -711,17 +716,15 @@
             <mxPoint x="-541.6320000000001" y="4739.68" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-58" value="&lt;font&gt;Обновление&lt;/font&gt;&lt;div&gt;&lt;font&gt;конфигурации&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-57">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-58" value="&lt;div&gt;&lt;font&gt;&lt;span lang=&quot;EN-US&quot;&gt;br-config.update&lt;/span&gt;&lt;br&gt;&lt;span&gt;via RabbitMQ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-57">
           <mxGeometry x="0.2388" y="-113" relative="1" as="geometry">
             <mxPoint x="-70" y="-107" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-59" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via Redis&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-16">
-          <mxGeometry x="0.4207" y="12" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="156" y="5161" />
-            </Array>
-            <mxPoint as="offset" />
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-59" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Запрос статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via Redis&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-77" target="xf8wSa7g_moZZBRLcRxI-16">
+          <mxGeometry x="0.069" y="13" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint y="1" as="offset" />
             <mxPoint x="610" y="4483" as="sourcePoint" />
             <mxPoint x="-173" y="5237" as="targetPoint" />
           </mxGeometry>
@@ -737,7 +740,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-62" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Сохранение&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;данных от WMS&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-18" target="xf8wSa7g_moZZBRLcRxI-60">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-62" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Сохранение&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;данных от WMS&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-18" target="xf8wSa7g_moZZBRLcRxI-60">
           <mxGeometry x="0.0818" y="3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-825" y="4917" />
@@ -756,13 +759,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-64" value="&lt;font&gt;Передача информации&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;от габаритной рамки&lt;/font&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-63">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-64" value="&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;br-plc.box&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;font&gt;via RabbitMQ&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Helvetica;" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-63">
           <mxGeometry x="0.1377" y="-4" relative="1" as="geometry">
             <mxPoint x="-516" y="-61" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-65" value="&lt;span&gt;Сохранение шагов&lt;/span&gt;&lt;div&gt;&lt;span&gt;и их статусов&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;flowAnimation=0;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-69" target="xf8wSa7g_moZZBRLcRxI-60">
-          <mxGeometry x="-0.081" y="23" relative="1" as="geometry">
+          <mxGeometry x="-0.0817" y="23" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="188" y="5070" />
             </Array>
@@ -803,17 +806,17 @@
         <mxCell id="xf8wSa7g_moZZBRLcRxI-70" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Функции&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Выполнение последовательности команд для устройств (отправка соответствующих команд) в соответствии с заданным маршрутом&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;Отслеживание выполнения маршрута и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; text-indent: -18pt; background-color: initial;&quot;&gt;обновление статуса (&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-indent: -24px; background-color: initial;&quot;&gt;для корректировки маршрутов в том числе)&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12pt; text-indent: -18pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;&quot;&gt;Взаимодействие&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12pt; line-height: 107%;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(20, 54, 66), rgb(173, 202, 213));&quot;&gt;Передача данных в Redis&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с RabbitMQ&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обмен данными с Postgres&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;labelBackgroundColor=none;fontColor=#143642;rounded=1;fontFamily=Verdana;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="xf8wSa7g_moZZBRLcRxI-69">
           <mxGeometry y="130" width="421" height="331" as="geometry" />
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-71" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача статусов&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;устройств&lt;br&gt;via Redis&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-69">
-          <mxGeometry x="0.4207" y="12" relative="1" as="geometry">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-71" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.statuses&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;current-positions&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;via&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RabbitMQ&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-69">
+          <mxGeometry x="-0.3907" y="-18" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="562" y="5116" />
+              <mxPoint x="807" y="5252" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
             <mxPoint x="862" y="5007" as="sourcePoint" />
             <mxPoint x="-385" y="5422" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-72" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Передача команд&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;на&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 21px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;устройства&lt;/span&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;via Redis&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-69" target="xf8wSa7g_moZZBRLcRxI-10">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-72" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;br-motion.commands&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;via&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RabbitMQ&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-69" target="xf8wSa7g_moZZBRLcRxI-10">
           <mxGeometry x="0.4236" y="35" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="892" y="5460" />
@@ -822,9 +825,6 @@
             <mxPoint x="862" y="5032" as="sourcePoint" />
             <mxPoint x="494" y="5293" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2534" y="-1117" width="5633" height="3854" as="geometry" />
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-74" value="Старый вариант" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=120;" vertex="1" parent="1">
           <mxGeometry x="-237" y="-1002" width="1280" height="230" as="geometry" />
@@ -840,6 +840,32 @@
             <mxPoint x="3447" y="-1313" as="sourcePoint" />
             <mxPoint x="-2773" y="2700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-78" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-77">
+          <mxGeometry x="0.4207" y="12" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+            <mxPoint x="852" y="4971" as="sourcePoint" />
+            <mxPoint x="-395" y="5412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-79" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2021px%3B%26quot%3B%26gt%3B%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0%20%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%26lt%3B%2Ffont%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Bfont-size%3A%2021px%3B%26quot%3B%26gt%3B%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%26lt%3Bbr%26gt%3Bvia%20Redis%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22edgeStyle%3Dnone%3Bcurved%3D1%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BfontSize%3D12%3BstartSize%3D8%3BendSize%3D8%3BstrokeWidth%3D5%3BfontFamily%3DHelvetica%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0781%22%20y%3D%2213%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CArray%20as%3D%22points%22%2F%3E%3CmxPoint%20x%3D%221%22%20as%3D%22offset%22%2F%3E%3CmxPoint%20x%3D%22-77%22%20y%3D%225271%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22-395%22%20y%3D%225414%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-78">
+          <mxGeometry x="0.3152" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-80" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2021px%3B%26quot%3B%26gt%3B%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0%20%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%26lt%3B%2Ffont%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Bfont-size%3A%2021px%3B%26quot%3B%26gt%3B%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%26lt%3Bbr%26gt%3Bvia%20Redis%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22edgeStyle%3Dnone%3Bcurved%3D1%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BfontSize%3D12%3BstartSize%3D8%3BendSize%3D8%3BstrokeWidth%3D5%3BfontFamily%3DHelvetica%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0781%22%20y%3D%2213%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CArray%20as%3D%22points%22%2F%3E%3CmxPoint%20x%3D%221%22%20as%3D%22offset%22%2F%3E%3CmxPoint%20x%3D%22-77%22%20y%3D%225271%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22-395%22%20y%3D%225414%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-78">
+          <mxGeometry x="0.2758" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-81" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.statuses&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;current-positions&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;via Redis&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xf8wSa7g_moZZBRLcRxI-78">
+          <mxGeometry x="0.2879" y="-4" relative="1" as="geometry">
+            <mxPoint x="101" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-77" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 21px;&quot;&gt;Временное хранилище&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 21px;&quot;&gt;Redis&lt;/span&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="5161" width="146" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -10745,7 +10771,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8IMP7-U5TjNopF1GykGq" name="br-motion">
-    <mxGraphModel dx="3198" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6434" dy="3629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10855,81 +10881,6 @@
             <mxGeometry x="230" y="-60" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-10" target="0u8uiL8KO-L0rkjdK38B-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-2" value="В сервисе есть экземпляры всех устройств с информацией от конфигурации склада и атрибутами, которые передаются и считываются с ПЛК через OPCUA" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1750" y="85" width="260" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-4" value="В сервис приходят данные о маршрутах (tracks)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1440" y="80" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-8" target="0u8uiL8KO-L0rkjdK38B-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-8" value="В топик кафки пришел маршрут" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="10" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-9" value="Этапы обработки маршрута сервисом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-695" y="-30" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-10" value="Сервис подключается к OPCUA и подписывается на узлы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1730" y="-20" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-12" value="Этапы инициализации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1535" y="-230" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IQclkNntqKUj1FdSF-X-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="0u8uiL8KO-L0rkjdK38B-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IQclkNntqKUj1FdSF-X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0u8uiL8KO-L0rkjdK38B-13" target="-IQclkNntqKUj1FdSF-X-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-13" value="Сервис подключается к RabbitMQ и ждёт информацию" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1440" y="-20" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-18" target="0u8uiL8KO-L0rkjdK38B-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-18" value="Сервис считывает маршрут и распарсивает его передавая шаги соответствующим устройствам (если несколько шагов, то организовать структуру данных - Очередь/дек)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="135" width="260" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-20" target="0u8uiL8KO-L0rkjdK38B-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-20" value="Каждое устройство ждёт выполнения начальных условий&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="257.5" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-22" target="0u8uiL8KO-L0rkjdK38B-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-22" value="При выполнении начальных условий сервис отправляет команду через OPCUA. Изменяет статус шага и отправляет его в кафку" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="360" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0u8uiL8KO-L0rkjdK38B-24" target="0u8uiL8KO-L0rkjdK38B-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-24" value="Когда от OPCUA приходит статус, что команда выполнена, сервис снимает команду. Изменяет статус шага на &quot;выполнено&quot; и отправляет в кафку (структура для шага: НУ + зависимости от др. шагов)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="480" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0u8uiL8KO-L0rkjdK38B-26" value="Устройство переходит к отслеживанию начальных условий необходимых для выполнения следующего шага" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="600" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6k0DcQTbJYoY5I9RZhIi-1" target="0u8uiL8KO-L0rkjdK38B-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6k0DcQTbJYoY5I9RZhIi-1" value="Запуск докер файла" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1535" y="-190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-IQclkNntqKUj1FdSF-X-2" value="Сервис передаёт статусы по шагам маршрута (tracks)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="80" width="150" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
