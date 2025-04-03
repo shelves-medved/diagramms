@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="4737" dy="2837" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6340" dy="2838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -558,7 +558,7 @@
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-34" value="Получение информации &lt;br&gt;от устройств&lt;br&gt;via OPCUA" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="xf8wSa7g_moZZBRLcRxI-33" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-12" y="44" as="offset" />
+            <mxPoint x="6" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;curved=1;" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-56" edge="1">
@@ -572,7 +572,7 @@
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-36" value="Передача информации&lt;div&gt;устройствам&lt;br&gt;via OPCUA&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="xf8wSa7g_moZZBRLcRxI-35" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-28" y="-52" as="offset" />
+            <mxPoint x="-8" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Verdana;curved=1;" parent="1" source="xf8wSa7g_moZZBRLcRxI-11" target="xf8wSa7g_moZZBRLcRxI-20" edge="1">
