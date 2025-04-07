@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="6340" dy="2838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6373" dy="3251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -824,7 +824,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjW789G9ZNUtn_dIsrwU-4" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;warehouse_data&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;via Redis&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="xf8wSa7g_moZZBRLcRxI-24" target="xf8wSa7g_moZZBRLcRxI-16" edge="1">
+        <mxCell id="bjW789G9ZNUtn_dIsrwU-4" value="&lt;span style=&quot;font-size: 21px; background-color: rgb(255, 255, 153);&quot;&gt;warehouse_data&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 21px; background-color: rgb(255, 255, 153);&quot;&gt;via Redis&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="xf8wSa7g_moZZBRLcRxI-24" target="xf8wSa7g_moZZBRLcRxI-16" edge="1">
           <mxGeometry x="0.6813" y="-6" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-822" y="4772" />
@@ -844,8 +844,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9kyQ9UNUKoMrLJwwH51C-1" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;warehouse_data&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;via Redis&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" edge="1" parent="1" source="xf8wSa7g_moZZBRLcRxI-24" target="xf8wSa7g_moZZBRLcRxI-8">
-          <mxGeometry x="0.449" y="7" relative="1" as="geometry">
+        <mxCell id="9kyQ9UNUKoMrLJwwH51C-1" value="&lt;span style=&quot;font-size: 21px; background-color: rgb(255, 255, 153);&quot;&gt;warehouse_data&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 21px; background-color: rgb(255, 255, 153);&quot;&gt;via Redis&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="xf8wSa7g_moZZBRLcRxI-24" target="xf8wSa7g_moZZBRLcRxI-8" edge="1">
+          <mxGeometry x="0.1129" y="19" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-781" y="4384" />
             </Array>
