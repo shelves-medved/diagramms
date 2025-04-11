@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.2.10" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="5206" dy="2571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4703" dy="2382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -647,7 +647,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-49" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;br-plc.system.*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;devices_statuses&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;devices_current_positions&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;devices_sensors&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;shuttle_battery&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;via&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Redis&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="xf8wSa7g_moZZBRLcRxI-48" vertex="1" connectable="0">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-49" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 204, 230), rgb(84, 40, 63)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;devices.&amp;lt;id&amp;gt;.statuses&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;devices.&amp;lt;id&amp;gt;.currentpositions&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px; background-color: rgb(255, 204, 230);&quot; lang=&quot;EN-US&quot;&gt;devices.&amp;lt;id&amp;gt;.sensors&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;devices&lt;/span&gt;&lt;span&gt;&lt;span&gt;.&amp;lt;id&amp;gt;.&lt;/span&gt;battery&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;via&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Redis&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="xf8wSa7g_moZZBRLcRxI-48" vertex="1" connectable="0">
           <mxGeometry x="-0.0014" y="28" relative="1" as="geometry">
             <mxPoint x="-85" y="-30" as="offset" />
           </mxGeometry>
@@ -809,7 +809,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjW789G9ZNUtn_dIsrwU-2" value="&lt;font&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;shuttle_battery&lt;/span&gt;&lt;br&gt;via Redis&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="bjW789G9ZNUtn_dIsrwU-1" connectable="0" vertex="1">
+        <mxCell id="bjW789G9ZNUtn_dIsrwU-2" value="&lt;font&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;devices.&amp;lt;id&amp;gt;.battery&lt;/span&gt;&lt;br&gt;via Redis&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="bjW789G9ZNUtn_dIsrwU-1" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-148" y="148" as="offset" />
           </mxGeometry>
