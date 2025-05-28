@@ -9584,11 +9584,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="2593" dy="2520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4074" dy="3292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6eiq4-B2VXgM6nw0SqSE-8" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="6eiq4-B2VXgM6nw0SqSE-8" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="2640" width="1240" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qaN_HACoI5ytYjDoGWOy-8" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
@@ -12721,6 +12721,372 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2399.81" y="2750" as="sourcePoint" />
             <mxPoint x="2399.44" y="2680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-465" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1840" width="1240" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-468" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="F-LeJSAQct2r-aniTgBs-469">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="2520" as="sourcePoint" />
+            <mxPoint x="1450" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-469" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;кнопка&lt;/span&gt;&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-470" value="&lt;div&gt;Задания&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-471" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1880.0026446280995" as="sourcePoint" />
+            <mxPoint x="1440" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-472" value="&lt;div&gt;Склад&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-473" value="&lt;div&gt;Товары&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-474" value="&lt;div&gt;Предупреждения&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="589.9999999999999" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-476" value="То же, что и на первом слайде (чтобы не переносить каждые изменения)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="200" y="1840" width="1240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-486" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119.369999999998" y="1880" as="sourcePoint" />
+            <mxPoint x="1119.37" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-487" value="&lt;div&gt;Настройки&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860.3699999999998" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-488" value="&lt;div&gt;Статистика&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989.3699999999998" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-489" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999998" y="1950" as="sourcePoint" />
+            <mxPoint x="718.9999999999999" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-490" value="&lt;div&gt;Устройства&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729.3699999999998" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-491" value="Видно только администратору" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="810.3699999999998" y="1920" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-492" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999998" y="1950" as="sourcePoint" />
+            <mxPoint x="1119.37" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-493" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119" y="1950" as="sourcePoint" />
+            <mxPoint x="1118.63" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-494" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1980" width="1225" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-495" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-496" value="Текст сообщения" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-495">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-505" value="Время сообщения" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-495">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-497" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="40" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-498" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-497">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-506" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-497">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-499" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="80" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-500" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-499">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-507" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-499">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-501" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="120" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-502" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-501">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-508" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-501">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-503" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="160" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-504" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-503">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-509" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-503">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-510" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="200" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-511" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-510">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-512" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-510">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-513" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="240" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-514" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-513">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-515" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-513">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-516" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="280" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-517" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-516">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-518" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-516">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-519" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="320" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-520" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-519">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-521" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-519">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-522" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="360" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-523" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-522">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-524" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-522">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-525" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="400" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-526" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-525">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-527" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-525">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-528" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-494">
+          <mxGeometry y="440" width="1225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-529" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-528">
+          <mxGeometry width="1051" height="40" as="geometry">
+            <mxRectangle width="1051" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-530" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-LeJSAQct2r-aniTgBs-528">
+          <mxGeometry x="1051" width="174" height="40" as="geometry">
+            <mxRectangle width="174" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-531" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3440" width="1240" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-532" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="F-LeJSAQct2r-aniTgBs-533">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="4120" as="sourcePoint" />
+            <mxPoint x="1450" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-533" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;кнопка&lt;/span&gt;&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="4110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-534" value="&lt;div&gt;Задания&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-535" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="3480.0026446280995" as="sourcePoint" />
+            <mxPoint x="1440" y="3480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-536" value="&lt;div&gt;Склад&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-537" value="&lt;div&gt;Товары&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-538" value="&lt;div&gt;Предупреждения&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="589.9999999999999" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-539" value="То же, что и на первом слайде (чтобы не переносить каждые изменения)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="200" y="3440" width="1240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-540" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119.369999999998" y="3480" as="sourcePoint" />
+            <mxPoint x="1119.37" y="3480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-541" value="&lt;div&gt;Настройки&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860.3699999999998" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-542" value="&lt;div&gt;Статистика&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989.3699999999998" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-543" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999998" y="3550" as="sourcePoint" />
+            <mxPoint x="718.9999999999999" y="3480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-544" value="&lt;div&gt;Устройства&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729.3699999999998" y="3480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-545" value="Видно только администратору" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="810.3699999999998" y="3520" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-546" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999998" y="3550" as="sourcePoint" />
+            <mxPoint x="1119.37" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-547" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119" y="3550" as="sourcePoint" />
+            <mxPoint x="1118.63" y="3480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-585" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="4240" width="1240" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-586" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="F-LeJSAQct2r-aniTgBs-587">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="4920" as="sourcePoint" />
+            <mxPoint x="1450" y="4920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-587" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;кнопка&lt;/span&gt;&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="4910" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-588" value="&lt;div&gt;Задания&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-589" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="4280.002644628099" as="sourcePoint" />
+            <mxPoint x="1440" y="4280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-590" value="&lt;div&gt;Склад&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-591" value="&lt;div&gt;Товары&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-592" value="&lt;div&gt;Предупреждения&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-593" value="То же, что и на первом слайде (чтобы не переносить каждые изменения)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="200" y="4240" width="1240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-594" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119.369999999998" y="4280" as="sourcePoint" />
+            <mxPoint x="1119.37" y="4280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-595" value="&lt;div&gt;Настройки&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860.3699999999999" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-596" value="&lt;div&gt;Статистика&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="989.3699999999999" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-597" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999999" y="4350" as="sourcePoint" />
+            <mxPoint x="719" y="4280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-598" value="&lt;div&gt;Устройства&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729.3699999999999" y="4280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-599" value="Видно только администратору" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="810.3699999999999" y="4320" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-600" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.3699999999999" y="4350" as="sourcePoint" />
+            <mxPoint x="1119.37" y="4350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-601" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119" y="4350" as="sourcePoint" />
+            <mxPoint x="1118.63" y="4280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
