@@ -9645,7 +9645,7 @@
         <mxCell id="At8Q3ktS7EkhV90lN-f8-9" value="&lt;div&gt;Статистика&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2qv9DsdWnP3k4O2lE2HM-16" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="2qv9DsdWnP3k4O2lE2HM-16" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="-560" width="1240" height="720" as="geometry" />
         </mxCell>
         <mxCell id="2qv9DsdWnP3k4O2lE2HM-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
