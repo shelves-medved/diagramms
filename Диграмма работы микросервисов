@@ -9584,7 +9584,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="4074" dy="3292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13088,6 +13088,9 @@
             <mxPoint x="1119" y="4350" as="sourcePoint" />
             <mxPoint x="1118.63" y="4280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="F-LeJSAQct2r-aniTgBs-602" value="Блокировка&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;кнопка&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="2820" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
