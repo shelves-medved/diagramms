@@ -13502,11 +13502,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Структура данных от ПЛК">
-    <mxGraphModel dx="2411" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="erwyRvlmn5EljYNhddp0-1" value="&lt;span style=&quot;&quot;&gt;Обозначение устройства&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="erwyRvlmn5EljYNhddp0-1" value="&lt;span style=&quot;&quot;&gt;Устройство&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-780" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="erwyRvlmn5EljYNhddp0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="erwyRvlmn5EljYNhddp0-3" target="erwyRvlmn5EljYNhddp0-1" edge="1">
