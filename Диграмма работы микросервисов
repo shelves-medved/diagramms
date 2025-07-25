@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="28.0.6" pages="8">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="7957" dy="3723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5084" dy="2460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -542,7 +542,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xf8wSa7g_moZZBRLcRxI-32" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;br-plc.system&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;rror&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.devices.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;arning&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;br&gt;via&amp;nbsp;RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="xf8wSa7g_moZZBRLcRxI-31" connectable="0" vertex="1">
+        <mxCell id="xf8wSa7g_moZZBRLcRxI-32" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;br-plc.system&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.&amp;lt;device_id&amp;gt;.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;rror&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;br-plc.&amp;lt;device_id&amp;gt;.&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;arning&lt;/span&gt;&lt;span style=&quot;line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;s&lt;/span&gt;&lt;br&gt;via&amp;nbsp;RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;fontSize=21;;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="xf8wSa7g_moZZBRLcRxI-31" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="18" y="5" as="offset" />
           </mxGeometry>
@@ -679,7 +679,7 @@
           <mxGeometry x="1914" y="4733.5" width="318" height="318" as="geometry" />
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-59" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;devices&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;via Redis&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-16" edge="1">
-          <mxGeometry x="0.483" y="17" relative="1" as="geometry">
+          <mxGeometry x="0.4825" y="17" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="5140" />
             </Array>
@@ -764,11 +764,11 @@
           <mxGeometry y="130" width="421" height="331" as="geometry" />
         </mxCell>
         <mxCell id="xf8wSa7g_moZZBRLcRxI-71" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 204, 230);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;line-height: 31.5px;&quot; lang=&quot;EN-US&quot;&gt;br-plc.&amp;lt;device_id&amp;gt;.command&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;via&amp;nbsp;RabbitMQ&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;fontFamily=Helvetica;" parent="1" source="xf8wSa7g_moZZBRLcRxI-10" target="xf8wSa7g_moZZBRLcRxI-69" edge="1">
-          <mxGeometry x="0.0078" y="6" relative="1" as="geometry">
+          <mxGeometry x="0.0103" y="7" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="5204" />
             </Array>
-            <mxPoint y="1" as="offset" />
+            <mxPoint as="offset" />
             <mxPoint x="862" y="5007" as="sourcePoint" />
             <mxPoint x="-385" y="5422" as="targetPoint" />
           </mxGeometry>
