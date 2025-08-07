@@ -15083,6 +15083,9 @@
         <mxCell id="wOJmgLLN6WAwXrhopKNk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-2" target="wOJmgLLN6WAwXrhopKNk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-2" target="wOJmgLLN6WAwXrhopKNk-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wOJmgLLN6WAwXrhopKNk-2" value="при получении задачи формирует стратегию выполнения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="490" width="120" height="60" as="geometry" />
         </mxCell>
@@ -15110,8 +15113,8 @@
         <mxCell id="wOJmgLLN6WAwXrhopKNk-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-10" target="wOJmgLLN6WAwXrhopKNk-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-10" value="формирование пути паллета по узлам склада" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="770" width="120" height="60" as="geometry" />
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-10" value="формирование карты склада по узлам. Фиксируется начальный узел склада и целевой узел склада" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="770" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wOJmgLLN6WAwXrhopKNk-12" value="Rabbit" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="340" width="120" height="80" as="geometry" />
@@ -15137,8 +15140,8 @@
         <mxCell id="wOJmgLLN6WAwXrhopKNk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-18" target="wOJmgLLN6WAwXrhopKNk-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-18" value="Разбиение маршрута на сегменты" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1190" width="120" height="60" as="geometry" />
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-18" value="Разбиение маршрута на сегменты (путь из узлов для различных типов устройств)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1190" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wOJmgLLN6WAwXrhopKNk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-20" target="wOJmgLLN6WAwXrhopKNk-22">
           <mxGeometry relative="1" as="geometry" />
@@ -15150,9 +15153,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wOJmgLLN6WAwXrhopKNk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-22" target="wOJmgLLN6WAwXrhopKNk-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-22" target="wOJmgLLN6WAwXrhopKNk-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wOJmgLLN6WAwXrhopKNk-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-22" target="wOJmgLLN6WAwXrhopKNk-34">
@@ -15185,14 +15185,50 @@
             <mxPoint x="360" y="1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-29" value="получение&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1610" width="120" height="60" as="geometry" />
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-29" target="wOJmgLLN6WAwXrhopKNk-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-32" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="294" y="1610" width="120" height="60" as="geometry" />
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-29" value="Получение успеха о выпонении шага" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wOJmgLLN6WAwXrhopKNk-34" value="Получение о" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-34" target="wOJmgLLN6WAwXrhopKNk-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-34" value="Получение ошибки о выполнении шага" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-36" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-38" target="wOJmgLLN6WAwXrhopKNk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-38" value="получение информации о складе и устройствах" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-40" target="wOJmgLLN6WAwXrhopKNk-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-40" value="Получение информации о сегменте существующего маршрута, шаг которого выполнился" style="whiteSpace=wrap;html=1;rounded=0;imageAspect=0;absoluteArcSize=0;autosize=0;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1890" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-42" target="wOJmgLLN6WAwXrhopKNk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-42" value="Формирование следующего шага в сегменте" style="whiteSpace=wrap;html=1;rounded=0;absoluteArcSize=0;autosize=0;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOJmgLLN6WAwXrhopKNk-44" target="wOJmgLLN6WAwXrhopKNk-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-44" value="это выгрузка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-46" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJmgLLN6WAwXrhopKNk-48" value="" style="whiteSpace=wrap;html=1;rounded=0;absoluteArcSize=0;autosize=0;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2245" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
