@@ -9962,6 +9962,23 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="1LcbQfbKsldzHop_ktiE" name="Порты WCS">
+    <mxGraphModel dx="1240" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UM_6E7c0-ZJgWa654WZG-1" value="Kubernetes&lt;br&gt;ports:&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;TCP 6443 — Kubernetes API server (главный управляющий порт для взаимодействия с API кластера).&lt;/li&gt;&lt;li&gt;TCP 2379-2380 — клиентский API сервера etcd.&lt;/li&gt;&lt;li&gt;TCP 10250 — kubelet API (служба на каждом узле, управляющая контейнерами).&lt;/li&gt;&lt;li&gt;TCP 30000-32767 — диапазон портов NodePort для сервисов, доступных извне через nodePort.&lt;/li&gt;&lt;li&gt;TCP 80 и 443 — HTTP и HTTPS трафик на ingress контроллер.&lt;/li&gt;&lt;li&gt;TCP 9099 — liveness/readiness probe фреймворка canal/flannel.&lt;/li&gt;&lt;li&gt;TCP 10254 — ingress controller liveness/readiness probe.&lt;/li&gt;&lt;li&gt;TCP 22 — для удалённого управления узлами (часто не обязателен в k3s, но может пригодиться).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Nginx&lt;br&gt;ports:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;TCP&amp;nbsp;8080 - для WCS&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="400" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UM_6E7c0-ZJgWa654WZG-2" value="PLC&lt;br&gt;ports:&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;4830 - для обмена данными между ПЛК и WCS по OPC UA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UM_6E7c0-ZJgWa654WZG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UM_6E7c0-ZJgWa654WZG-1" target="UM_6E7c0-ZJgWa654WZG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
     <mxGraphModel dx="417" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15021,23 +15038,6 @@
         </mxCell>
         <mxCell id="57GQeYus8WQziSFjzP9e-182" value="Старый вариант" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=49;" parent="1" vertex="1">
           <mxGeometry x="250" y="-110" width="450" height="150" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="1LcbQfbKsldzHop_ktiE" name="Схема взаимодействия">
-    <mxGraphModel dx="1240" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="UM_6E7c0-ZJgWa654WZG-1" value="Kubernetes&lt;br&gt;ports:&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;TCP 6443 — Kubernetes API server (главный управляющий порт для взаимодействия с API кластера).&lt;/li&gt;&lt;li&gt;TCP 2379-2380 — клиентский API сервера etcd.&lt;/li&gt;&lt;li&gt;TCP 10250 — kubelet API (служба на каждом узле, управляющая контейнерами).&lt;/li&gt;&lt;li&gt;TCP 30000-32767 — диапазон портов NodePort для сервисов, доступных извне через nodePort.&lt;/li&gt;&lt;li&gt;TCP 80 и 443 — HTTP и HTTPS трафик на ingress контроллер.&lt;/li&gt;&lt;li&gt;TCP 9099 — liveness/readiness probe фреймворка canal/flannel.&lt;/li&gt;&lt;li&gt;TCP 10254 — ingress controller liveness/readiness probe.&lt;/li&gt;&lt;li&gt;TCP 22 — для удалённого управления узлами (часто не обязателен в k3s, но может пригодиться).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Nginx&lt;br&gt;ports:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;TCP&amp;nbsp;8080 - для WCS&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="400" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="UM_6E7c0-ZJgWa654WZG-2" value="PLC&lt;br&gt;ports:&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;4830 - для обмена данными между ПЛК и WCS по OPC UA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="200" width="270" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="UM_6E7c0-ZJgWa654WZG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UM_6E7c0-ZJgWa654WZG-1" target="UM_6E7c0-ZJgWa654WZG-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
