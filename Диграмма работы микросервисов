@@ -9606,7 +9606,7 @@
             <mxPoint x="205" y="-550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2qv9DsdWnP3k4O2lE2HM-20" value="Роль: Оператор / Администратор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="2qv9DsdWnP3k4O2lE2HM-20" value="Роль: Администратор / или пусто" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="-560" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2qv9DsdWnP3k4O2lE2HM-21" value="&lt;div&gt;Задания&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
