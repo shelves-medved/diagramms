@@ -12973,6 +12973,9 @@
         <mxCell id="JZXM5alaJ-ilX3JUYd6G-3" value="ТЗ для вкладки&lt;div&gt;1. Сортировка для статуса, действия, названию, дате добавления&lt;/div&gt;&lt;div&gt;2. Фильтрация по статусу, действию&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="280" width="420" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="JZXM5alaJ-ilX3JUYd6G-4" value="ТЗ для вкладки&lt;div&gt;1. убрать загрузку &quot;левой&quot; карты&lt;/div&gt;&lt;div&gt;2. изменить дизайн карты&lt;/div&gt;&lt;div&gt;3. убрать 3d вид&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-600" width="450" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
