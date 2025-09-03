@@ -14156,7 +14156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q6P0EJABEnt-ZFPUOLVV" name="route-plan блок схемы">
-    <mxGraphModel dx="4133" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3885" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14886,7 +14886,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIhrPdqhYVF-8nenPOhD-64" value="выставить флаг &quot;в складе&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1840" y="2024" width="380" height="36" as="geometry" />
+          <mxGeometry x="-1840" y="2030" width="380" height="36" as="geometry" />
         </mxCell>
         <mxCell id="EIhrPdqhYVF-8nenPOhD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-72" target="EIhrPdqhYVF-8nenPOhD-73">
           <mxGeometry relative="1" as="geometry" />
