@@ -14744,6 +14744,159 @@
             <mxPoint x="-43" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-23" value="выбор сегмента" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-24" value="генерация шага" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1320" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-30" target="EIhrPdqhYVF-8nenPOhD-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-760" y="1600" />
+              <mxPoint x="-580" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-43" value="да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-42">
+          <mxGeometry x="-0.1454" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-30" target="EIhrPdqhYVF-8nenPOhD-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1050.0000000000005" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-760" y="1600" />
+              <mxPoint x="-1305" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-51" value="нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-50">
+          <mxGeometry x="-0.0667" y="-4" relative="1" as="geometry">
+            <mxPoint x="55" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-30" value="Путь сегмента существует?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-935" y="1500" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-37" value="создание устройства по его типу" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="1420" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-37" target="EIhrPdqhYVF-8nenPOhD-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-41" target="EIhrPdqhYVF-8nenPOhD-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-580" y="1730" />
+              <mxPoint x="-720" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-41" value="сохранить узлы пути" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="1640" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-44" target="EIhrPdqhYVF-8nenPOhD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-44" value="назначить 2-ой по порядку узел пути как целевой" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="1868" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-45" value="при выборе сегмента удаляется первый узел, так как он уже выполнен, во втором узле лежит следующая цель пути" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1850" width="230" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-47" target="EIhrPdqhYVF-8nenPOhD-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="2050" />
+              <mxPoint x="-940" y="2050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-47" value="сгенерировать путь" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="1938" width="140" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-52" target="EIhrPdqhYVF-8nenPOhD-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1305" y="1730" />
+              <mxPoint x="-720" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-69" value="да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-67">
+          <mxGeometry x="-0.8345" y="-1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-52" value="устройство выполняет перемещение?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1640" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-56" target="EIhrPdqhYVF-8nenPOhD-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1650" y="1880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1477" y="1880" />
+              <mxPoint x="-1650" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-61" value="нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-60">
+          <mxGeometry x="-0.2691" relative="1" as="geometry">
+            <mxPoint x="-31" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-56" target="EIhrPdqhYVF-8nenPOhD-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1477" y="1880" />
+              <mxPoint x="-940" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-77" value="да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-76">
+          <mxGeometry x="-0.8062" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-56" value="устройство поднимает лыжи и устройство == шаттл?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="1776" width="354" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-52" target="EIhrPdqhYVF-8nenPOhD-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1305" y="1730" />
+              <mxPoint x="-1477" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-58" value="нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EIhrPdqhYVF-8nenPOhD-57">
+          <mxGeometry x="-0.2929" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-62" target="EIhrPdqhYVF-8nenPOhD-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-62" value="устройство опускает лыжи и устройство == шаттл?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1827" y="1900" width="354" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-64" target="EIhrPdqhYVF-8nenPOhD-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-64" value="выставить флаг &quot;в складе&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1840" y="2024" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIhrPdqhYVF-8nenPOhD-72" target="EIhrPdqhYVF-8nenPOhD-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-72" value="назначить продукту текущую ноду == целевой" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="2174" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="EIhrPdqhYVF-8nenPOhD-73" value="сгенерировать шаг" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="2264" width="380" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
