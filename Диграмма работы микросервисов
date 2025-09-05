@@ -13398,7 +13398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ieVmyXHZbqFz790sFnM" name="Калибровка шаттла ">
-    <mxGraphModel dx="1810" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1558" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13522,9 +13522,14 @@
         <mxCell id="w8p8tOSl53tYicBNzV4c-27" value="Шаттл может калиброваться вверх?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="950" y="1000" width="245" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="w8p8tOSl53tYicBNzV4c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-33">
+        <mxCell id="w8p8tOSl53tYicBNzV4c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-33" target="w8p8tOSl53tYicBNzV4c-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="720" as="targetPoint" />
+            <mxPoint x="340" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="1300" />
+              <mxPoint x="260" y="480" />
+              <mxPoint x="450" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-33" value="Шаттл калибруется вверх" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -13633,17 +13638,196 @@
         <mxCell id="w8p8tOSl53tYicBNzV4c-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-67" target="w8p8tOSl53tYicBNzV4c-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-73" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-70">
+          <mxGeometry x="-0.1369" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-67" target="w8p8tOSl53tYicBNzV4c-71">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-74" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-72">
+          <mxGeometry x="-0.2091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-67" value="Шаттл может калиброваться вниз?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1737.5" y="1300" width="245" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="w8p8tOSl53tYicBNzV4c-69" value="Шаттл калибруется ввниз" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w8p8tOSl53tYicBNzV4c-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-69" target="w8p8tOSl53tYicBNzV4c-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-69" value="Шаттл калибруется вниз" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1800" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-71" target="w8p8tOSl53tYicBNzV4c-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-80" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-79">
+          <mxGeometry x="-0.2121" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-83" target="w8p8tOSl53tYicBNzV4c-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-71" value="Шаттл может переместиться в правый соседний узел?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2062.5" y="1300" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1860" y="1840" />
+              <mxPoint x="1680" y="1840" />
+              <mxPoint x="1680" y="1270" />
+              <mxPoint x="1860" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-87" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-86">
+          <mxGeometry x="-0.1782" y="-2" relative="1" as="geometry">
+            <mxPoint x="178" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-94" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-86">
+          <mxGeometry x="-0.9205" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-75" target="w8p8tOSl53tYicBNzV4c-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-95" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-89">
+          <mxGeometry x="-0.6975" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-75" value="Узел уже был откалиброван?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1737.5" y="1640" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2330" y="1560" />
+              <mxPoint x="2330" y="1270" />
+              <mxPoint x="1860" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-78" value="Шаттл перемещается в правый соседний узел" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-81" value="Шаттл фиксирует, что добрался до верха склада" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-71" target="w8p8tOSl53tYicBNzV4c-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2308" y="1360" as="sourcePoint" />
+            <mxPoint x="2450" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-83" value="При такой логике он окажется в самом нижнем правом углу склада" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-88" target="w8p8tOSl53tYicBNzV4c-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-96" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-91">
+          <mxGeometry x="-0.4645" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-88" target="w8p8tOSl53tYicBNzV4c-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-110" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-109">
+          <mxGeometry x="-0.4497" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-88" value="Шаттл может калиброваться направо?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="1760" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-90" target="w8p8tOSl53tYicBNzV4c-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2060" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2040" y="2020" />
+              <mxPoint x="2040" y="1740" />
+              <mxPoint x="2191" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-90" value="Шаттл калибруется направо" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2130.5" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-99" target="w8p8tOSl53tYicBNzV4c-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-98" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-97">
+          <mxGeometry x="-0.2531" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-99" target="w8p8tOSl53tYicBNzV4c-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2330" y="1270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2960" y="2148" />
+              <mxPoint x="2960" y="1270" />
+              <mxPoint x="1860" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-99" value="Шаттл может калиброваться налево?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2389.92" y="2088" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-101" target="w8p8tOSl53tYicBNzV4c-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2379.92" y="2068" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2359.92" y="2308" />
+              <mxPoint x="2359.92" y="2039" />
+              <mxPoint x="2512.92" y="2039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-101" value="Шаттл калибруется налево" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2452.42" y="2278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-106" target="w8p8tOSl53tYicBNzV4c-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-103" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-102">
+          <mxGeometry x="-0.1302" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-106" target="w8p8tOSl53tYicBNzV4c-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2669.92" y="2069" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2719.92" y="1819" />
+              <mxPoint x="2719.92" y="2039" />
+              <mxPoint x="2511.92" y="2039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-105" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-104">
+          <mxGeometry x="-0.468" y="1" relative="1" as="geometry">
+            <mxPoint x="-61" y="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-106" value="Шаттл может переместиться в крайний левый известный узел?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2412.42" y="1754" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-108" target="w8p8tOSl53tYicBNzV4c-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8p8tOSl53tYicBNzV4c-108" value="Шаттл перемещается в левый известный узел" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2452.42" y="1939" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
