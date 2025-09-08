@@ -13519,15 +13519,25 @@
         <mxCell id="w8p8tOSl53tYicBNzV4c-27" value="Шаттл может калиброваться вверх?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="950" y="1000" width="245" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="w8p8tOSl53tYicBNzV4c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w8p8tOSl53tYicBNzV4c-33" target="w8p8tOSl53tYicBNzV4c-12" edge="1">
+        <mxCell id="w8p8tOSl53tYicBNzV4c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R9rDvZB7taSXTOLIW2i_-24" target="w8p8tOSl53tYicBNzV4c-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="1300" />
+              <mxPoint x="1280" y="1460" />
+              <mxPoint x="1280" y="1640" />
+              <mxPoint x="260" y="1640" />
               <mxPoint x="260" y="480" />
               <mxPoint x="450" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="R9rDvZB7taSXTOLIW2i_-28" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="w8p8tOSl53tYicBNzV4c-35">
+          <mxGeometry x="-0.9692" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9rDvZB7taSXTOLIW2i_-25" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-33" target="R9rDvZB7taSXTOLIW2i_-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-33" value="Шаттл калибруется вверх" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1012.5" y="1270" width="120" height="60" as="geometry" />
@@ -14141,6 +14151,24 @@
         </mxCell>
         <mxCell id="R9rDvZB7taSXTOLIW2i_-21" value="Шаттл любым способом ставится на лифт" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="-390.03999999999996" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9rDvZB7taSXTOLIW2i_-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="R9rDvZB7taSXTOLIW2i_-24" target="w8p8tOSl53tYicBNzV4c-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="1580" />
+              <mxPoint x="880" y="1580" />
+              <mxPoint x="880" y="960" />
+              <mxPoint x="1072" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9rDvZB7taSXTOLIW2i_-27" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="R9rDvZB7taSXTOLIW2i_-26">
+          <mxGeometry x="-0.9412" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9rDvZB7taSXTOLIW2i_-24" value="Узел уже был откалиброван?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1400" width="245" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
