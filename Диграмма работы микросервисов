@@ -9568,7 +9568,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="1918" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1736" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12874,7 +12874,7 @@
           <mxGeometry width="120" height="24.9" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-90" value="Лифт &amp;lt;opc_name&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="2830" width="129" height="20" as="geometry" />
+          <mxGeometry x="1241" y="2807.65" width="129" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-91" value="Назад" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1241" y="3067.8499999999995" width="56" height="17.45" as="geometry" />
@@ -12883,10 +12883,10 @@
           <mxGeometry x="1314" y="3067.8499999999995" width="56" height="17.45" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-93" value="Занят / Свободен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="2867.45" width="129" height="17.45" as="geometry" />
+          <mxGeometry x="1241" y="2845.1" width="129" height="17.45" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-94" value="Готов / Не готов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="2850" width="129" height="17.45" as="geometry" />
+          <mxGeometry x="1241" y="2827.65" width="129" height="17.45" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-95" value="Вверх" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1241" y="3012.75" width="56" height="17.45" as="geometry" />
@@ -12946,7 +12946,7 @@
           <mxGeometry x="496.5" y="3222.35" width="113" height="37.65" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-137" value="Есть шаттл / Нет шаттла" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="2884.9" width="129" height="35.1" as="geometry" />
+          <mxGeometry x="1241" y="2862.55" width="129" height="35.1" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-139" value="Уровень: &amp;lt;значение&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="2920" width="129" height="20" as="geometry" />
