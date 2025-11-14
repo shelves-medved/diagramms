@@ -9568,7 +9568,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="2067" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1375" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12912,13 +12912,13 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-108" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Лифт 2&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="2SUOixirsQg3OHZu3a4D-106">
           <mxGeometry width="120" height="24.9" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-109" value="Фиксаторы задвинуты&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2SUOixirsQg3OHZu3a4D-109" value="Фиксаторы задвинуты&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1241" y="3030.2" width="129" height="17.65" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-110" value="меняется" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="1417.36" y="2986.47" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-111" value="Фиксаторы задвинуты&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2SUOixirsQg3OHZu3a4D-111" value="Фиксаторы задвинуты&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1457.86" y="2993.72" width="129.5" height="17.65" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-112" value="Фиксаторы выдвинуты" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -12957,7 +12957,7 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-141" value="Целевой уровень: &amp;lt;значение&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="2959.9999999999995" width="129" height="35.1" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-142" value="Переместить" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2SUOixirsQg3OHZu3a4D-142" value="Переместить" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1241" y="2995.1" width="129" height="17.65" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-143" value="Переместить лыжи в верхнее положение" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
