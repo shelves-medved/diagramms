@@ -9568,7 +9568,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="1968" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1918" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12687,7 +12687,7 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-10" value="&lt;div&gt;Предупреждения&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;вкладка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="591.5" y="2680" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-11" value="Режим склада: Автоматический / Ручной&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;кнопка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="2SUOixirsQg3OHZu3a4D-11" value="Режим склада: Автоматический / Ручной&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;кнопка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="206.5" y="2760" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-12" value="То же, что и на первом слайде (чтобы не переносить каждые изменения)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
@@ -13044,7 +13044,7 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-174" value="При нажатии на кнопку ручного режима, появляется окошко для подтверждения: &lt;br&gt;&lt;br&gt;&quot;Вы уверенны, что хотите перейти в ручной режим? Выполнение текущих задач склада остановится.&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="2650" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-175" value="Сброс ошибок&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;кнопка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="2SUOixirsQg3OHZu3a4D-175" value="Сброс ошибок&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;кнопка&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="466.5" y="2760" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
