@@ -9568,7 +9568,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="1375" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12754,7 +12754,7 @@
           <mxGeometry x="264" y="2855.1" width="116" height="17.45" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-40" value="Расположение и названия устройств зафиксированы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="461.5" y="2761.27" width="200" height="57.45" as="geometry" />
+          <mxGeometry x="920" y="2756.28" width="200" height="57.45" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-45" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="390" y="2835.1" width="120" height="74.90000000000009" as="geometry" />
@@ -13040,6 +13040,9 @@
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-170" value="Вперёд по оси Y" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="493.5" y="3342.35" width="113" height="17.45" as="geometry" />
+        </mxCell>
+        <mxCell id="2SUOixirsQg3OHZu3a4D-174" value="При нажатии на кнопку ручного режима, появляется окошко для подтверждения: &lt;br&gt;&lt;br&gt;&quot;Вы уверенны, что хотите перейти в ручной режим? Выполнение текущих задач склада остановится.&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2650" width="270" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
