@@ -13051,7 +13051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="2864" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13088,7 +13088,7 @@
           <mxGeometry x="880" y="380" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-8" value="команды&amp;nbsp;&lt;div&gt;автоматического&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;режима&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;были&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполнены,&lt;/span&gt;&lt;div&gt;&lt;div&gt;всё хорошо&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="730" width="160" height="70" as="geometry" />
+          <mxGeometry x="780" y="730" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-9" value="&lt;div&gt;есть возможность отследить&lt;/div&gt;&lt;div&gt;&amp;nbsp;какое конкретно устройство&lt;/div&gt;&lt;div&gt;&amp;nbsp;двигали в ручном режиме&amp;nbsp;&lt;/div&gt;&lt;div&gt;и команда, которая&amp;nbsp;&lt;/div&gt;&lt;div&gt;выполнялась в&lt;/div&gt;&lt;div&gt;автоматическом&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;режиме&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;для него снимется&lt;/span&gt;&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-335" y="670" width="180" height="110" as="geometry" />
@@ -13184,10 +13184,10 @@
           <mxGeometry x="-548" y="1045" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-40" value="br-route-plan" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=23;fontColor=default;autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-555" y="1390" width="160" height="40" as="geometry" />
+          <mxGeometry x="-573" y="1620" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-41" value="br-manager" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=23;fontColor=default;autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-538" y="1490" width="140" height="40" as="geometry" />
+          <mxGeometry x="-553" y="1714" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-42" value="br-invent" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=23;fontColor=default;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-538" y="1240" width="110" height="40" as="geometry" />
@@ -13239,8 +13239,8 @@
         </mxCell>
         <mxCell id="AJUmQ63MK08vX5eRXt_3-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="1360" as="sourcePoint" />
-            <mxPoint x="1240" y="1360" as="targetPoint" />
+            <mxPoint x="-559" y="1560" as="sourcePoint" />
+            <mxPoint x="1241" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AJUmQ63MK08vX5eRXt_3-18" value="&lt;div&gt;шаг просто отменяется и&lt;/div&gt;&lt;div&gt;его нужно отправить заного&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
@@ -13251,6 +13251,48 @@
         </mxCell>
         <mxCell id="AJUmQ63MK08vX5eRXt_3-20" value="&lt;div&gt;шаг просто отменяется и&lt;/div&gt;&lt;div&gt;его нужно отправить заного&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1020" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-21" value="&lt;div&gt;Никакого контроля&lt;/div&gt;&lt;div&gt;выполняемых задач нет&lt;/div&gt;&lt;div&gt;т.к. приодят состояния от&lt;/div&gt;&lt;div&gt;manager&amp;nbsp;&lt;/div&gt;&lt;div&gt;просто ожидается когда&amp;nbsp;&lt;/div&gt;&lt;div&gt;будут приходить статусы&amp;nbsp;&lt;/div&gt;&lt;div&gt;по маршрутам&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1240" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-24" value="&lt;div&gt;Никакого контроля&lt;/div&gt;&lt;div&gt;выполняемых задач нет&lt;/div&gt;&lt;div&gt;т.к. приодят состояния от&lt;/div&gt;&lt;div&gt;manager&amp;nbsp;&lt;/div&gt;&lt;div&gt;просто ожидается когда&amp;nbsp;&lt;/div&gt;&lt;div&gt;будут приходить статусы&amp;nbsp;&lt;/div&gt;&lt;div&gt;по маршрутам&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1240" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-25" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-27" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-28" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-29" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-30" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-31" value="При активном ручном&amp;nbsp;&lt;div&gt;режиме новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1164" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-32" value="Все активные маршруты&amp;nbsp;&lt;div&gt;необходимо переопределить&amp;nbsp;&lt;/div&gt;&lt;div&gt;с учётом состояния&amp;nbsp;&lt;/div&gt;&lt;div&gt;паллета в соответствии с БД&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1250" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-33" value="&lt;div&gt;Необходимо получать информацию&amp;nbsp;&lt;/div&gt;&lt;div&gt;от manager если маршрут&lt;/div&gt;&lt;div&gt;&amp;nbsp;не выполним, из-за использования&lt;/div&gt;&lt;div&gt;&amp;nbsp;устройства на этом маршруте,&lt;/div&gt;&lt;div&gt;&amp;nbsp;чтобы переопределить&lt;/div&gt;&lt;div&gt;&amp;nbsp;маршрут для задачи&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="1380" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-34" value="Все активные маршруты&amp;nbsp;&lt;div&gt;необходимо переопределить&amp;nbsp;&lt;/div&gt;&lt;div&gt;с учётом состояния&amp;nbsp;&lt;/div&gt;&lt;div&gt;паллета в соответствии с БД&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1250" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-35" value="&lt;div&gt;Никакого контроля&lt;/div&gt;&lt;div&gt;выполняемых задач нет&lt;/div&gt;&lt;div&gt;т.к. приодят состояния от&lt;/div&gt;&lt;div&gt;manager&amp;nbsp;&lt;/div&gt;&lt;div&gt;просто ожидается когда&amp;nbsp;&lt;/div&gt;&lt;div&gt;будут приходить статусы&amp;nbsp;&lt;/div&gt;&lt;div&gt;по маршрутам&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1250" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-36" value="&lt;div&gt;Никакого контроля&lt;/div&gt;&lt;div&gt;выполняемых задач нет&lt;/div&gt;&lt;div&gt;т.к. приодят состояния от&lt;/div&gt;&lt;div&gt;manager&amp;nbsp;&lt;/div&gt;&lt;div&gt;просто ожидается когда&amp;nbsp;&lt;/div&gt;&lt;div&gt;будут приходить статусы&amp;nbsp;&lt;/div&gt;&lt;div&gt;по маршрутам&lt;/div&gt;" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1250" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-37" value="&lt;div&gt;Необходимо получать информацию&amp;nbsp;&lt;/div&gt;&lt;div&gt;от manager если маршрут&lt;/div&gt;&lt;div&gt;&amp;nbsp;не выполним, из-за использования&lt;/div&gt;&lt;div&gt;&amp;nbsp;устройства на этом маршруте,&lt;/div&gt;&lt;div&gt;&amp;nbsp;чтобы переопределить&lt;/div&gt;&lt;div&gt;&amp;nbsp;маршрут для задачи&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1390" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
