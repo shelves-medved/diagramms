@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="29.0.3" pages="9">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="7953" dy="-610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -13051,7 +13051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="2605" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4019" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13099,6 +13099,9 @@
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-12" value="во всех микросервисах&amp;nbsp;&lt;div&gt;работа ставится&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;на паузу&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="400" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="bQ0wuGDj5htHClgSO6MC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aCQVHeYnRkmXXOkdx4uT-14" target="bQ0wuGDj5htHClgSO6MC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-14" value="во всех микросервисах&lt;div&gt;все работы сбрасываются&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="505" width="170" height="40" as="geometry" />
         </mxCell>
@@ -13108,7 +13111,7 @@
             <mxPoint x="439.40999999999997" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCQVHeYnRkmXXOkdx4uT-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" parent="1" edge="1">
+        <mxCell id="aCQVHeYnRkmXXOkdx4uT-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" parent="1" edge="1" source="bQ0wuGDj5htHClgSO6MC-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1240" y="680" as="sourcePoint" />
             <mxPoint y="680" as="targetPoint" />
@@ -13137,6 +13140,15 @@
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-29" value="в ручном режиме&lt;div&gt;&amp;nbsp;управляли устройствами&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="390" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ0wuGDj5htHClgSO6MC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aCQVHeYnRkmXXOkdx4uT-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="590" />
+              <mxPoint x="290" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-30" value="в ручном режиме не&lt;div&gt;&amp;nbsp;управляли устройствами&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="905" y="505" width="170" height="40" as="geometry" />
@@ -13214,8 +13226,8 @@
         <mxCell id="Rw_EYRBsicRL5hegqyzp-1" value="Нажали кнопку &quot;Пауза&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1085" y="190" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rw_EYRBsicRL5hegqyzp-4" value="&lt;div&gt;Паллеты должны находиться на транспортёрах&lt;br&gt;&lt;div&gt;Шаттлы должны находиться на матрикс кодах&lt;/div&gt;&lt;div&gt;Лифты должны находиться на уровнях и быть зафиксированны&lt;/div&gt;&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="790" width="380" height="60" as="geometry" />
+        <mxCell id="Rw_EYRBsicRL5hegqyzp-4" value="&lt;div&gt;Паллеты должны находиться на транспортёрах или в лифтах или в шаттлах&lt;div&gt;Шаттлы должны находиться на матрикс кодах&lt;/div&gt;&lt;div&gt;Лифты должны находиться на уровнях и быть зафиксированны&lt;/div&gt;&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="765" y="790" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-7" value="Все маршруты отменяются&amp;nbsp;" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="484" y="1440" width="180" height="30" as="geometry" />
@@ -13256,8 +13268,8 @@
         <mxCell id="oDz6dN463QDuHpmDB9P7-7" value="Все команды снимаются" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="495" y="805" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oDz6dN463QDuHpmDB9P7-8" value="&lt;div&gt;Делается запрос в редис:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- для определения соответстви&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;положения&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;всех паллет&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;на устройствах в соответстсвии с БД&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- для определения соответствия положения&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;всех устройств в соответствии с БД&lt;/span&gt;&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="1070" width="300" height="90" as="geometry" />
+        <mxCell id="oDz6dN463QDuHpmDB9P7-8" value="&lt;div&gt;Делается запрос в редис(в постгрес при необходимости):&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- для определения соответстви&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;положения&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;всех паллет&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;на устройствах в соответстсвии с БД&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- для определения соответствия положения&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;всех устройств в соответствии с БД&lt;/span&gt;&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1070" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-9" value="&lt;div&gt;Маршруты с активным статусом переопределяются&lt;/div&gt;&lt;div&gt;в зависимости от текущего положения паллета и&lt;/div&gt;&lt;div&gt;отправляются на работу в manager&amp;nbsp;&lt;/div&gt;" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1020" y="1190" width="310" height="60" as="geometry" />
@@ -13295,8 +13307,17 @@
             <mxPoint x="1241" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zdn3wWKXgLGQfhFn-hb1-1" value="&lt;div&gt;При запуске микросервиса происходит&amp;nbsp;&lt;/div&gt;&lt;div&gt;проверка активных маршрутов&amp;nbsp;&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Zdn3wWKXgLGQfhFn-hb1-1" value="&lt;div&gt;При запуске микросервиса происходит&amp;nbsp;&lt;/div&gt;&lt;div&gt;проверка активных маршрутов&amp;nbsp;&lt;/div&gt;" style="rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1022.5" y="1280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ0wuGDj5htHClgSO6MC-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" edge="1" parent="1" target="bQ0wuGDj5htHClgSO6MC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="680" as="sourcePoint" />
+            <mxPoint y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQ0wuGDj5htHClgSO6MC-3" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="665" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
