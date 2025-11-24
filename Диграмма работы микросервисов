@@ -13051,7 +13051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="2446" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3080" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13207,10 +13207,10 @@
         <mxCell id="AJUmQ63MK08vX5eRXt_3-19" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Все шаги отменяются" vertex="1">
           <mxGeometry height="30" width="140" x="505" y="920" as="geometry" />
         </mxCell>
-        <mxCell id="AJUmQ63MK08vX5eRXt_3-25" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" vertex="1">
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-25" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="485" y="1100" as="geometry" />
         </mxCell>
-        <mxCell id="AJUmQ63MK08vX5eRXt_3-35" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" vertex="1">
+        <mxCell id="AJUmQ63MK08vX5eRXt_3-35" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Новые задачи принимаются&lt;/div&gt;&lt;div&gt;от WMS но&lt;br&gt;&amp;nbsp;не отправляются на выполнение&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="195" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="AJUmQ63MK08vX5eRXt_3-38" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Перенёс всю информацию из карточек Кайтена, что обсуждали по ручному режиму:&lt;br&gt;УСТАРЕВШАЯ ИНФА&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;br&gt;1.Будет режим остановки из которого будет два выхода: ручной режим и продолжение автоматического режима&lt;/p&gt;&lt;p&gt;1.1 Выход в ручной режим:&lt;/p&gt;&lt;p&gt;Если в процессе ручного режима было передвижение любого устройство (задействовано)&lt;br&gt;то по выключению ручного режима все маршртуты принудительно завершаются, а задачи которые были в работе переходят в статус ожидания, и после запуска автоматического режима будет перезапуск ожидающих задач.&lt;/p&gt;&lt;p&gt;Иначе пункт 1.2&lt;/p&gt;&lt;p&gt;1.2 Проложение работы автоматического режима без сбрасывания задач и маршрутов&lt;br&gt;2. Запуск ручного режима без предварительной остановки: подразумевается остановка выполнения новых задач и завершение текущих задач и маршрутов&lt;/p&gt;&lt;p&gt;Комментарии:&lt;/p&gt;&lt;p&gt;- взаимодействие с вмс при паузе?&lt;/p&gt;&lt;p&gt;- сервисный режим нужен нам на пнр, остальные сценарии через грибок&lt;/p&gt;&lt;p&gt;- Ролевая модель - админ \ оператор&lt;/p&gt;&lt;p&gt;- сервисный инженер?&lt;/p&gt;&lt;p&gt;- нужна ли кнопка остановки\паузы?&lt;/p&gt;&lt;p&gt;- аварийная кнопка == обесточивание склада&lt;/p&gt;&lt;p&gt;- ручной режим == сервисный режим == аварийный режим =&amp;gt; заврешать маршруты не надо&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
@@ -13227,7 +13227,7 @@
           <mxGeometry height="30" width="150" x="1085" y="190" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-4" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Паллеты должны находиться на транспортёрах или в лифтах или в шаттлах&lt;div&gt;Шаттлы должны находиться на матрикс кодах&lt;/div&gt;&lt;div&gt;Лифты должны находиться на уровнях и быть зафиксированны&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="450" x="765" y="790" as="geometry" />
+          <mxGeometry height="60" width="450" x="775" y="790" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-7" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;gradientColor=#97d077;" value="Все маршруты отменяются&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="180" x="484" y="1440" as="geometry" />
@@ -13241,11 +13241,11 @@
         <mxCell id="Rw_EYRBsicRL5hegqyzp-11" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Все маршруты отменяются&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="180" x="490" y="1560" as="geometry" />
         </mxCell>
-        <mxCell id="Rw_EYRBsicRL5hegqyzp-12" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Маршруты встают на паузу&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="204" y="1440" as="geometry" />
+        <mxCell id="Rw_EYRBsicRL5hegqyzp-12" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Маршруты встают на паузу&lt;br&gt;Ожидается получение&amp;nbsp;&lt;div&gt;выполненного шага&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="204" y="1425" as="geometry" />
         </mxCell>
-        <mxCell id="Rw_EYRBsicRL5hegqyzp-14" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Маршруты встают на паузу" vertex="1">
-          <mxGeometry height="30" width="180" x="210" y="1560" as="geometry" />
+        <mxCell id="Rw_EYRBsicRL5hegqyzp-14" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Маршруты встают на паузу&lt;br&gt;Действий не требуется" vertex="1">
+          <mxGeometry height="40" width="180" x="210" y="1555" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" value="Условия, при которых&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;можно вернуться&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;в автоматический режим&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="390" x="790" y="685" as="geometry" />
@@ -13260,7 +13260,7 @@
           <mxGeometry height="30" width="150" x="925" y="920" as="geometry" />
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-5" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Действий не требуется" vertex="1">
-          <mxGeometry height="30" width="150" x="931.5" y="1445" as="geometry" />
+          <mxGeometry height="30" width="150" x="1060" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-6" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Действий не требуется" vertex="1">
           <mxGeometry height="30" width="150" x="932.5" y="1560" as="geometry" />
@@ -13283,7 +13283,7 @@
         <mxCell id="oDz6dN463QDuHpmDB9P7-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1000" y="1000" as="sourcePoint" />
-            <mxPoint x="1000" y="1400" as="targetPoint" />
+            <mxPoint x="1000" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" value="">
@@ -13318,6 +13318,12 @@
         </mxCell>
         <mxCell id="bQ0wuGDj5htHClgSO6MC-3" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;autosize=1;" value="" vertex="1">
           <mxGeometry height="20" width="20" x="560" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="z652Go-HNQ4klQfrpYbq-1" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Действий не требуется" vertex="1">
+          <mxGeometry height="30" width="150" x="782.5" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="z652Go-HNQ4klQfrpYbq-2" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Запусктить фоновые&lt;div&gt;задачи&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="792.5" y="1435" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
