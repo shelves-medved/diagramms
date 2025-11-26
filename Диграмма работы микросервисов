@@ -9565,7 +9565,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="1846" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2540" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13048,10 +13048,10 @@
           <mxGeometry height="22.55" width="173.5" x="410" y="3258.63" as="geometry" />
         </mxCell>
         <mxCell id="yyesx1VlZLyZbvFp80Az-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;fontSize=10;" value="В поле отображается одно из написанных&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;состояний платформы:&lt;br&gt;&lt;/span&gt;&lt;span&gt;- Перемещение по оси X, платформа поднята&amp;nbsp;&lt;/span&gt;&lt;div&gt;- Перемещение по оси X, платформа&amp;nbsp;опущена&amp;nbsp;&lt;br&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Перемещение по оси Y&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Смена положения&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- Положение платформы не определено&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="131.27" width="260.63" x="620" y="3203.63" as="geometry" />
+          <mxGeometry height="131.27" width="260.63" x="-82.82000000000005" y="3188.73" as="geometry" />
         </mxCell>
         <mxCell id="yyesx1VlZLyZbvFp80Az-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Текущее положение платформы:&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="411.5" y="3228.63" as="geometry" />
+          <mxGeometry height="21.37" width="180" x="411.5" y="3237.26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
