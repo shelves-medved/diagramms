@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="3238" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2950" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13374,7 +13374,7 @@
         <mxCell id="SU_eAenX6L9xWFCvZUk4-7" edge="1" parent="1" source="SU_eAenX6L9xWFCvZUk4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SU_eAenX6L9xWFCvZUk4-8" connectable="0" parent="SU_eAenX6L9xWFCvZUk4-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.3 / 2.4 Как только получает&lt;div&gt;информацию о том,&lt;/div&gt;&lt;div&gt;что сброс состояний или переход в ручное управление&lt;/div&gt;&lt;div&gt;обновляет поле в БД&lt;br&gt;переводя систему в&lt;/div&gt;&lt;div&gt;ручной режим&lt;/div&gt;" vertex="1">
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-8" connectable="0" parent="SU_eAenX6L9xWFCvZUk4-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.3 Как только получает&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;информацию о том,&lt;/span&gt;&lt;div&gt;что сброс состояний, выполняет сброс состояний и&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;обновляет поле в БД,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;переводя систему в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ручной режим&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.009" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -13385,6 +13385,19 @@
         <mxCell id="SU_eAenX6L9xWFCvZUk4-14" connectable="0" parent="SU_eAenX6L9xWFCvZUk4-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.4 / 2.5 Как только в БД поисходит&lt;div&gt;переход в ручной режим&lt;/div&gt;&lt;div&gt;отправляет сообщение в&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1457" y="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-75" edge="1" parent="1" source="SU_eAenX6L9xWFCvZUk4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-740" y="815" />
+              <mxPoint x="-740" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-76" connectable="0" parent="SU_eAenX6L9xWFCvZUk4-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.4 Как только получает&lt;div&gt;информацию о том,&lt;/div&gt;&lt;div&gt;что переход в ручное управление&lt;/div&gt;&lt;div&gt;обновляет поле в БД&lt;br&gt;переводя систему в&lt;/div&gt;&lt;div&gt;ручной режим&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2125" as="geometry">
+            <mxPoint x="10" y="-38" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SU_eAenX6L9xWFCvZUk4-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-INVENT" vertex="1">
@@ -13474,11 +13487,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SU_eAenX6L9xWFCvZUk4-73" edge="1" parent="1" source="SU_eAenX6L9xWFCvZUk4-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-3">
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-73" edge="1" parent="1" source="SU_eAenX6L9xWFCvZUk4-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SU_eAenX6L9xWFCvZUk4-68" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="topic queue:&lt;div&gt;br-monitor.manual=&amp;nbsp;&lt;/div&gt;&lt;div&gt;True / False&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="175" x="-760" y="770" as="geometry" />
+          <mxGeometry height="90" width="175" x="-770" y="805" as="geometry" />
         </mxCell>
         <mxCell id="SU_eAenX6L9xWFCvZUk4-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм взаимотейсвия микросервисов при нажатии на аварийную кнопку или переходе в ручной режим" vertex="1">
           <mxGeometry height="40" width="427.5" x="-1158.75" y="505" as="geometry" />
