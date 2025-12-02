@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="1904" dy="136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2950" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13495,6 +13495,9 @@
         </mxCell>
         <mxCell id="SU_eAenX6L9xWFCvZUk4-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм взаимотейсвия микросервисов при нажатии на аварийную кнопку или переходе в ручной режим" vertex="1">
           <mxGeometry height="40" width="427.5" x="-1158.75" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если сообщение пришло, но в БД в ручной режим не перешло, то логируем&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="-1032.5" y="1095" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
