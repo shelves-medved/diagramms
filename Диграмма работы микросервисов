@@ -13496,8 +13496,8 @@
         <mxCell id="SU_eAenX6L9xWFCvZUk4-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм взаимотейсвия микросервисов при нажатии на аварийную кнопку или переходе в ручной режим" vertex="1">
           <mxGeometry height="40" width="427.5" x="-1158.75" y="505" as="geometry" />
         </mxCell>
-        <mxCell id="SU_eAenX6L9xWFCvZUk4-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если сообщение пришло, но в БД в ручной режим не перешло, то логируем&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="160" x="-1032.5" y="1095" as="geometry" />
+        <mxCell id="SU_eAenX6L9xWFCvZUk4-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если сообщение пришло, но в БД в ручной режим не перешло или не вышел из ручного режима, то логируем ошибочную отправку&lt;div&gt;сообщения&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="160" x="-1032.5" y="1095" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
