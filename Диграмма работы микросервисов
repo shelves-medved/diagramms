@@ -15575,9 +15575,6 @@
         <mxCell id="bXo0VS4utm-l9n1bMoiK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="формируется маршрут" vertex="1">
           <mxGeometry height="60" width="120" x="905" y="545" as="geometry" />
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="210.00000000000006" y="380" as="geometry" />
-        </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-5" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -15588,9 +15585,6 @@
         </mxCell>
         <mxCell id="bXo0VS4utm-l9n1bMoiK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Обрабока валидация задач" vertex="1">
           <mxGeometry height="60" width="120" x="900" y="10" as="geometry" />
-        </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="invent получил список" vertex="1">
-          <mxGeometry height="30" width="232.05" x="150.00000000000006" y="130" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Таблица Tasks" vertex="1">
           <mxGeometry height="90" width="100" x="670" y="260" as="geometry" />
