@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6" pages="10">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="7953" dy="-610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -15536,36 +15536,153 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="1295" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1928" dy="2202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="424.95000000000005" y="230" as="geometry" />
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-8" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="287" y="230" as="geometry" />
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-9" connectable="0" parent="WIkuEIzYQRt9I30CO_2T-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Обновляется&amp;nbsp;&lt;div&gt;статус задачи&lt;/div&gt;&lt;div&gt;IN_PROGRESS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1508" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="850" y="460" as="geometry" />
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-4" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-5" connectable="0" parent="zkoP4miF4ixEhsYGBC0F-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Создаётся&amp;nbsp;&lt;div&gt;запись маршрута&lt;br&gt;со статусом&lt;/div&gt;&lt;div&gt;CREATED&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0494" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-2" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OBin67cKp0RcTX8HoMRJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-3" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Сообщается в&amp;nbsp;&lt;br&gt;manager, маршрут" vertex="1">
+          <mxGeometry relative="1" x="0.0435" y="2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-14" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="OBin67cKp0RcTX8HoMRJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-17" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Переходит в ожидание&lt;div&gt;статуса по задаче&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1272" y="1" as="geometry">
+            <mxPoint x="-9" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXo0VS4utm-l9n1bMoiK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="формируется маршрут" vertex="1">
+          <mxGeometry height="60" width="120" x="905" y="545" as="geometry" />
         </mxCell>
         <mxCell id="bXo0VS4utm-l9n1bMoiK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="210.00000000000006" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="получен список задач на выгрузку" vertex="1">
-          <mxGeometry height="60" width="120" x="1121" y="70" as="geometry" />
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-5" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="270" y="310" as="sourcePoint" />
-            <mxPoint x="950" y="310" as="targetPoint" />
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-3" connectable="0" parent="WIkuEIzYQRt9I30CO_2T-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Задачи по очереди&amp;nbsp;&lt;div&gt;добавляются в очередь&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2056" y="-4" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bXo0VS4utm-l9n1bMoiK-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="invent получил список" vertex="1">
-          <mxGeometry height="30" width="232.05" x="500.00000000000006" y="320" as="geometry" />
+        <mxCell id="bXo0VS4utm-l9n1bMoiK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Обрабока валидация задач" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="Qwy_lWNnQ-Oihb6b4NY9-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="1350" y="220" as="geometry" />
+        <mxCell id="bXo0VS4utm-l9n1bMoiK-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="invent получил список" vertex="1">
+          <mxGeometry height="30" width="232.05" x="150.00000000000006" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Таблица Tasks" vertex="1">
+          <mxGeometry height="90" width="100" x="670" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-6" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bXo0VS4utm-l9n1bMoiK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-9" connectable="0" parent="WIkuEIzYQRt9I30CO_2T-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Задача выполняется" vertex="1">
+          <mxGeometry relative="1" x="-0.0984" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-3" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="Очередь внутри микросервиса&lt;br&gt;сюда разными запросами могут добавляться задачи" vertex="1">
+          <mxGeometry height="150" width="190" x="870" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-4" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-7" connectable="0" parent="WIkuEIzYQRt9I30CO_2T-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Созданы задачи со статусом PENDING&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0448" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIkuEIzYQRt9I30CO_2T-10" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Таблица Tracks" vertex="1">
+          <mxGeometry height="90" width="100" x="620" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="bXo0VS4utm-l9n1bMoiK-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="962" y="-140" as="sourcePoint" />
+            <mxPoint x="958" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-2" connectable="0" parent="zkoP4miF4ixEhsYGBC0F-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;получен HTTP список задач на выгрузку&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2161" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-7" edge="1" parent="1" source="WIkuEIzYQRt9I30CO_2T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bXo0VS4utm-l9n1bMoiK-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="290" as="sourcePoint" />
+            <mxPoint x="965" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkoP4miF4ixEhsYGBC0F-8" connectable="0" parent="zkoP4miF4ixEhsYGBC0F-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;задача&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;берётся&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;в работу&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1256" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXo0VS4utm-l9n1bMoiK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если режим склада автоматический, то продолжаем иначе пауза" vertex="1">
+          <mxGeometry height="60" width="120" x="905" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-invent.track&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="205" x="1170" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-13" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если получен, то можно из очереди взять следующую задачу" vertex="1">
+          <mxGeometry height="60" width="120" x="1140" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-11" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OBin67cKp0RcTX8HoMRJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-12" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="статус маршрута&lt;div&gt;PROCESSED&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2353" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-manager.track_status&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="1375" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-7" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bXo0VS4utm-l9n1bMoiK-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1375" y="575" as="sourcePoint" />
+            <mxPoint x="1490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-8" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OBin67cKp0RcTX8HoMRJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-9" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0328" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-10" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Меняет статусы маршрута&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.044" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXo0VS4utm-l9n1bMoiK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="br-manager&lt;div&gt;он берёт в работу столько марштуров сколько может и отправляет статусы&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="1410" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
