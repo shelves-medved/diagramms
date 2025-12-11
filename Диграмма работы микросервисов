@@ -13631,7 +13631,7 @@
             <mxPoint x="22" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-49" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="topic queue:&lt;div&gt;br-invent.mismatch_restore=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;сообщение&amp;nbsp;&lt;/div&gt;&lt;div&gt;о несостыковках&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="JABKz9dvm_IEtt6UAQoE-49" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-invent.mismatch_restore=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;сообщение&amp;nbsp;&lt;/div&gt;&lt;div&gt;о несостыковках&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="115" width="204.55" x="-629.3299999999999" y="1850" as="geometry" />
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм взаимотейсвия микросервисов при нажатии на аварийную кнопку или управлении устройствами в ручном режиме" vertex="1">
