@@ -15681,7 +15681,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="3532" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5752" dy="3364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15718,7 +15718,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bXo0VS4utm-l9n1bMoiK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="формируется маршрут" vertex="1">
-          <mxGeometry height="60" width="120" x="905" y="545" as="geometry" />
+          <mxGeometry height="60" width="120" x="695" y="-45" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-5" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-3">
           <mxGeometry relative="1" as="geometry" />
@@ -15732,13 +15732,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bXo0VS4utm-l9n1bMoiK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Обрабока валидация задач" vertex="1">
-          <mxGeometry height="60" width="120" x="905" y="-70" as="geometry" />
+          <mxGeometry height="60" width="120" x="695" y="-660" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Таблица Tasks" vertex="1">
-          <mxGeometry height="90" width="100" x="670" y="260" as="geometry" />
+          <mxGeometry height="90" width="100" x="460" y="-330" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-3" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="Очередь на выгрузку внутри микросервиса&lt;br&gt;сюда разными запросами могут добавляться задачи" vertex="1">
-          <mxGeometry height="185" width="190" x="770" y="40" as="geometry" />
+          <mxGeometry height="185" width="190" x="560" y="-550" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-4" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-1">
           <mxGeometry relative="1" as="geometry" />
@@ -15749,12 +15749,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-10" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Таблица Tracks" vertex="1">
-          <mxGeometry height="90" width="100" x="620" y="540" as="geometry" />
+          <mxGeometry height="90" width="100" x="410" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="zkoP4miF4ixEhsYGBC0F-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="bXo0VS4utm-l9n1bMoiK-5" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="967" y="-220" as="sourcePoint" />
-            <mxPoint x="963" y="-100" as="targetPoint" />
+            <mxPoint x="757" y="-810" as="sourcePoint" />
+            <mxPoint x="753" y="-690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkoP4miF4ixEhsYGBC0F-2" connectable="0" parent="zkoP4miF4ixEhsYGBC0F-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;получен HTTP список задач на выгрузку&lt;/span&gt;" vertex="1">
@@ -15764,8 +15764,8 @@
         </mxCell>
         <mxCell id="zkoP4miF4ixEhsYGBC0F-7" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bXo0VS4utm-l9n1bMoiK-1" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="965" y="290" as="sourcePoint" />
-            <mxPoint x="965" y="370" as="targetPoint" />
+            <mxPoint x="755" y="-300" as="sourcePoint" />
+            <mxPoint x="755" y="-220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkoP4miF4ixEhsYGBC0F-8" connectable="0" parent="zkoP4miF4ixEhsYGBC0F-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;задача&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;берётся&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;в работу&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -15774,7 +15774,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-invent.track&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1387.5" y="545" as="geometry" />
+          <mxGeometry height="80" width="205" x="1177.5" y="-45" as="geometry" />
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-13" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-4">
           <mxGeometry relative="1" as="geometry" />
@@ -15788,7 +15788,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если получен, то можно из очереди взять следующую задачу" vertex="1">
-          <mxGeometry height="60" width="120" x="1140" y="215" as="geometry" />
+          <mxGeometry height="60" width="120" x="930" y="-375" as="geometry" />
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-11" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OBin67cKp0RcTX8HoMRJ-4">
           <mxGeometry relative="1" as="geometry" />
@@ -15799,12 +15799,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-manager.track_status&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="250" x="1375" y="200" as="geometry" />
+          <mxGeometry height="80" width="250" x="1165" y="-390" as="geometry" />
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-7" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bXo0VS4utm-l9n1bMoiK-3" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1375" y="575" as="sourcePoint" />
-            <mxPoint x="1490" y="470" as="targetPoint" />
+            <mxPoint x="1165" y="-15" as="sourcePoint" />
+            <mxPoint x="1280" y="-120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-8" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OBin67cKp0RcTX8HoMRJ-5">
@@ -15821,30 +15821,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bXo0VS4utm-l9n1bMoiK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="br-manager&lt;div&gt;он берёт в работу столько марштуров сколько может и отправляет статусы&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" x="1410" y="380" as="geometry" />
+          <mxGeometry height="100" width="160" x="1200" y="-210" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Таблица Tracks" vertex="1">
-          <mxGeometry height="90" width="100" x="1230" y="30" as="geometry" />
+          <mxGeometry height="90" width="100" x="1020" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-8" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="WIkuEIzYQRt9I30CO_2T-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если режим склада автоматический, то продолжаем иначе пауза" vertex="1">
-          <mxGeometry height="60" width="120" x="940" y="260" as="geometry" />
+          <mxGeometry height="60" width="120" x="730" y="-330" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-7" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="rhVtlwSKPsiSCHslM675-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="первый запуск, запускается обработчик задач на выгрузку" vertex="1">
-          <mxGeometry height="60" width="120" x="1050" y="20" as="geometry" />
+          <mxGeometry height="60" width="120" x="840" y="-570" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Система переводится в ручной режим" vertex="1">
-          <mxGeometry height="60" width="120" x="-660" y="30" as="geometry" />
+          <mxGeometry height="60" width="120" x="-870" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-10" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="952" y="850" as="sourcePoint" />
-            <mxPoint x="960" y="760" as="targetPoint" />
+            <mxPoint x="742" y="260" as="sourcePoint" />
+            <mxPoint x="750" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-11" connectable="0" parent="rhVtlwSKPsiSCHslM675-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Отправлен HTTP статус&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;WMS по задаче&lt;br&gt;IN_PROGRESS&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -15869,7 +15869,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-12" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font color=&quot;#a31515&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;exchange &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(248, 248, 248); color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve;&quot;&gt;clear_states_mode&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="260" x="-600" y="-160" as="geometry" />
+          <mxGeometry height="80" width="260" x="-810" y="-750" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-21" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-20">
           <mxGeometry relative="1" as="geometry" />
@@ -15904,16 +15904,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если система была в сбросе состояний, то собирается информация,&lt;br&gt;Предполагается, что все устройства и грузы находятся в стандартных положениях&amp;nbsp;&lt;br&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;ПЛК знает, какие устройства физически заняты&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="170" x="-450" y="30" as="geometry" />
+          <mxGeometry height="150" width="170" x="-660" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-20" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Таблица Tracks" vertex="1">
-          <mxGeometry height="90" width="100" x="-160" y="-250" as="geometry" />
+          <mxGeometry height="90" width="100" x="-370" y="-840" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Redis" vertex="1">
-          <mxGeometry height="90" width="100" x="20" y="160" as="geometry" />
+          <mxGeometry height="90" width="100" x="-190" y="-430" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-26" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Таблица Products" vertex="1">
-          <mxGeometry height="90" width="100" x="-10" y="-180" as="geometry" />
+          <mxGeometry height="90" width="100" x="-220" y="-770" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-44" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-43">
           <mxGeometry relative="1" as="geometry" />
@@ -15924,7 +15924,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-30" parent="1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" value="Количество паллет из маршрутов равно количеству занятых устройств?" vertex="1">
-          <mxGeometry height="160" width="266.66" x="-498.33" y="330" as="geometry" />
+          <mxGeometry height="160" width="266.66" x="-708.3299999999999" y="-260" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-81" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-80">
           <mxGeometry relative="1" as="geometry" />
@@ -15938,12 +15938,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ПЕРЕД выходом из ручного режима заданные маршруты корректируются:" vertex="1">
-          <mxGeometry height="70" width="170" x="-190" y="635" as="geometry" />
+          <mxGeometry height="70" width="170" x="-400" y="45" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1210" y="-480" as="sourcePoint" />
-            <mxPoint x="1370" y="-480" as="targetPoint" />
+            <mxPoint x="1000" y="-1070" as="sourcePoint" />
+            <mxPoint x="1160" y="-1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-55" connectable="0" parent="rhVtlwSKPsiSCHslM675-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CREATED" vertex="1">
@@ -15953,8 +15953,8 @@
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1370" y="-460" as="sourcePoint" />
-            <mxPoint x="1210" y="-460" as="targetPoint" />
+            <mxPoint x="1160" y="-1050" as="sourcePoint" />
+            <mxPoint x="1000" y="-1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-57" connectable="0" parent="rhVtlwSKPsiSCHslM675-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PROCESSED" vertex="1">
@@ -15964,8 +15964,8 @@
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1210" y="-320" as="sourcePoint" />
-            <mxPoint x="1370" y="-320" as="targetPoint" />
+            <mxPoint x="1000" y="-910" as="sourcePoint" />
+            <mxPoint x="1160" y="-910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-59" connectable="0" parent="rhVtlwSKPsiSCHslM675-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CREATED" vertex="1">
@@ -15975,8 +15975,8 @@
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1370" y="-300" as="sourcePoint" />
-            <mxPoint x="1210" y="-300" as="targetPoint" />
+            <mxPoint x="1160" y="-890" as="sourcePoint" />
+            <mxPoint x="1000" y="-890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-61" connectable="0" parent="rhVtlwSKPsiSCHslM675-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PROCESSED" vertex="1">
@@ -15986,8 +15986,8 @@
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1210" y="-400" as="sourcePoint" />
-            <mxPoint x="1370" y="-400" as="targetPoint" />
+            <mxPoint x="1000" y="-990" as="sourcePoint" />
+            <mxPoint x="1160" y="-990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-63" connectable="0" parent="rhVtlwSKPsiSCHslM675-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CREATED" vertex="1">
@@ -15997,8 +15997,8 @@
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1370" y="-380" as="sourcePoint" />
-            <mxPoint x="1210" y="-380" as="targetPoint" />
+            <mxPoint x="1160" y="-970" as="sourcePoint" />
+            <mxPoint x="1000" y="-970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-65" connectable="0" parent="rhVtlwSKPsiSCHslM675-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PROCESSED" vertex="1">
@@ -16007,18 +16007,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 маршрут" vertex="1">
-          <mxGeometry height="30" width="80" x="1250" y="-510" as="geometry" />
+          <mxGeometry height="30" width="80" x="1040" y="-1100" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 маршрут" vertex="1">
-          <mxGeometry height="30" width="80" x="1250" y="-430" as="geometry" />
+          <mxGeometry height="30" width="80" x="1040" y="-1020" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3 маршрут" vertex="1">
-          <mxGeometry height="30" width="80" x="1250" y="-350" as="geometry" />
+          <mxGeometry height="30" width="80" x="1040" y="-940" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-73" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1210" y="-240" as="sourcePoint" />
-            <mxPoint x="1370" y="-240" as="targetPoint" />
+            <mxPoint x="1000" y="-830" as="sourcePoint" />
+            <mxPoint x="1160" y="-830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-74" connectable="0" parent="rhVtlwSKPsiSCHslM675-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CREATED" vertex="1">
@@ -16027,55 +16027,55 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4 маршрут" vertex="1">
-          <mxGeometry height="30" width="80" x="1250" y="-270" as="geometry" />
+          <mxGeometry height="30" width="80" x="1040" y="-860" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="invent" vertex="1">
-          <mxGeometry height="260" width="60" x="1120" y="-490" as="geometry" />
+          <mxGeometry height="260" width="60" x="910" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="manager" vertex="1">
-          <mxGeometry height="260" width="60" x="1390" y="-490" as="geometry" />
+          <mxGeometry height="260" width="60" x="1180" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-80" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Таблица Tracks" vertex="1">
-          <mxGeometry height="90" width="100" x="190" y="545" as="geometry" />
+          <mxGeometry height="90" width="100" x="-20" y="-45" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-84" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Таблица Devices" vertex="1">
-          <mxGeometry height="90" width="100" x="30" y="-30" as="geometry" />
+          <mxGeometry height="90" width="100" x="-180" y="-620" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="задачи должны передаться manager" vertex="1">
-          <mxGeometry height="70" width="170" x="-190" y="780" as="geometry" />
+          <mxGeometry height="70" width="170" x="-400" y="190" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если выгрузка и статус PROCESSED&lt;br&gt;&lt;br&gt;шаттл может ещё ехать к устройству&lt;br&gt;&lt;br&gt;а может уже везти устройство" vertex="1">
-          <mxGeometry height="180" width="80" x="-970" y="350" as="geometry" />
+          <mxGeometry height="180" width="80" x="-1180" y="-240" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если выгрузка и статус CREATED&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;значит ресурсы&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="80" x="-1120" y="350" as="geometry" />
+          <mxGeometry height="130" width="80" x="-1330" y="-240" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если загрузка и статус CREATED&lt;br&gt;&lt;br&gt;Груз уже привязан к устройству&amp;nbsp;" vertex="1">
-          <mxGeometry height="140" width="80" x="-823" y="340" as="geometry" />
+          <mxGeometry height="140" width="80" x="-1033" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если загрузка и статус PROCESSED" vertex="1">
-          <mxGeometry height="75" width="80" x="-680" y="340" as="geometry" />
+          <mxGeometry height="75" width="80" x="-890" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="занятость - это логический бит&lt;div&gt;нужно нажимать кнопку квитирования&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="130" x="-209.99999999999994" y="200" as="geometry" />
+          <mxGeometry height="100" width="130" x="-419.99999999999994" y="-390" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка&lt;div&gt;количество занятых нод ДО&amp;nbsp;&lt;div&gt;равно&lt;/div&gt;&lt;div&gt;количеству паллет занятых ПОСЛЕ&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="250" x="-930" y="-130" as="geometry" />
+          <mxGeometry height="60" width="250" x="-1140" y="-720" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка&lt;div&gt;количество занятых нод + количество паллет приаязаных к устройствам ДО&amp;nbsp;&lt;div&gt;равно&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;количество занятых нод + количество паллет приаязаных к устройствам&lt;/span&gt;х ПОСЛЕ&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="95" width="250" x="-930" y="-5" as="geometry" />
+          <mxGeometry height="95" width="250" x="-1140" y="-595" as="geometry" />
         </mxCell>
         <mxCell id="Ju98Whc0KRSFYvynjdHw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если груз ещё не взяли, то нужно просто пересоздать&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="60" x="-970" y="575" as="geometry" />
+          <mxGeometry height="30" width="60" x="-1180" y="-15" as="geometry" />
         </mxCell>
         <mxCell id="Ju98Whc0KRSFYvynjdHw-3" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-30" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-365" y="140" as="sourcePoint" />
-            <mxPoint x="-365" y="225" as="targetPoint" />
+            <mxPoint x="-575" y="-450" as="sourcePoint" />
+            <mxPoint x="-575" y="-365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kZg3FzJYySSkpN_qs1sr-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="подумать как правильно&amp;nbsp; оформить очередь чтобы было удобно выходить после нажания кнопки квитирования" vertex="1">
-          <mxGeometry height="60" width="170" x="-550" y="-240" as="geometry" />
+          <mxGeometry height="60" width="170" x="-760" y="-830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
