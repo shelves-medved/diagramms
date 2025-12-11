@@ -15536,7 +15536,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="3349" dy="2520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2552" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15567,7 +15567,7 @@
         <mxCell id="OBin67cKp0RcTX8HoMRJ-14" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="OBin67cKp0RcTX8HoMRJ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OBin67cKp0RcTX8HoMRJ-17" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Переходит в ожидание&lt;div&gt;статуса по задаче&lt;/div&gt;" vertex="1">
+        <mxCell id="OBin67cKp0RcTX8HoMRJ-17" connectable="0" parent="OBin67cKp0RcTX8HoMRJ-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Переходит в ожидание&lt;div&gt;статуса по маршруту&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1272" y="1" as="geometry">
             <mxPoint x="-9" y="-14" as="offset" />
           </mxGeometry>
@@ -15629,7 +15629,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-invent.track&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1170" y="535" as="geometry" />
+          <mxGeometry height="80" width="205" x="1387.5" y="545" as="geometry" />
         </mxCell>
         <mxCell id="OBin67cKp0RcTX8HoMRJ-13" edge="1" parent="1" source="OBin67cKp0RcTX8HoMRJ-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-4">
           <mxGeometry relative="1" as="geometry" />
@@ -15702,7 +15702,7 @@
             <mxPoint x="960" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhVtlwSKPsiSCHslM675-11" connectable="0" parent="rhVtlwSKPsiSCHslM675-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Отправлен статус&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;WMS по задаче&lt;br&gt;IN_PROGRESS&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="rhVtlwSKPsiSCHslM675-11" connectable="0" parent="rhVtlwSKPsiSCHslM675-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Отправлен HTTP статус&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;WMS по задаче&lt;br&gt;IN_PROGRESS&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
