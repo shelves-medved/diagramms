@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="4409" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4822" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13458,8 +13458,8 @@
         <mxCell id="Kucx5MXmsASMKDokiP1C-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;СТАРЫЕ КОММЕНТАРИИ&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;если ручной режим не включен, то ручки ручного режима не работают&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0.14994px; background-color: rgb(245, 245, 245);&quot;&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;в БД есть поле которое меняется, когда вкючается ручной режим&lt;br&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;при включении ручного режима:&lt;br&gt;отправляется в отдельну очередь данные , которую слушает инвент&lt;/p&gt;&lt;p&gt;он переключает в БД данные о ручном режиме,&lt;/p&gt;&lt;p&gt;и записывает данные в фаноут, которую слушает монитор&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;при инициализации проверяется БД на состояние ручного режима&lt;/p&gt;&lt;p&gt;и активируется event&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;как только получаем из очереди информацию, то проверяется БД&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;при инициализации инвента проверяется нажата ли аварийная кнопка (в статусах System) или какая-либо ошибка(потеря связи)&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="320" width="600" x="-1500" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="N_yLzmvzfIeBzHH2U6u5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="что если нажали ручной режим, а потом украли паллет?" vertex="1">
-          <mxGeometry height="90" width="160" x="-290" y="720" as="geometry" />
+        <mxCell id="N_yLzmvzfIeBzHH2U6u5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="что если нажали ручной режим, а потом украли паллет?&lt;br&gt;Возможно имеет смысл перенести эту логику на выход именно из ручного режима" vertex="1">
+          <mxGeometry height="110" width="190" x="-1260" y="1290" as="geometry" />
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-9" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JABKz9dvm_IEtt6UAQoE-17">
           <mxGeometry relative="1" as="geometry" />
