@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="4120" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3847" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13544,7 +13544,7 @@
         <mxCell id="JABKz9dvm_IEtt6UAQoE-28" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JABKz9dvm_IEtt6UAQoE-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-29" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="JABKz9dvm_IEtt6UAQoE-29" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении &quot;manual&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2467" y="2" as="geometry">
             <mxPoint x="30" y="-2" as="offset" />
           </mxGeometry>
@@ -13554,7 +13554,7 @@
             <mxPoint x="-725.0008821524318" y="2104.4120498381503" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-31" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="JABKz9dvm_IEtt6UAQoE-31" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении &quot;manual&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1018" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -13567,7 +13567,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-33" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="JABKz9dvm_IEtt6UAQoE-33" connectable="0" parent="JABKz9dvm_IEtt6UAQoE-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении &quot;manual&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1608" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
