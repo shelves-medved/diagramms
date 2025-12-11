@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="4120" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4409" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13496,6 +13496,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="un9D_1jwFfhpPaQlvY9N-5" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JABKz9dvm_IEtt6UAQoE-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-940" y="2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="un9D_1jwFfhpPaQlvY9N-6" connectable="0" parent="un9D_1jwFfhpPaQlvY9N-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 получает&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;clear&quot;&amp;nbsp;&lt;/span&gt;&lt;div&gt;отображает состояние склада&lt;br&gt;&lt;div&gt;или&amp;nbsp;&lt;/div&gt;&lt;div&gt;12 получает &quot;restore&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;то просто находится в&amp;nbsp;&lt;/div&gt;&lt;div&gt;ручном режиме&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5619" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-17" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="fanout exchange:&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;warehouse_recovery&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;clear&quot; / &quot;restore&quot;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="205" x="-1320" y="1870" as="geometry" />
         </mxCell>
@@ -13561,7 +13573,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-34" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="fanout exchange:&lt;div&gt;warehouse_mode =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="175" x="-900" y="2025" as="geometry" />
+          <mxGeometry height="90" width="175" x="-900" y="2076" as="geometry" />
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-35" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION&lt;br&gt;BR-MANAGER&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-1280" y="2091" as="geometry" />
@@ -13636,6 +13648,17 @@
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-invent.warehouse_restore&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;ok&quot; / &quot;error&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="220" x="-1410" y="1575" as="geometry" />
+        </mxCell>
+        <mxCell id="un9D_1jwFfhpPaQlvY9N-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="JABKz9dvm_IEtt6UAQoE-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1850" y="1980" as="sourcePoint" />
+            <mxPoint x="-1450" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="un9D_1jwFfhpPaQlvY9N-8" connectable="0" parent="un9D_1jwFfhpPaQlvY9N-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 система воcстановлена&lt;div&gt;нажали кнопку квитирования&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2161" as="geometry">
+            <mxPoint x="-6" y="13" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
