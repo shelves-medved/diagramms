@@ -13641,11 +13641,16 @@
           <mxGeometry height="70" width="120" x="-3080" y="970" as="geometry" />
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-18" edge="1" parent="1" source="wuCLzMsQfik0RW3Rpw4H-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wuCLzMsQfik0RW3Rpw4H-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2270" y="1011" />
+              <mxPoint x="-2270" y="1146" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-19" connectable="0" parent="wuCLzMsQfik0RW3Rpw4H-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Сообщает, что система&lt;div&gt;перешла в ручной режим&lt;br&gt;(можно управлять)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-20" edge="1" parent="1" source="wuCLzMsQfik0RW3Rpw4H-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wuCLzMsQfik0RW3Rpw4H-29">
@@ -13662,8 +13667,8 @@
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-23" edge="1" parent="1" source="wuCLzMsQfik0RW3Rpw4H-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wuCLzMsQfik0RW3Rpw4H-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2247.05" y="1146" />
-              <mxPoint x="-2247.05" y="1011" />
+              <mxPoint x="-2417" y="1080" />
+              <mxPoint x="-2417" y="1080" />
             </Array>
           </mxGeometry>
         </mxCell>
