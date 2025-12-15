@@ -15942,12 +15942,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="6040" dy="2632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3790" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dtGHKJ6k2aWnKgivbOA5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=none;dashed=1;dashPattern=12 12;" value="" vertex="1">
-          <mxGeometry height="1740" width="2380" x="-2580" y="-870" as="geometry" />
+          <mxGeometry height="2330" width="2380" x="-2580" y="-870" as="geometry" />
         </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-8" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-1">
           <mxGeometry relative="1" as="geometry" />
@@ -16566,8 +16566,16 @@
         <mxCell id="bDrIMrGfJAby6A9qEC-5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Для каждого отдельного маршрута может существовать следующая ситуация&amp;nbsp;" vertex="1">
           <mxGeometry height="150" width="170" x="-1440" y="-338.57" as="geometry" />
         </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-39" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1685" y="960" />
+              <mxPoint x="-1807" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-12" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Сформировать маршрут заного.&lt;br&gt;стартовый узел - это узел устройства&lt;br&gt;остальное без изменений" vertex="1">
-          <mxGeometry height="85" width="150" x="-1760" y="785" as="geometry" />
+          <mxGeometry height="85" width="150" x="-1760" y="800" as="geometry" />
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-18" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-12">
           <mxGeometry relative="1" as="geometry" />
@@ -16590,11 +16598,27 @@
         <mxCell id="bDrIMrGfJAby6A9qEC-5-14" parent="1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" value="Груз, по данным из БД,&amp;nbsp;&lt;div&gt;находится на текущем устройстве,&amp;nbsp;&lt;/div&gt;&lt;div&gt;и это устройство занято&amp;nbsp;&lt;/div&gt;&lt;div&gt;в соответстсвии с данными из Redis?&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="316.66" x="-2114.16" y="560" as="geometry" />
         </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-38" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2200" y="960" />
+              <mxPoint x="-1807" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Сформировать сообщение для отправки в очередь&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="-2260" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-40" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1460" y="960" />
+              <mxPoint x="-1807" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Сформировать маршрут заного.&lt;br&gt;Данные маршрута те же" vertex="1">
-          <mxGeometry height="60" width="120" x="-1520" y="785" as="geometry" />
+          <mxGeometry height="60" width="120" x="-1520" y="800" as="geometry" />
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-26" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-14">
           <mxGeometry relative="1" as="geometry">
@@ -16619,6 +16643,15 @@
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-23" parent="1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" value="У груза, по данным из БД,&amp;nbsp;&lt;div&gt;совпадает узел со&amp;nbsp;&lt;/div&gt;&lt;div&gt;стартовым узлом маршрута?&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="233.33" x="-1866.67" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-37" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Сбор всех заного сформированных маршрутов" vertex="1">
+          <mxGeometry height="60" width="120" x="-1866.67" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-42" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-41" parent="1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" value="Все маршруты корректно сформировались" vertex="1">
+          <mxGeometry height="120" width="200" x="-1906.67" y="1110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
