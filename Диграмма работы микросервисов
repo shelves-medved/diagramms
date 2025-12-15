@@ -15934,10 +15934,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="3293" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3906" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dtGHKJ6k2aWnKgivbOA5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=none;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="1310" width="1120" x="-1320" y="-870" as="geometry" />
+        </mxCell>
         <mxCell id="WIkuEIzYQRt9I30CO_2T-8" edge="1" parent="1" source="bXo0VS4utm-l9n1bMoiK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WIkuEIzYQRt9I30CO_2T-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -16102,16 +16105,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhVtlwSKPsiSCHslM675-16" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rhVtlwSKPsiSCHslM675-17" connectable="0" parent="rhVtlwSKPsiSCHslM675-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="тела сообщения нет,&lt;div&gt;само сообщение триггер&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0262" y="2" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="rhVtlwSKPsiSCHslM675-16" edge="1" parent="1" source="O1R6svsaSYyMjMnYbZkz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-578.3299999999999" y="-670" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhVtlwSKPsiSCHslM675-12" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;br-plc.warehouse_restore&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="260" x="-708.3299999999999" y="-750" as="geometry" />
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-10" connectable="0" parent="rhVtlwSKPsiSCHslM675-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&quot;ok&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.131" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-21" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-20">
           <mxGeometry relative="1" as="geometry" />
@@ -16145,17 +16147,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhVtlwSKPsiSCHslM675-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Если система была в сбросе состояний, то собирается информация,&lt;br&gt;Предполагается, что все устройства и грузы находятся в стандартных положениях&amp;nbsp;&lt;br&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;ПЛК знает, какие устройства физически заняты&lt;/div&gt;" vertex="1">
+        <mxCell id="rhVtlwSKPsiSCHslM675-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cобирается информация&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;об&amp;nbsp;&lt;/span&gt;&lt;div&gt;грузах, устройствах и их положениях&lt;/div&gt;Предполагается, что все устройства и грузы находятся в стандартных положениях&amp;nbsp;&lt;br&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;ПЛК знает, какие устройства физически заняты&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="170" x="-660" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-20" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Таблица Tracks" vertex="1">
-          <mxGeometry height="90" width="100" x="-200" y="-703.5699999999999" as="geometry" />
+          <mxGeometry height="90" width="100" x="-190" y="-703.5699999999999" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Redis" vertex="1">
-          <mxGeometry height="90" width="100" x="-230" y="-300" as="geometry" />
+          <mxGeometry height="90" width="100" x="-190" y="-290" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-26" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Таблица Products" vertex="1">
-          <mxGeometry height="90" width="100" x="-180" y="-590" as="geometry" />
+          <mxGeometry height="90" width="100" x="-190" y="-590" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-44" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-43">
           <mxGeometry relative="1" as="geometry" />
@@ -16287,25 +16289,25 @@
           <mxGeometry height="70" width="170" x="-400" y="190" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если выгрузка и статус PROCESSED&lt;br&gt;&lt;br&gt;шаттл может ещё ехать к устройству&lt;br&gt;&lt;br&gt;а может уже везти устройство" vertex="1">
-          <mxGeometry height="180" width="80" x="-1180" y="-240" as="geometry" />
+          <mxGeometry height="180" width="80" x="-1100" y="10" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если выгрузка и статус CREATED&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;значит ресурсы&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="80" x="-1330" y="-240" as="geometry" />
+          <mxGeometry height="130" width="80" x="-1250" y="10" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если загрузка и статус CREATED&lt;br&gt;&lt;br&gt;Груз уже привязан к устройству&amp;nbsp;" vertex="1">
-          <mxGeometry height="140" width="80" x="-1033" y="-250" as="geometry" />
+          <mxGeometry height="140" width="80" x="-953" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если загрузка и статус PROCESSED" vertex="1">
-          <mxGeometry height="75" width="80" x="-890" y="-250" as="geometry" />
+          <mxGeometry height="75" width="80" x="-810" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка&lt;div&gt;количество занятых нод ДО&amp;nbsp;&lt;div&gt;равно&lt;/div&gt;&lt;div&gt;количеству паллет занятых ПОСЛЕ&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="250" x="-1140" y="-720" as="geometry" />
+          <mxGeometry height="60" width="250" x="-1850" y="-510" as="geometry" />
         </mxCell>
         <mxCell id="1RXP3Qauia_azOCQI8lA-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка&lt;div&gt;количество занятых нод + количество паллет приаязаных к устройствам ДО&amp;nbsp;&lt;div&gt;равно&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;количество занятых нод + количество паллет приаязаных к устройствам&lt;/span&gt;х ПОСЛЕ&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="95" width="250" x="-1140" y="-595" as="geometry" />
+          <mxGeometry height="95" width="250" x="-1850" y="-385" as="geometry" />
         </mxCell>
         <mxCell id="Ju98Whc0KRSFYvynjdHw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если груз ещё не взяли, то нужно просто пересоздать&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="60" x="-1180" y="-15" as="geometry" />
+          <mxGeometry height="30" width="60" x="-1100" y="235" as="geometry" />
         </mxCell>
         <mxCell id="Ju98Whc0KRSFYvynjdHw-3" edge="1" parent="1" source="rhVtlwSKPsiSCHslM675-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-30" value="">
           <mxGeometry relative="1" as="geometry">
@@ -16313,19 +16315,64 @@
             <mxPoint x="-575" y="-365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LsjABv42GJoFDSOfXwcl-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Система уже находится в режиме сброса состояния и ручном режиме&amp;nbsp;" vertex="1">
-          <mxGeometry height="90" width="280" x="-708.33" y="-960" as="geometry" />
+        <mxCell id="LsjABv42GJoFDSOfXwcl-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Система уже находится в ручном режиме&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="280" x="-792.5" y="-1070" as="geometry" />
         </mxCell>
-        <mxCell id="LsjABv42GJoFDSOfXwcl-29" edge="1" parent="1" source="LsjABv42GJoFDSOfXwcl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rhVtlwSKPsiSCHslM675-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dtGHKJ6k2aWnKgivbOA5-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-monitor.manual=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="175" x="-665" y="-980" as="geometry" />
         </mxCell>
-        <mxCell id="LsjABv42GJoFDSOfXwcl-31" connectable="0" parent="LsjABv42GJoFDSOfXwcl-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="система воcстановлена&lt;div&gt;нажали кнопку квитирования&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0183" y="1" as="geometry">
+        <mxCell id="dtGHKJ6k2aWnKgivbOA5-4" edge="1" parent="1" source="dtGHKJ6k2aWnKgivbOA5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dtGHKJ6k2aWnKgivbOA5-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-577" y="-890" as="sourcePoint" />
+            <mxPoint x="-575" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-7" connectable="0" parent="dtGHKJ6k2aWnKgivbOA5-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&quot;auto&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.1516" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LsjABv42GJoFDSOfXwcl-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
-          <mxGeometry height="30" width="70" x="-610" y="-850" as="geometry" />
+        <mxCell id="dtGHKJ6k2aWnKgivbOA5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Делается запрос, чтобы ПЛК&lt;div&gt;актуализировал данные об&amp;nbsp;&lt;/div&gt;&lt;div&gt;грузах, устройствах и их положениях&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="-660" y="-820" as="geometry" />
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-1" edge="1" parent="1" source="O1R6svsaSYyMjMnYbZkz-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O1R6svsaSYyMjMnYbZkz-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230.41910463314207" y="-849.9984486539108" as="sourcePoint" />
+            <mxPoint x="-490" y="-761.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-2" connectable="0" parent="O1R6svsaSYyMjMnYbZkz-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;6 есть несостыковки = &quot;error&quot;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;или&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;9 все устройства и грузы впорядке = &quot;ok&quot;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.025" y="-1" as="geometry">
+            <mxPoint x="33" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.warehouse_restore&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;ok&quot; / &quot;error&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="-260" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-4" edge="1" parent="1" source="dtGHKJ6k2aWnKgivbOA5-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="O1R6svsaSYyMjMnYbZkz-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-303.5" y="-792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-invent.check_devices&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;без сообщения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="-483.5" y="-980" as="geometry" />
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Логика перехода в автоматический режим BR-INVENT" vertex="1">
+          <mxGeometry height="70" width="243" x="-780" y="-1140" as="geometry" />
+        </mxCell>
+        <mxCell id="Wgplq4GP714tMOxAMoTa-2" edge="1" parent="1" source="O1R6svsaSYyMjMnYbZkz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wgplq4GP714tMOxAMoTa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wgplq4GP714tMOxAMoTa-3" connectable="0" parent="Wgplq4GP714tMOxAMoTa-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&quot;error&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.4942" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1R6svsaSYyMjMnYbZkz-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Все устройсва и грузы впорядке?" vertex="1">
+          <mxGeometry height="80" width="125" x="-637.5" y="-703.57" as="geometry" />
+        </mxCell>
+        <mxCell id="Wgplq4GP714tMOxAMoTa-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-invent.mismatch_restore=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;сообщение&amp;nbsp;&lt;/div&gt;&lt;div&gt;о несостыковках&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="204.55" x="-960" y="-997.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
