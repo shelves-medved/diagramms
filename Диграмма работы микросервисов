@@ -15942,7 +15942,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="4869" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6950" dy="3120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16400,7 +16400,7 @@
         </mxCell>
         <mxCell id="Wgplq4GP714tMOxAMoTa-16" connectable="0" parent="Wgplq4GP714tMOxAMoTa-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="НЕТ" vertex="1">
           <mxGeometry relative="1" x="-0.7816" y="3" as="geometry">
-            <mxPoint x="57" y="-165" as="offset" />
+            <mxPoint x="45" y="-166" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVxxURmGTYX1hcAGbcnx-2" edge="1" parent="1" source="Wgplq4GP714tMOxAMoTa-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xVxxURmGTYX1hcAGbcnx-1">
@@ -16586,7 +16586,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Сформировать сообщение для отправки в очередь&amp;nbsp;" vertex="1">
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Есть разночтение маршрут не может быть сформирован" vertex="1">
           <mxGeometry height="60" width="120" x="-2470" y="800" as="geometry" />
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-40" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-37">
