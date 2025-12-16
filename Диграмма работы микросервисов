@@ -13069,7 +13069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5860" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4915" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13957,8 +13957,13 @@
         <mxCell id="Lh2wF9V3EGat3WDWe5aW-19" edge="1" parent="1" source="Lh2wF9V3EGat3WDWe5aW-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wuCLzMsQfik0RW3Rpw4H-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lh2wF9V3EGat3WDWe5aW-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;ручной от моушена =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="175" x="-3020" y="650" as="geometry" />
+        <mxCell id="kuv1icQ9bii3p73px4hO-8" connectable="0" parent="Lh2wF9V3EGat3WDWe5aW-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 если&amp;nbsp;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;&quot;switch_correct&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3659" as="geometry">
+            <mxPoint x="11" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lh2wF9V3EGat3WDWe5aW-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;br-motion.switch_to_manual=&lt;/div&gt;&lt;div&gt;&quot;switch_correct&quot; / &quot;switch_error&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="235" x="-3130" y="595" as="geometry" />
         </mxCell>
         <mxCell id="Lh2wF9V3EGat3WDWe5aW-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
           <mxGeometry height="30" width="70" x="-3180" y="1030" as="geometry" />
