@@ -13072,7 +13072,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5446" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4915" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13564,7 +13564,7 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-15" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.check_devices&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;ok&quot; / &quot;error&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="JABKz9dvm_IEtt6UAQoE-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.check_devices_complete&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;ok&quot; / &quot;error&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="220" x="-1560" y="595" as="geometry" />
         </mxCell>
         <mxCell id="un9D_1jwFfhpPaQlvY9N-7" edge="1" parent="1" source="wuCLzMsQfik0RW3Rpw4H-1" style="endArrow=classic;html=1;rounded=0;" target="_MJaH7Yva5svVvRwwv8s-3" value="">
@@ -13573,7 +13573,7 @@
             <mxPoint x="-1759.9999999999995" y="1005.002962962963" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="un9D_1jwFfhpPaQlvY9N-8" connectable="0" parent="un9D_1jwFfhpPaQlvY9N-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;5 ПКЛ проверил и убедился,&lt;/div&gt;&lt;div&gt;что все грузы и устройства&lt;/div&gt;&lt;div&gt;расположены в стандартных&amp;nbsp;&lt;/div&gt;&lt;div&gt;положениях&lt;/div&gt;" vertex="1">
+        <mxCell id="un9D_1jwFfhpPaQlvY9N-8" connectable="0" parent="un9D_1jwFfhpPaQlvY9N-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;5 ПКЛ проверил,&lt;/div&gt;&lt;div&gt;что все грузы и устройства&lt;/div&gt;&lt;div&gt;расположены в стандартных&amp;nbsp;&lt;/div&gt;&lt;div&gt;положениях или нет&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint x="-24" y="8" as="offset" />
           </mxGeometry>
