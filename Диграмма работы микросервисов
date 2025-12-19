@@ -16147,7 +16147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5502" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5901" dy="2582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16959,7 +16959,7 @@
           <mxGeometry height="121.78" width="140" x="-1169" y="-801.78" as="geometry" />
         </mxCell>
         <mxCell id="-CbJyt9L0T6KlfGsjGhO-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;br-invent.track&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1490" y="1293.75" as="geometry" />
+          <mxGeometry height="80" width="205" x="1540" y="1283.75" as="geometry" />
         </mxCell>
         <mxCell id="-CbJyt9L0T6KlfGsjGhO-12" edge="1" parent="1" source="-CbJyt9L0T6KlfGsjGhO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-CbJyt9L0T6KlfGsjGhO-5">
           <mxGeometry relative="1" as="geometry" />
@@ -16992,9 +16992,6 @@
         </mxCell>
         <mxCell id="-CbJyt9L0T6KlfGsjGhO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MOVE маршруты" vertex="1">
           <mxGeometry height="60" width="120" x="880" y="1445" as="geometry" />
-        </mxCell>
-        <mxCell id="-CbJyt9L0T6KlfGsjGhO-15" edge="1" parent="1" source="JoQtJfwMnpYMfEH1jN_L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-CbJyt9L0T6KlfGsjGhO-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-CbJyt9L0T6KlfGsjGhO-5" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="общая очередь" vertex="1">
           <mxGeometry height="72.5" width="135" x="1090" y="1287.5" as="geometry" />
@@ -17047,7 +17044,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JoQtJfwMnpYMfEH1jN_L-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="логика запросов к БД для бронирования узлов" vertex="1">
-          <mxGeometry height="60" width="120" x="1241" y="1293.75" as="geometry" />
+          <mxGeometry height="60" width="120" x="1262.5" y="1293.75" as="geometry" />
         </mxCell>
         <mxCell id="JoQtJfwMnpYMfEH1jN_L-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="разбить содание маршрута на 2 части" vertex="1">
           <mxGeometry height="60" width="120" x="1330" y="1425" as="geometry" />
