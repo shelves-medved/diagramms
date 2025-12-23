@@ -16370,7 +16370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5685" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4496" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17266,8 +17266,8 @@
         <mxCell id="JoQtJfwMnpYMfEH1jN_L-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="разбить содание маршрута на 2 части" vertex="1">
           <mxGeometry height="60" width="120" x="1330" y="1425" as="geometry" />
         </mxCell>
-        <mxCell id="-KeQZ_MF6hFkmQ9wRM5l-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Проверка, что у всех шаттлов лыжи в стандартном положении&lt;div&gt;Если на нём был груз на момент нажатия аварии, то лыжи должны быть подняты&amp;nbsp;&lt;br&gt;если нет то лыжи должны быть опущены&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="369" x="-1600" y="820" as="geometry" />
+        <mxCell id="-KeQZ_MF6hFkmQ9wRM5l-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Дополнительные проваерки, которые выполняются не в рамках маршрута и груза по БД, а в целом:&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- если на шаттле был груз на момент нажатия аварии, то лыжи должны быть подняты, по мимо проверки занятости&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- если нет, то лыжи должны быть опущены&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- проверка, что шаттл видит мактрикс код по данным ПЛК&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- проверка, что лифты находятся на уровне и зафиксированы&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="369" x="-1600" y="820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
