@@ -16370,7 +16370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="4496" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5901" dy="2582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16924,9 +16924,6 @@
         <mxCell id="Wgplq4GP714tMOxAMoTa-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Существуют следующие случаи после выставления грузов и устройств в стандартные положения" vertex="1">
           <mxGeometry height="80" width="170" x="-2216" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-24" edge="1" parent="1" source="Wgplq4GP714tMOxAMoTa-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Wgplq4GP714tMOxAMoTa-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Шаттл находится на&amp;nbsp;&lt;div&gt;матрикс коде на лифте или в складе&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;БЕЗ груза (шаттл перемещался к грузу или перемещался вместе с лифтом)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="119.5" width="140" x="-2029" y="345" as="geometry" />
         </mxCell>
@@ -17010,29 +17007,14 @@
         <mxCell id="bDrIMrGfJAby6A9qEC-5-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Сформировать маршрут заного.&lt;br&gt;Данные маршрута те же" vertex="1">
           <mxGeometry height="60" width="120" x="-1769" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-26" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-14">
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-29" edge="1" parent="1" source="Q2l33-TZZzrn39b3vqr_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1959" y="790" />
-              <mxPoint x="-2165" y="790" />
+              <mxPoint x="-1959" y="670" />
+              <mxPoint x="-1709" y="670" />
             </Array>
+            <mxPoint x="-1842.3400000000001" y="670" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-27" connectable="0" parent="bDrIMrGfJAby6A9qEC-5-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="НЕТ (значит,&amp;nbsp;&lt;div&gt;он находится&lt;/div&gt;&lt;div&gt;на шаттле)&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.7134" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-29" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-30" connectable="0" parent="bDrIMrGfJAby6A9qEC-5-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ДА" vertex="1">
-          <mxGeometry relative="1" x="-0.6399" as="geometry">
-            <mxPoint x="-81" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-23" parent="1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" value="У груза, по данным из БД,&amp;nbsp;&lt;div&gt;совпадает узел со&amp;nbsp;&lt;/div&gt;&lt;div&gt;стартовым узлом маршрута?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="233.33" x="-2075.67" y="540" as="geometry" />
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-56" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-41">
           <mxGeometry relative="1" as="geometry" />
@@ -17268,6 +17250,15 @@
         </mxCell>
         <mxCell id="-KeQZ_MF6hFkmQ9wRM5l-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Дополнительные проваерки, которые выполняются не в рамках маршрута и груза по БД, а в целом:&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- если на шаттле был груз на момент нажатия аварии, то лыжи должны быть подняты, по мимо проверки занятости&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- если нет, то лыжи должны быть опущены&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- проверка, что шаттл видит мактрикс код по данным ПЛК&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- проверка, что лифты находятся на уровне и зафиксированы&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="210" width="369" x="-1600" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2l33-TZZzrn39b3vqr_-2" edge="1" parent="1" source="Wgplq4GP714tMOxAMoTa-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q2l33-TZZzrn39b3vqr_-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1959" y="465" as="sourcePoint" />
+            <mxPoint x="-1959" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2l33-TZZzrn39b3vqr_-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Это значит, что до груза ещё не доехал шаттл, он находится на стартовом узле" vertex="1">
+          <mxGeometry height="119.5" width="140" x="-2029" y="512.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
