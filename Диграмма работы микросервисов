@@ -16463,7 +16463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5502" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4589" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16714,7 +16714,7 @@
           <mxGeometry height="90" width="100" x="-189" y="-243.56999999999994" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Redis" vertex="1">
-          <mxGeometry height="90" width="100" x="-189" y="170" as="geometry" />
+          <mxGeometry height="90" width="100" x="-189" y="-118.57" as="geometry" />
         </mxCell>
         <mxCell id="rhVtlwSKPsiSCHslM675-26" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Таблица Products" vertex="1">
           <mxGeometry height="90" width="100" x="-2006.5" y="-240" as="geometry" />
