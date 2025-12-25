@@ -16497,7 +16497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="4798" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5493" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17093,6 +17093,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-5" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WtKPSY36b_4cGLj4sKkL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-7" connectable="0" parent="WtKPSY36b_4cGLj4sKkL-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;text-wrap-mode: wrap; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;Если CHARGE_ACTION и статус&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;CREATED&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.9045" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-6" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WtKPSY36b_4cGLj4sKkL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-10" connectable="0" parent="WtKPSY36b_4cGLj4sKkL-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;text-wrap-mode: wrap; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;Если CHARGE_ACTION и статус&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;PROCESSED&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.9107" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Для каждого отдельного маршрута может существовать следующая ситуация&amp;nbsp;" vertex="1">
           <mxGeometry height="78.57" width="170" x="-1649" y="-28.57" as="geometry" />
         </mxCell>
@@ -17408,6 +17424,12 @@
         </mxCell>
         <mxCell id="KPwKaPYX9YsqmThdzv56-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Существуют следующие случаи после выставления грузов и устройств в стандартные положения" vertex="1">
           <mxGeometry height="80" width="170" x="-3210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Существуют следующие случаи после выставления грузов и устройств в стандартные положения" vertex="1">
+          <mxGeometry height="80" width="170" x="-3526" y="249.99999999999983" as="geometry" />
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Существуют следующие случаи после выставления грузов и устройств в стандартные положения" vertex="1">
+          <mxGeometry height="80" width="170" x="-3841" y="249.99999999999983" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
