@@ -16497,7 +16497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="4886" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5191" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17178,7 +17178,7 @@
         <mxCell id="bDrIMrGfJAby6A9qEC-5-56" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bDrIMrGfJAby6A9qEC-5-37" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Сбор всех заного сформированных маршрутов" vertex="1">
+        <mxCell id="bDrIMrGfJAby6A9qEC-5-37" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Сбор всех ошибок по маршрутам" vertex="1">
           <mxGeometry height="60" width="120" x="-2075.67" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="bDrIMrGfJAby6A9qEC-5-48" edge="1" parent="1" source="bDrIMrGfJAby6A9qEC-5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-45">
