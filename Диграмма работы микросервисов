@@ -16497,7 +16497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="4635" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7700" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17446,6 +17446,14 @@
         </mxCell>
         <mxCell id="WtKPSY36b_4cGLj4sKkL-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ресурсы для перемещения шаттла ещё не выделены" vertex="1">
           <mxGeometry height="80" width="170" x="-3526" y="249.99999999999983" as="geometry" />
+        </mxCell>
+        <mxCell id="WtKPSY36b_4cGLj4sKkL-17" edge="1" parent="1" source="WtKPSY36b_4cGLj4sKkL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bDrIMrGfJAby6A9qEC-5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3756" y="830" />
+              <mxPoint x="-1894" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WtKPSY36b_4cGLj4sKkL-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Шаттл без груза перемещается на станцию зарядки" vertex="1">
           <mxGeometry height="80" width="170" x="-3841" y="249.99999999999983" as="geometry" />
