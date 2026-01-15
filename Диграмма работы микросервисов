@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1" pages="10">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="5778" dy="-2579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -13422,7 +13422,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5086" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5561" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14435,8 +14435,8 @@
             <mxPoint x="-1755.32" y="1468.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iyBXvz_-8PYdn-pXPdOp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Если операточ что-то забрал со склада, то после проверки при переходе в автоматический режим&amp;nbsp;&lt;div&gt;Спрашивать ДЕЙСТВИТЕЛЬНО ЛИ ПАЛЛЕТ УКРАЛИ?? Если &quot;ДА&quot;, то&amp;nbsp; сбросить Busy у транпортёра и очистить маршрут&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Что деласть если, он ошибётся&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Что делать с маршрутом?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="148.5" width="290" x="-1940" y="1320" as="geometry" />
+        <mxCell id="iyBXvz_-8PYdn-pXPdOp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Если оператор что-то забрал со склада, то после проверки при переходе в автоматический режим&amp;nbsp;&lt;div&gt;Спрашивать ДЕЙСТВИТЕЛЬНО ЛИ ПАЛЛЕТ УКРАЛИ?? Если &quot;ДА&quot;, то&amp;nbsp; сбросить Busy у транпортёра и очистить маршрут&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Что деласть если, он ошибётся&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Что делать с маршрутом?&lt;br&gt;Ответ:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0.14994px; text-align: start; background-color: rgb(245, 245, 245);&quot;&gt;При условии что один транспортёр имеет status busy:= false, а другой busy:= true. То соответственно первый транспортёр выдаёт предупреждение &quot;Препятствие&quot;, а второй не имеет никаких активных предупреждений.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="208.5" width="290" x="-1940" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="G40cG1DcJJnBQy5KuKv2-1" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="G40cG1DcJJnBQy5KuKv2-3">
           <mxGeometry relative="1" as="geometry">
