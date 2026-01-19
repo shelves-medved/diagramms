@@ -16497,7 +16497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5813" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5493" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17247,9 +17247,6 @@
         </mxCell>
         <mxCell id="fumW5F-4-Nc6BB9TL9J7-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="fanout exchange:&lt;div&gt;warehouse_mode =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="175" x="-609" y="2050" as="geometry" />
-        </mxCell>
-        <mxCell id="-i1W_ceJJV2pmvSV13QH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="продумать&amp;nbsp;&lt;div&gt;как сначала активировать автоматический режим&lt;/div&gt;&lt;div&gt;а потом отправлять&lt;/div&gt;&lt;div&gt;обновлённые задачи&lt;br&gt;(семафор)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="105" width="194" x="-1290" y="1380" as="geometry" />
         </mxCell>
         <mxCell id="rKzfMGgWnuC-lqvmOb-O-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Таблица Warehouse" vertex="1">
           <mxGeometry height="90" width="100" x="-340" y="-940" as="geometry" />
