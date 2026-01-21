@@ -17475,7 +17475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tzKLxrFOApMRBORlyKCQ" name="motion">
-    <mxGraphModel dx="2505" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3204" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17484,8 +17484,8 @@
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="360" y="120" as="sourcePoint" />
-            <mxPoint x="360" y="200" as="targetPoint" />
+            <mxPoint x="360" y="80" as="sourcePoint" />
+            <mxPoint x="360" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-17" connectable="0" parent="EE6YY8tv94XJd11xRmNi-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Полученны шаги" vertex="1">
@@ -17504,7 +17504,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Создаётся асинхронная задача" vertex="1">
-          <mxGeometry height="60" width="120" x="-220" y="360" as="geometry" />
+          <mxGeometry height="60" width="120" x="-220" y="340" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-4" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-2">
           <mxGeometry relative="1" as="geometry" />
@@ -17523,16 +17523,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Ручной режим или авария активны?" vertex="1">
-          <mxGeometry height="110" width="210" x="260" y="200" as="geometry" />
+          <mxGeometry height="110" width="210" x="260" y="160" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Не берём в работу" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="330" as="geometry" />
+          <mxGeometry height="60" width="120" x="510" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-14" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-13">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-14" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Шаг выполнился" vertex="1">
-          <mxGeometry height="60" width="120" x="-220" y="510" as="geometry" />
+        <mxCell id="EE6YY8tv94XJd11xRmNi-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Шаг выполнился или закончился ошибкой" vertex="1">
+          <mxGeometry height="60" width="120" x="-220" y="480" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-18" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-15">
           <mxGeometry relative="1" as="geometry" />
@@ -17544,7 +17544,7 @@
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-21" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-23" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-345" y="652.5" as="targetPoint" />
+            <mxPoint x="-345" y="722.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-22" connectable="0" parent="EE6YY8tv94XJd11xRmNi-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="НЕТ" vertex="1">
@@ -17553,7 +17553,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Ручной режим активен?" vertex="1">
-          <mxGeometry height="105" width="210" x="-265" y="600" as="geometry" />
+          <mxGeometry height="105" width="210" x="-265" y="670" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-27" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-26" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -17566,20 +17566,34 @@
         <mxCell id="EE6YY8tv94XJd11xRmNi-30" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EE6YY8tv94XJd11xRmNi-35" connectable="0" parent="EE6YY8tv94XJd11xRmNi-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="НЕТ" vertex="1">
+          <mxGeometry relative="1" x="-0.448" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;Задача была последней?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="105" width="210" x="-40" y="730" as="geometry" />
+          <mxGeometry height="105" width="210" x="-40" y="800" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Конец" vertex="1">
-          <mxGeometry height="60" width="120" x="-490" y="625" as="geometry" />
+          <mxGeometry height="60" width="120" x="-490" y="695" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Сообщаем, что все шаги обработаны и можно управлять устройствами в ручном режиме" vertex="1">
-          <mxGeometry height="97.5" width="145" x="210" y="870" as="geometry" />
+          <mxGeometry height="97.5" width="145" x="210" y="940" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Конец" vertex="1">
-          <mxGeometry height="60" width="120" x="-180" y="870" as="geometry" />
+          <mxGeometry height="60" width="120" x="-180" y="940" as="geometry" />
         </mxCell>
         <mxCell id="EE6YY8tv94XJd11xRmNi-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Для каждого шага выполняется следующий алгоритм" vertex="1">
           <mxGeometry height="80" width="205" x="-40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EE6YY8tv94XJd11xRmNi-34" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="510" as="sourcePoint" />
+            <mxPoint x="-160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EE6YY8tv94XJd11xRmNi-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Асинхронная задача выполнена" vertex="1">
+          <mxGeometry height="60" width="120" x="-220" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
