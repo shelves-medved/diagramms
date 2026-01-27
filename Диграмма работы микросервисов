@@ -9901,15 +9901,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1LcbQfbKsldzHop_ktiE" name="Порты WCS">
-    <mxGraphModel dx="2253" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="2205" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="352" width="534" x="387" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="S79Rqfs_6zugewRMxkok-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="250" width="450" x="250" y="680" as="geometry" />
+        </mxCell>
         <mxCell id="UM_6E7c0-ZJgWa654WZG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;" value="Kubernetes&lt;br&gt;ports:&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;TCP 6443 — Kubernetes API server (главный управляющий порт для взаимодействия с API кластера).&lt;/li&gt;&lt;li&gt;TCP 2379-2380 — клиентский API сервера etcd.&lt;/li&gt;&lt;li&gt;TCP 10250 — kubelet API (служба на каждом узле, управляющая контейнерами).&lt;/li&gt;&lt;li&gt;TCP 30000-32767 — диапазон портов NodePort для сервисов, доступных извне через nodePort.&lt;/li&gt;&lt;li&gt;TCP 80 и 443 — HTTP и HTTPS трафик на ingress контроллер.&lt;/li&gt;&lt;li&gt;TCP 9099 — liveness/readiness probe фреймворка canal/flannel.&lt;/li&gt;&lt;li&gt;TCP 10254 — ingress controller liveness/readiness probe.&lt;/li&gt;&lt;li&gt;TCP 22 — для удалённого управления узлами (часто не обязателен в k3s, но может пригодиться).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Nginx&lt;br&gt;ports:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;TCP&amp;nbsp;8080 - для WCS&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="300" width="400" x="60" y="-110" as="geometry" />
+          <mxGeometry height="300" width="400" x="-354" y="-473" as="geometry" />
         </mxCell>
         <mxCell id="UM_6E7c0-ZJgWa654WZG-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PLC&lt;br&gt;ports:&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;4830 - для обмена данными между ПЛК и WCS по OPC UA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="270" x="480" y="-110" as="geometry" />
+          <mxGeometry height="110" width="270" x="109" y="-590" as="geometry" />
         </mxCell>
         <mxCell id="UM_6E7c0-ZJgWa654WZG-4" edge="1" parent="1" source="UM_6E7c0-ZJgWa654WZG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UM_6E7c0-ZJgWa654WZG-1">
           <mxGeometry relative="1" as="geometry" />
@@ -9940,7 +9946,7 @@
           <mxGeometry height="60" width="120" x="510" y="800" as="geometry" />
         </mxCell>
         <mxCell id="S79Rqfs_6zugewRMxkok-8" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="WMS (API gateway)&lt;div&gt;&amp;nbsp;/ Медведь&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="300" y="370" as="geometry" />
+          <mxGeometry height="80" width="180" x="145" y="368" as="geometry" />
         </mxCell>
         <mxCell id="S79Rqfs_6zugewRMxkok-10" edge="1" parent="1" source="S79Rqfs_6zugewRMxkok-8" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.269;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="S79Rqfs_6zugewRMxkok-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -9950,7 +9956,7 @@
         </mxCell>
         <mxCell id="S79Rqfs_6zugewRMxkok-11" connectable="0" parent="S79Rqfs_6zugewRMxkok-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="порт:&lt;br&gt;&amp;lt;наш белый ip&lt;div&gt;для WMS и&amp;nbsp;&lt;/div&gt;&lt;div&gt;удалённого подлючения&amp;gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2905" as="geometry">
-            <mxPoint x="4" y="82" as="offset" />
+            <mxPoint x="44" y="102" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S79Rqfs_6zugewRMxkok-15" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="порт:&lt;br&gt;&amp;lt;ip для миниПК&amp;gt;" vertex="1">
@@ -9966,17 +9972,73 @@
         <mxCell id="S79Rqfs_6zugewRMxkok-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Локальная сеть" vertex="1">
           <mxGeometry height="30" width="120" x="430" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="S79Rqfs_6zugewRMxkok-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="250" width="450" x="250" y="680" as="geometry" />
-        </mxCell>
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;решили что будет выход в сеть&lt;/p&gt;&lt;p&gt;они нам дают белый адресс и мы им даём белый адресс&lt;/p&gt;&lt;p&gt;мы сами определяем требования к безопасности маршрутизатор (они предоставят нам интернет) -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;нужно понять что нужно чтобы защитить нашу сеть и возможность удалённого подключения к серверу и к минипк&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="440" x="-260" y="220" as="geometry" />
+          <mxGeometry height="160" width="440" x="-441" y="169" as="geometry" />
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Какие меры безопасности мы примем?&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;Для взаимодействия с WMS API gateway:&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;- фильтрация по ip&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Для удалённого подключения к серверу(Linux):&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Для удалённого подключения к миниПК(Windows):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="205" width="260" x="-270" y="730" as="geometry" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Какие меры безопасности?&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Для удалённого подключения к серверу(Linux)&lt;/div&gt;&lt;div&gt;- по ssh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;для ПО&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WMS API gateway&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- фильтрация по ip (сетевой уровень)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(255, 255, 255);&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ssl (транспортный уровень)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- x-api-token (прикладной уровень)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Для удалённого подключения к миниПК(Windows):&lt;/div&gt;&lt;div&gt;- логин пароль&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="299" width="260" x="-260" y="619" as="geometry" />
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="Если через NAT:&amp;nbsp;&lt;div&gt;- используется обычный коммутатор&lt;/div&gt;&lt;div&gt;- они прописывают порты для доступа&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. WMS (API gateway)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. дают доступ к нашему белому ip для удалённого подключения&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- безопасность не нужна&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если нам дают отдельный интеренет:&lt;br&gt;- должен быть белый ip&amp;nbsp;&lt;/div&gt;&lt;div&gt;- используется маршрутизатор&lt;br&gt;- прописываем доступы сами&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;фильтрация по ip&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="280" width="440" x="-270" y="390" as="geometry" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="Если через NAT (в приоритете для нас):&amp;nbsp;&lt;div&gt;- используется обычный коммутатор&lt;/div&gt;&lt;div&gt;- они прописывают порты для доступа&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. WMS (API gateway)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. дают доступ к нашему белому ip для удалённого &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;подключения (на нашей стороне д.б.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;белому ip)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- безопасность не нужна&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если нам дают отдельный интеренет:&lt;br&gt;&lt;/div&gt;&lt;div&gt;- используется маршрутизатор (у него должен быть белый ip)&lt;br&gt;- прописываем доступы сами&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;фильтрация по ip&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="258" width="440" x="-260" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-8" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_cw4DdgLFtuQ0QRWtHw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-10" connectable="0" parent="n_cw4DdgLFtuQ0QRWtHw-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="по ssh" vertex="1">
+          <mxGeometry relative="1" x="-0.3629" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Комп Леши&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="441" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Комп Вани&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="634" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-15" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_cw4DdgLFtuQ0QRWtHw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-16" connectable="0" parent="n_cw4DdgLFtuQ0QRWtHw-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="rdp" vertex="1">
+          <mxGeometry relative="1" x="0.0164" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Рабочий Комп Максима&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="799" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-9" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_cw4DdgLFtuQ0QRWtHw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="458" as="sourcePoint" />
+            <mxPoint x="603" y="594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-11" connectable="0" parent="n_cw4DdgLFtuQ0QRWtHw-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="по ssh" vertex="1">
+          <mxGeometry relative="1" x="-0.2486" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Бизнес центр" vertex="1">
+          <mxGeometry height="60" width="120" x="418" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-13" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="S79Rqfs_6zugewRMxkok-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="764" y="460" as="sourcePoint" />
+            <mxPoint x="402" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-19" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_cw4DdgLFtuQ0QRWtHw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Домашний комп Максима&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="965" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-21" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_cw4DdgLFtuQ0QRWtHw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VPN" vertex="1">
+          <mxGeometry height="60" width="120" x="748" y="387" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
