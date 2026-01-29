@@ -14848,7 +14848,7 @@
         <mxCell id="StPsDZGUPlWKYEAph_lh-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм сброса данных при нажатии на аварийную кнопку или управлении устройствами в ручном режиме" vertex="1">
           <mxGeometry height="64" width="427.5" x="-4621.25" y="1674" as="geometry" />
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;clear_data&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;warehouse_clear_data&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="205" x="-4510" y="1830.68" as="geometry" />
         </mxCell>
       </root>
