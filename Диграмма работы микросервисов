@@ -13631,7 +13631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5918" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6849" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14306,21 +14306,16 @@
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;labelBackgroundColor=#E6E6E6;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="PLC" vertex="1">
           <mxGeometry height="30" width="50" x="-1940" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-16" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G40cG1DcJJnBQy5KuKv2-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-17" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Отправляет &quot;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear&lt;/span&gt;&quot;" vertex="1">
-          <mxGeometry relative="1" x="-0.123" y="1" as="geometry">
-            <mxPoint x="9" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
           <mxGeometry height="30" width="70" x="-3200" y="1816" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-19" edge="1" parent="1" source="G40cG1DcJJnBQy5KuKv2-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-30">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2930" y="1620" as="sourcePoint" />
+            <mxPoint x="-2620" y="1670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-20" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 получает&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс состояний&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-20" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 получает&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;emergency&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс состояний&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.378" y="2" as="geometry">
             <mxPoint x="28" y="-1" as="offset" />
           </mxGeometry>
@@ -14359,7 +14354,7 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-26" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-27" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Как только получает &quot;clear&quot;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняет сброс состояний и&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;обновляет поле в БД на &quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;переводя систему в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ручной режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-27" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Как только получает &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;emergency&lt;/span&gt;&quot;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняет сброс состояний и&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;обновляет поле в БД на &quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;переводя систему в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ручной режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.009" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14375,7 +14370,7 @@
         <mxCell id="Lh2wF9V3EGat3WDWe5aW-2" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="Lh2wF9V3EGat3WDWe5aW-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lh2wF9V3EGat3WDWe5aW-3" connectable="0" parent="Lh2wF9V3EGat3WDWe5aW-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Как только получает &quot;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear&lt;/span&gt;&quot;&lt;div&gt;Обновляет поле в БД&lt;/div&gt;&lt;div&gt;на &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="Lh2wF9V3EGat3WDWe5aW-3" connectable="0" parent="Lh2wF9V3EGat3WDWe5aW-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Как только получает &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;emergency&lt;/span&gt;&quot;&lt;div&gt;Обновляет поле в БД&lt;/div&gt;&lt;div&gt;на &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.174" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14465,7 +14460,7 @@
             <mxPoint x="-2970" y="1896" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 Нажали Аварийную кнопку или&lt;div&gt;что-то подвигали в ручном режиме&lt;br&gt;&lt;div&gt;выполняется&lt;/div&gt;&lt;div&gt;сброс состояний&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 Нажали Аварийную кнопку" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint x="-48" as="offset" />
           </mxGeometry>
@@ -14563,9 +14558,6 @@
         <mxCell id="Lh2wF9V3EGat3WDWe5aW-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-invent.warehouse_mode=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="185" x="-920" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Надо каждый раз нажимать кнопку квитирования после двиганья в ручном режиме" vertex="1">
-          <mxGeometry height="95" width="210" x="-1212.5" y="1405" as="geometry" />
-        </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="-1915" y="1498.25" as="geometry" />
         </mxCell>
@@ -14660,8 +14652,8 @@
         <mxCell id="G40cG1DcJJnBQy5KuKv2-3" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="warehouse.current_status_name&lt;br&gt;= &quot;down&quot; / &quot;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); letter-spacing: 0.14994px; text-align: start; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;operational&lt;/font&gt;&lt;/span&gt;&quot;" vertex="1">
           <mxGeometry height="90" width="190" x="-1212.5" y="1595" as="geometry" />
         </mxCell>
-        <mxCell id="G40cG1DcJJnBQy5KuKv2-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;br-plc.warehouse_recovery&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;clear&quot; / &quot;restore&quot;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="-2950" y="1676" as="geometry" />
+        <mxCell id="G40cG1DcJJnBQy5KuKv2-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;br-plc.warehouse_emergency&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;div&gt;&quot;emergency&quot; / &quot;restore&quot;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="205" x="-2950" y="1674" as="geometry" />
         </mxCell>
         <mxCell id="G40cG1DcJJnBQy5KuKv2-9" edge="1" parent="1" source="G40cG1DcJJnBQy5KuKv2-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JABKz9dvm_IEtt6UAQoE-26">
           <mxGeometry relative="1" as="geometry" />
@@ -14802,6 +14794,62 @@
           <mxGeometry relative="1" x="0.2362" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-4" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G40cG1DcJJnBQy5KuKv2-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3000" y="1730" as="sourcePoint" />
+            <mxPoint x="-2890" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-5" connectable="0" parent="StPsDZGUPlWKYEAph_lh-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Отправляет &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;emergency&lt;/span&gt;&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.123" y="1" as="geometry">
+            <mxPoint x="9" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-100" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="StPsDZGUPlWKYEAph_lh-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4702" y="1737" as="sourcePoint" />
+            <mxPoint x="-4592" y="1677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-101" connectable="0" parent="StPsDZGUPlWKYEAph_lh-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Отправляет &quot;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear_data&lt;/span&gt;&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.123" y="1" as="geometry">
+            <mxPoint x="9" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-102" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
+          <mxGeometry height="30" width="70" x="-4770" y="1855.68" as="geometry" />
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-105" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-144" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="StPsDZGUPlWKYEAph_lh-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4389.754776281948" y="1952.999876265831" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-106" connectable="0" parent="StPsDZGUPlWKYEAph_lh-105" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 При получении&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear_data&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данныз&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1627" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-129" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="&lt;div&gt;BR-INVENT&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;BR-MOTION&lt;hr&gt;BR-MANAGER&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="-4100" y="1816" as="geometry" />
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-136" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="StPsDZGUPlWKYEAph_lh-102" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-5010" y="1866" as="sourcePoint" />
+            <mxPoint x="-4532" y="1923" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-137" connectable="0" parent="StPsDZGUPlWKYEAph_lh-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="При &lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;аварии &lt;/span&gt;или&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;что-то подвигали в &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); float: none; background-color: rgb(255, 204, 153); display: inline !important;&quot;&gt;ручном режиме&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;выполняется&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;сброс данных&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2161" as="geometry">
+            <mxPoint x="-36" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм сброса данных при нажатии на аварийную кнопку или управлении устройствами в ручном режиме" vertex="1">
+          <mxGeometry height="64" width="427.5" x="-4621.25" y="1674" as="geometry" />
+        </mxCell>
+        <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;clear_data&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="205" x="-4510" y="1830.68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
