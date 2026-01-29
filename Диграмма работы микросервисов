@@ -13631,7 +13631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5918" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4715" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14405,7 +14405,7 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-38" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="fanout exchange:&lt;div&gt;warehouse_mode =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="175" x="-2510" y="2052" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION" vertex="1">
           <mxGeometry height="60" width="120" x="-2890" y="2076" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-40" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-45">
@@ -14859,6 +14859,20 @@
         <mxCell id="StPsDZGUPlWKYEAph_lh-154" connectable="0" parent="StPsDZGUPlWKYEAph_lh-153" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 При получении&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear_data&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1627" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zbqtti6S27qpr1SPOMy-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="&lt;div&gt;&lt;/div&gt;BR-MANAGER&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-3080" y="2062" as="geometry" />
+        </mxCell>
+        <mxCell id="1zbqtti6S27qpr1SPOMy-2" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-152" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1zbqtti6S27qpr1SPOMy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2778" y="2040" as="sourcePoint" />
+            <mxPoint x="-2780" y="2166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zbqtti6S27qpr1SPOMy-3" connectable="0" parent="1zbqtti6S27qpr1SPOMy-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 При получении&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;clear_data&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1627" as="geometry">
+            <mxPoint x="-46" y="36" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
