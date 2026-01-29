@@ -13631,7 +13631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="6737" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5918" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14405,8 +14405,8 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-38" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="fanout exchange:&lt;div&gt;warehouse_mode =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="175" x="-2510" y="2052" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION&lt;hr&gt;BR-MANAGER&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
-          <mxGeometry height="108" width="120" x="-2890" y="2052" as="geometry" />
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-2890" y="2076" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-40" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-45">
           <mxGeometry relative="1" as="geometry">
@@ -14442,7 +14442,7 @@
             <mxPoint x="-2970" y="1896" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 Нажали Аварийную кнопку" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал об аварии" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint x="-48" as="offset" />
           </mxGeometry>
@@ -14814,7 +14814,7 @@
             <mxPoint x="-2722" y="1459" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-137" connectable="0" parent="StPsDZGUPlWKYEAph_lh-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;Что-то подвигали в &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); float: none; background-color: rgb(255, 204, 153); display: inline !important;&quot;&gt;ручном режиме&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;выполняется&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;сброс данных&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-137" connectable="0" parent="StPsDZGUPlWKYEAph_lh-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;Что-то подвигали в &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); float: none; background-color: rgb(255, 204, 153); display: inline !important;&quot;&gt;ручном режиме&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;выполняется&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;сброс данных&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint x="-36" y="-6" as="offset" />
           </mxGeometry>
@@ -14822,7 +14822,7 @@
         <mxCell id="StPsDZGUPlWKYEAph_lh-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм сброса данных при&amp;nbsp;&lt;div&gt;управлении устройствами в ручном режиме&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="351.25" x="-2780" y="1265.5" as="geometry" />
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;warehouse_clear_data&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;warehouse_clear_data&lt;/div&gt;&lt;/div&gt;&lt;div&gt;=без тела сообщения&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="205" x="-2700" y="1366.68" as="geometry" />
         </mxCell>
         <mxCell id="StPsDZGUPlWKYEAph_lh-148" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="StPsDZGUPlWKYEAph_lh-152">
