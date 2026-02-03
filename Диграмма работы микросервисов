@@ -10127,7 +10127,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="2341" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13427,10 +13427,10 @@
           <mxGeometry height="20" width="129" x="1241" y="2807.65" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Назад" vertex="1">
-          <mxGeometry height="17.45" width="56" x="1241" y="3045.4999999999995" as="geometry" />
+          <mxGeometry height="17.45" width="56" x="1241" y="3090" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Вперёд" vertex="1">
-          <mxGeometry height="17.45" width="56" x="1314" y="3045.4999999999995" as="geometry" />
+          <mxGeometry height="17.45" width="56" x="1314" y="3090" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Занят / Свободен" vertex="1">
           <mxGeometry height="17.45" width="129" x="1241" y="2845.1" as="geometry" />
@@ -13445,7 +13445,7 @@
           <mxGeometry height="17.45" width="56" x="1314" y="2990.4" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="Транспортёр лифта" vertex="1">
-          <mxGeometry height="20" width="129" x="1241" y="3025.5" as="geometry" />
+          <mxGeometry height="20" width="129" x="1241" y="3070.0000000000005" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Вверх" vertex="1">
           <mxGeometry height="17.45" width="56" x="-401.90999999999997" y="2944.71" as="geometry" />
@@ -13454,7 +13454,7 @@
           <mxGeometry height="30" width="350" x="-341.90999999999997" y="2944.71" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-106" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="130" width="120" x="1241" y="3120" as="geometry" />
+          <mxGeometry height="130" width="120" x="1241" y="3160" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-107" parent="2SUOixirsQg3OHZu3a4D-106" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Тоже что и у первого лифта&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="105.1" width="120" y="24.9" as="geometry" />
@@ -13462,8 +13462,8 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-108" parent="2SUOixirsQg3OHZu3a4D-106" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Лифт 2&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="24.9" width="120" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Фиксаторы задвинуты&amp;nbsp;" vertex="1">
-          <mxGeometry height="17.65" width="129" x="1241" y="3007.85" as="geometry" />
+        <mxCell id="2SUOixirsQg3OHZu3a4D-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Выдвинуть фиксаторы" vertex="1">
+          <mxGeometry height="30" width="69" x="1236" y="3040" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-110" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="меняется" vertex="1">
           <mxGeometry height="70" width="200" x="1470" y="2896.0699999999997" as="geometry" />
@@ -13626,6 +13626,15 @@
         </mxCell>
         <mxCell id="viQ8d9wvjqYyqo_aie38-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Остановить" vertex="1">
           <mxGeometry height="17.45" width="116" x="392" y="2907.4499999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_QOiXBp6C-nkzkf6uO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Остановить" vertex="1">
+          <mxGeometry height="17.45" width="116" x="1247.5" y="3109.4000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_QOiXBp6C-nkzkf6uO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Положение фиксаторов: выдвинуты/задвинуты&lt;/span&gt;" vertex="1">
+          <mxGeometry height="31.57" width="139" x="1236" y="3008.43" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_QOiXBp6C-nkzkf6uO-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Задвинуть фиксаторы" vertex="1">
+          <mxGeometry height="30" width="69" x="1305.5" y="3040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
