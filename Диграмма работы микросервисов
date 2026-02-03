@@ -13465,15 +13465,6 @@
         <mxCell id="2SUOixirsQg3OHZu3a4D-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Выдвинуть фиксаторы" vertex="1">
           <mxGeometry height="30" width="69" x="1236" y="3040" as="geometry" />
         </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-110" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="меняется" vertex="1">
-          <mxGeometry height="70" width="200" x="1470" y="2896.0699999999997" as="geometry" />
-        </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Фиксаторы задвинуты&amp;nbsp;" vertex="1">
-          <mxGeometry height="17.65" width="129.5" x="1510.5" y="2903.3199999999997" as="geometry" />
-        </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Фиксаторы выдвинуты" vertex="1">
-          <mxGeometry height="17.65" width="129.5" x="1510.5" y="2941.0699999999997" as="geometry" />
-        </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="Шаттл &amp;lt;opc_name&amp;gt;" vertex="1">
           <mxGeometry height="20" width="119" x="437.25" y="3044.8999999999996" as="geometry" />
         </mxCell>
