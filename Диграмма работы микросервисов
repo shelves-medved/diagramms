@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7" pages="11">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="5778" dy="-2579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -13631,7 +13631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5561" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5813" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14639,7 +14639,7 @@
         <mxCell id="Kd0xF54PQly56GPLiRgr-2" edge="1" parent="1" source="G40cG1DcJJnBQy5KuKv2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kd0xF54PQly56GPLiRgr-3" connectable="0" parent="Kd0xF54PQly56GPLiRgr-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Сам же и слушает,&amp;nbsp;&lt;div&gt;чтобы остановить обработку&lt;/div&gt;&lt;div&gt;текущих команд и&lt;/div&gt;&lt;div&gt;отправить сброс данных&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="Kd0xF54PQly56GPLiRgr-3" connectable="0" parent="Kd0xF54PQly56GPLiRgr-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 Сам же и слушает,&amp;nbsp;&lt;div&gt;чтобы остановить обработку&lt;/div&gt;&lt;div&gt;текущих команд и&lt;/div&gt;&lt;div&gt;отправить сброс данных&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0905" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14835,7 +14835,7 @@
             <mxPoint x="-3012" y="1716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-149" connectable="0" parent="StPsDZGUPlWKYEAph_lh-148" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Сброс данных" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-149" connectable="0" parent="StPsDZGUPlWKYEAph_lh-148" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Сброс данных" vertex="1">
           <mxGeometry relative="1" x="-0.123" y="1" as="geometry">
             <mxPoint x="9" y="-4" as="offset" />
           </mxGeometry>
@@ -14846,7 +14846,7 @@
             <mxPoint x="-2520" y="1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-151" connectable="0" parent="StPsDZGUPlWKYEAph_lh-150" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 При получении&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-151" connectable="0" parent="StPsDZGUPlWKYEAph_lh-150" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1627" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14860,7 +14860,7 @@
             <mxPoint x="-2414" y="1930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-154" connectable="0" parent="StPsDZGUPlWKYEAph_lh-153" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 При получении&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-154" connectable="0" parent="StPsDZGUPlWKYEAph_lh-153" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1627" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14874,7 +14874,7 @@
             <mxPoint x="-2780" y="2166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zbqtti6S27qpr1SPOMy-3" connectable="0" parent="1zbqtti6S27qpr1SPOMy-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 При получении&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="1zbqtti6S27qpr1SPOMy-3" connectable="0" parent="1zbqtti6S27qpr1SPOMy-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1627" as="geometry">
             <mxPoint x="-12" y="5" as="offset" />
           </mxGeometry>
