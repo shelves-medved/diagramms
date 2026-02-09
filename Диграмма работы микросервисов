@@ -17927,7 +17927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tzKLxrFOApMRBORlyKCQ" name="motion">
-    <mxGraphModel dx="3204" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18067,24 +18067,24 @@
         <mxCell id="EE6YY8tv94XJd11xRmNi-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Переход в ручной режим с блокировкой получения новых шагов" vertex="1">
           <mxGeometry height="80" width="143" x="815.5" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-41" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EE6YY8tv94XJd11xRmNi-45" value="">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-41" edge="1" parent="1" source="EE6YY8tv94XJd11xRmNi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" target="EE6YY8tv94XJd11xRmNi-45" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Проверка, по данным из БД, что аварийное состояние" vertex="1">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Проверка, по данным из БД, что аварийное состояние" vertex="1">
           <mxGeometry height="60" width="120" x="1031.5" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="EE6YY8tv94XJd11xRmNi-42" value="">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" target="EE6YY8tv94XJd11xRmNi-42" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1091.1" y="100" as="sourcePoint" />
             <mxPoint x="1091.1" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-44" connectable="0" parent="EE6YY8tv94XJd11xRmNi-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Переход в аварийное состояние" vertex="1">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-44" connectable="0" parent="EE6YY8tv94XJd11xRmNi-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#E6E6E6;" value="Переход в аварийное состояние" vertex="1">
           <mxGeometry relative="1" x="-0.4" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EE6YY8tv94XJd11xRmNi-45" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Переход в аварийное состояние и отмена всех асинхронных задач (а значит и их шагов)" vertex="1">
+        <mxCell id="EE6YY8tv94XJd11xRmNi-45" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Переход в аварийное состояние и отмена всех асинхронных задач (а значит и их шагов)" vertex="1">
           <mxGeometry height="80" width="143" x="1020" y="300" as="geometry" />
         </mxCell>
       </root>
