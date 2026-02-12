@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="6728" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5191" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10912,7 +10912,7 @@
           <mxGeometry height="90" width="175" x="-2660" y="2019.68" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION" vertex="1">
-          <mxGeometry height="24" width="90" x="-2872.5" y="2079.68" as="geometry" />
+          <mxGeometry height="24" width="90" x="-2939" y="2100" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-40" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-45">
           <mxGeometry relative="1" as="geometry">
@@ -11370,7 +11370,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1zbqtti6S27qpr1SPOMy-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="&lt;div&gt;&lt;/div&gt;BR-MANAGER&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-3080" y="2062" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3150" y="1994.68" as="geometry" />
         </mxCell>
         <mxCell id="1zbqtti6S27qpr1SPOMy-2" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-152" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1zbqtti6S27qpr1SPOMy-1">
           <mxGeometry relative="1" as="geometry">
