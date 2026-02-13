@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5191" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9839" dy="3108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10614,7 +10614,7 @@
           <mxGeometry height="115" width="238.9" x="-598.9" y="617.5" as="geometry" />
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Система сбросила все состояния и работы.&lt;div&gt;Нажали кнопку квитирования&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="427.5" x="-1330" y="1500" as="geometry" />
+          <mxGeometry height="40" width="347.5" x="-1291.7" y="1498.25" as="geometry" />
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-33" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" target="JABKz9dvm_IEtt6UAQoE-55">
           <mxGeometry relative="1" as="geometry">
