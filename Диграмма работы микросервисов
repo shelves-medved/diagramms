@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="9839" dy="3108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5086" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10191,7 +10191,7 @@
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="439.40999999999997" y="2040" as="sourcePoint" />
+            <mxPoint x="440" y="1650" as="sourcePoint" />
             <mxPoint x="439.40999999999997" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -10254,7 +10254,7 @@
         </mxCell>
         <mxCell id="aCQVHeYnRkmXXOkdx4uT-38" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;strokeWidth=3;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="2040" as="sourcePoint" />
+            <mxPoint x="160" y="1650" as="sourcePoint" />
             <mxPoint x="160" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -10272,7 +10272,7 @@
         </mxCell>
         <mxCell id="AJUmQ63MK08vX5eRXt_3-1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;strokeWidth=3;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="720" y="2040" as="sourcePoint" />
+            <mxPoint x="720" y="1650" as="sourcePoint" />
             <mxPoint x="720" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -10518,14 +10518,11 @@
         <mxCell id="SU_eAenX6L9xWFCvZUk4-68" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-monitor.warehouse_mode=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="205" x="-705.9499999999999" y="775" as="geometry" />
         </mxCell>
-        <mxCell id="SU_eAenX6L9xWFCvZUk4-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Переход в автоматический режим" vertex="1">
-          <mxGeometry height="40" width="272.95" x="-1202.95" y="460" as="geometry" />
-        </mxCell>
         <mxCell id="SU_eAenX6L9xWFCvZUk4-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если сообщение пришло, но в БД в ручной режим не перешло или не вышел из ручного режима, то логируем ошибочную отправку&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;сообщения&lt;/span&gt;" vertex="1">
           <mxGeometry height="96.5" width="160" x="-1142.5" y="1169" as="geometry" />
         </mxCell>
         <mxCell id="Kucx5MXmsASMKDokiP1C-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;СТАРЫЕ КОММЕНТАРИИ&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;если ручной режим не включен, то ручки ручного режима не работают&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0.14994px; background-color: rgb(245, 245, 245);&quot;&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;в БД есть поле которое меняется, когда вкючается ручной режим&lt;br&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;при включении ручного режима:&lt;br&gt;отправляется в отдельну очередь данные , которую слушает инвент&lt;/p&gt;&lt;p&gt;он переключает в БД данные о ручном режиме,&lt;/p&gt;&lt;p&gt;и записывает данные в фаноут, которую слушает монитор&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;при инициализации проверяется БД на состояние ручного режима&lt;/p&gt;&lt;p&gt;и активируется event&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;как только получаем из очереди информацию, то проверяется БД&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;при инициализации инвента проверяется нажата ли аварийная кнопка (в статусах System) или какая-либо ошибка(потеря связи)&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="320" width="600" x="-1500" y="110" as="geometry" />
+          <mxGeometry height="320" width="600" x="-1600" y="30" as="geometry" />
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-9" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd0xF54PQly56GPLiRgr-1">
           <mxGeometry relative="1" as="geometry">
@@ -10612,9 +10609,6 @@
         </mxCell>
         <mxCell id="JABKz9dvm_IEtt6UAQoE-49" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-invent.mismatch_to_set_auto=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;сообщение&amp;nbsp;&lt;/div&gt;&lt;div&gt;о несостыковках&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="115" width="238.9" x="-598.9" y="617.5" as="geometry" />
-        </mxCell>
-        <mxCell id="JABKz9dvm_IEtt6UAQoE-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Система сбросила все состояния и работы.&lt;div&gt;Нажали кнопку квитирования&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="347.5" x="-1291.7" y="1498.25" as="geometry" />
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-33" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" target="JABKz9dvm_IEtt6UAQoE-55">
           <mxGeometry relative="1" as="geometry">
@@ -10767,9 +10761,6 @@
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-29" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-monitor.warehouse_mode=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="269.94" x="-2500" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="wuCLzMsQfik0RW3Rpw4H-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Переход в ручной режим" vertex="1">
-          <mxGeometry height="40" width="213.5" x="-2803.5" y="490" as="geometry" />
         </mxCell>
         <mxCell id="wuCLzMsQfik0RW3Rpw4H-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если сообщение пришло, но в БД в ручной режим не перешло или не вышел из ручного режима, то логируем ошибочную отправку&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;сообщения&lt;/span&gt;" vertex="1">
           <mxGeometry height="96.5" width="160" x="-2725" y="1056" as="geometry" />
@@ -10953,7 +10944,7 @@
             <mxPoint x="-48" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм взаимодейсвия микросервисов&lt;div&gt;при нажатии на аварийную кнопку&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Механизм взаимодейсвия микросервисов&lt;div&gt;при нажатии на аварийную кнопку&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="330" x="-2840" y="1526" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-51" edge="1" parent="1" source="SU_eAenX6L9xWFCvZUk4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SU_eAenX6L9xWFCvZUk4-39">
@@ -11327,7 +11318,7 @@
             <mxPoint x="-36" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StPsDZGUPlWKYEAph_lh-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Механизм сброса данных при&amp;nbsp;&lt;div&gt;управлении устройствами в ручном режиме&lt;/div&gt;" vertex="1">
+        <mxCell id="StPsDZGUPlWKYEAph_lh-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Механизм сброса данных при&amp;nbsp;&lt;div&gt;управлении устройствами в ручном режиме&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="351.25" x="-2780" y="1265.5" as="geometry" />
         </mxCell>
         <mxCell id="StPsDZGUPlWKYEAph_lh-144" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;warehouse_clear_data&lt;/div&gt;&lt;/div&gt;&lt;div&gt;=без тела сообщения&lt;/div&gt;" vertex="1">
@@ -11421,6 +11412,32 @@
           <mxGeometry relative="1" x="-0.1457" y="1" as="geometry">
             <mxPoint y="18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Переход в ручной режим" vertex="1">
+          <mxGeometry height="64" width="351.25" x="-2767.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Переход в автоматический режим" vertex="1">
+          <mxGeometry height="64" width="351.25" x="-1243.1299999999999" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Система сбросила все состояния и работы.&lt;div&gt;Нажали кнопку квитирования&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="351.25" x="-1293.57" y="1496" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-6" edge="1" parent="1" source="nttaFtLZ6F36N-lEpNun-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nttaFtLZ6F36N-lEpNun-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-159.9999999999991" y="1969.6800000000012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-10" edge="1" parent="1" source="nttaFtLZ6F36N-lEpNun-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nttaFtLZ6F36N-lEpNun-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Паллет разобрали&lt;div&gt;во время ручного режима&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="340" x="-20" y="1846" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Паллет был&amp;nbsp;&lt;div&gt;для задачи загрузки&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56.82" width="145" x="-150" y="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="nttaFtLZ6F36N-lEpNun-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Паллет был&amp;nbsp;&lt;div&gt;для задачи выгрузки&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="137" x="283" y="2010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
