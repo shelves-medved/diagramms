@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5598" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5144" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11461,7 +11461,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFW2SMEveEWnIGDrPWxC-2" connectable="0" parent="ZFW2SMEveEWnIGDrPWxC-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. Сообщает, об успехе&lt;div&gt;или провале&lt;/div&gt;" vertex="1">
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-2" connectable="0" parent="ZFW2SMEveEWnIGDrPWxC-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. Сообщает, об успехе&lt;div&gt;или провале&lt;/div&gt;&lt;div&gt;по видимости занятости&amp;nbsp;&lt;/div&gt;&lt;div&gt;или по предупреждении&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0557" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14804,7 +14804,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMBd26n1WNkyKy8VAP_r" name="Зарядка радиошаттла">
-    <mxGraphModel dx="2290" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2548" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
