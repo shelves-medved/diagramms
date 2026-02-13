@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5702" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5245" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11451,6 +11451,11 @@
         <mxCell id="VJuaCJ966bGTLKImgcEW-42" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VJuaCJ966bGTLKImgcEW-50" connectable="0" parent="VJuaCJ966bGTLKImgcEW-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Если завершить задачу получилось,&lt;div&gt;то отправляет ResetBusy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1527" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MONITOR" vertex="1">
           <mxGeometry height="30" width="100" x="1251.5" y="2365" as="geometry" />
         </mxCell>
@@ -11463,12 +11468,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-FRONT" vertex="1">
-          <mxGeometry height="30" width="90" x="1319" y="2515" as="geometry" />
+          <mxGeometry height="30" width="90" x="1571.5" y="2365" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-25" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VJuaCJ966bGTLKImgcEW-26" connectable="0" parent="VJuaCJ966bGTLKImgcEW-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 Ответ получилось ли&lt;div&gt;&amp;nbsp;отменить задачу&lt;div&gt;или нет&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="VJuaCJ966bGTLKImgcEW-26" connectable="0" parent="VJuaCJ966bGTLKImgcEW-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 Ответ получилось ли&lt;div&gt;зашершить задачу&lt;div&gt;или нет&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0399" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11488,7 +11493,7 @@
         <mxCell id="VJuaCJ966bGTLKImgcEW-23" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VJuaCJ966bGTLKImgcEW-19" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Проверяет, что:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Если всё окей, то:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при задаче зарузки это ошибка (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при выгрузке это конец (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;" vertex="1">
+        <mxCell id="VJuaCJ966bGTLKImgcEW-19" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Проверяет, что:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Если всё окей, то:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при задаче зарузки это status=error (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при выгрузке это status=complete (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;" vertex="1">
           <mxGeometry height="234" width="537.5" x="260" y="2079.68" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-45" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-28">
@@ -11549,7 +11554,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-41" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br_monitor.reset_busy&lt;div&gt;&amp;lt;id устройства&amp;gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1030" y="2420" as="geometry" />
+          <mxGeometry height="80" width="205" x="995" y="2454.5" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-44" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;1 разобрали паллет&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;2 оператор должен находясь в ручном режиме,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;выбрать транспортёр:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- на котором изначально стоял паллет (перед началом выполнения команды)&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- с которого разобрали паллет&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;и нажать кнопку &quot;ResetBusy&quot;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;3 система должна проверить, что:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.1 И если всё окей, то:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при задаче зарузки это ошибка (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при выгрузке это конец (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.2&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполняется сброс данных (invent, manager, route-plan - очищаются)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполнить команду &quot;ResetBusy&quot; у транспортёра&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;5. Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;6. Все устройства и грузы выставляются в стандартные положения и происходит пересборка маршрутов при переходе в автоматический режим&lt;/p&gt;" vertex="1">
           <mxGeometry height="510" width="400" x="1820" y="1740" as="geometry" />
@@ -14753,7 +14758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMBd26n1WNkyKy8VAP_r" name="Зарядка радиошаттла">
-    <mxGraphModel dx="2253" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
