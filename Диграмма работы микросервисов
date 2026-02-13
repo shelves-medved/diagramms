@@ -11498,7 +11498,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-15" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br_monitor.remove_pallet&lt;div&gt;&amp;lt;id устройства&amp;gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1199" y="2152.18" as="geometry" />
+          <mxGeometry height="80" width="205" x="1200" y="2152.18" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-23" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-14">
           <mxGeometry relative="1" as="geometry" />
