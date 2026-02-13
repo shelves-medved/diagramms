@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5702" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5054" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11501,7 +11501,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-24" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br_invent.remove_pallet:&lt;div&gt;&quot;ok&quot;/&quot;not_ok&quot;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="1010" y="2250" as="geometry" />
+          <mxGeometry height="80" width="205" x="1022.5" y="2281.25" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
           <mxGeometry height="30" width="70" x="932.5" y="2580" as="geometry" />
