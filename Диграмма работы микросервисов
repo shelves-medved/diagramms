@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5245" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5598" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11037,49 +11037,49 @@
         <mxCell id="Lh2wF9V3EGat3WDWe5aW-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;div&gt;br-invent.warehouse_mode=&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;manual&quot; / &quot;auto&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="185" x="-920" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="-105" y="2529.5" as="geometry" />
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="-25" y="2529.5" as="geometry" />
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-95" y="2619.5" as="sourcePoint" />
             <mxPoint x="-95" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-35" y="2619.5" as="sourcePoint" />
             <mxPoint x="-35" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-15" y="2619.5" as="sourcePoint" />
             <mxPoint x="-15" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="45" y="2619.5" as="sourcePoint" />
             <mxPoint x="45" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-95" y="2619.5" as="sourcePoint" />
             <mxPoint x="-35" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-15" y="2619.5" as="sourcePoint" />
             <mxPoint x="45" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="55" y="2529.5" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
@@ -11100,13 +11100,13 @@
             <mxPoint x="125" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-25" y="2639.5" as="sourcePoint" />
             <mxPoint x="-25" y="2499.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="54.680000000000064" y="2639.5" as="sourcePoint" />
             <mxPoint x="54.680000000000064" y="2499.5" as="targetPoint" />
@@ -11422,20 +11422,17 @@
         <mxCell id="VJuaCJ966bGTLKImgcEW-21" edge="1" parent="1" source="nttaFtLZ6F36N-lEpNun-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nttaFtLZ6F36N-lEpNun-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;1 разобрали паллет&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;2 оператор должен находясь в ручном режиме,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;выбрать транспортёр:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- на котором изначально стоял паллет (перед началом выполнения автоматической команды) и с него&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;разобрали паллет&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;3 нажать кнопку &quot;ResetBusy&quot;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="195.32" width="230" x="1650" y="2450" as="geometry" />
+        <mxCell id="nttaFtLZ6F36N-lEpNun-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;1 разобрали паллет&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;2 оператор должен находясь в ручном режиме,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;выбрать транспортёр/лифт:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- на котором изначально стоял паллет (перед началом выполнения автоматической команды) и с него&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;разобрали паллет&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;3 нажать кнопку &quot;Освободить устройство&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="195.32" width="230" x="1661.5" y="2430" as="geometry" />
         </mxCell>
         <mxCell id="QbgxgzkHA37OqO2Fru4z-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;busy&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="20" x="5" y="2501.25" as="geometry" />
-        </mxCell>
-        <mxCell id="OUidrx_AGlIvsY5Vnw5L-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="70" width="70" x="-5" y="2671.25" as="geometry" />
+          <mxGeometry height="20" width="20" x="84" y="2500" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="70" width="70" x="-100" y="2534.5" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;busy&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="20" x="-75" y="2501.25" as="geometry" />
+          <mxGeometry height="20" width="20" x="-75" y="2500" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Паллет разобрали&lt;div&gt;во время ручного режима&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="340" x="745" y="1800" as="geometry" />
@@ -11451,7 +11448,7 @@
         <mxCell id="VJuaCJ966bGTLKImgcEW-42" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VJuaCJ966bGTLKImgcEW-50" connectable="0" parent="VJuaCJ966bGTLKImgcEW-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Если завершить задачу получилось,&lt;div&gt;то отправляет ResetBusy&lt;/div&gt;" vertex="1">
+        <mxCell id="VJuaCJ966bGTLKImgcEW-50" connectable="0" parent="VJuaCJ966bGTLKImgcEW-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Если завершить&lt;div&gt;задачу получилось,&lt;div&gt;то отправляет ResetBusy&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1527" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11570,7 +11567,7 @@
           <mxGeometry height="80" width="205" x="995" y="2454.5" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-44" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;1 разобрали паллет&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;2 оператор должен находясь в ручном режиме,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;выбрать транспортёр:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- на котором изначально стоял паллет (перед началом выполнения команды)&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- с которого разобрали паллет&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;и нажать кнопку &quot;ResetBusy&quot;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;3 система должна проверить, что:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.1 И если всё окей, то:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при задаче зарузки это ошибка (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при выгрузке это конец (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.2&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполняется сброс данных (invent, manager, route-plan - очищаются)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполнить команду &quot;ResetBusy&quot; у транспортёра&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;5. Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;6. Все устройства и грузы выставляются в стандартные положения и происходит пересборка маршрутов при переходе в автоматический режим&lt;/p&gt;" vertex="1">
-          <mxGeometry height="510" width="400" x="1820" y="1740" as="geometry" />
+          <mxGeometry height="510" width="400" x="1850" y="1582" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-46" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Product" vertex="1">
           <mxGeometry height="60.32" width="80" x="995" y="2054.6800000000003" as="geometry" />
@@ -11580,6 +11577,42 @@
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-48" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="как будет работать для шаттла?" vertex="1">
+          <mxGeometry height="60" width="120" x="1730" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-4" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;1 разобрали паллет&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;2 оператор должен находясь в ручном режиме,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;выбрать транспортёр:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- на котором изначально стоял паллет (перед началом выполнения команды)&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- с которого разобрали паллет&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;и нажать кнопку &quot;ResetBusy&quot;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;3 система должна проверить, что:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.1 И если всё окей, то:&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при задаче зарузки это ошибка (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- при выгрузке это конец (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;4.2&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполняется сброс данных (invent, manager, route-plan - очищаются)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполнить команду &quot;ResetBusy&quot; у транспортёра&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;5. Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;6. Все устройства и грузы выставляются в стандартные положения и происходит пересборка маршрутов при переходе в автоматический режим&lt;/p&gt;" vertex="1">
+          <mxGeometry height="510" width="400" x="1390" y="1576" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="135" y="2529.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="144.76" y="2619.5" as="sourcePoint" />
+            <mxPoint x="144.76" y="2519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="204.76" y="2619.5" as="sourcePoint" />
+            <mxPoint x="204.76" y="2519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="144.76" y="2619.5" as="sourcePoint" />
+            <mxPoint x="204.76" y="2519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFW2SMEveEWnIGDrPWxC-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="135" y="2640" as="sourcePoint" />
+            <mxPoint x="135" y="2500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUidrx_AGlIvsY5Vnw5L-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="59" y="2534.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -14771,7 +14804,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMBd26n1WNkyKy8VAP_r" name="Зарядка радиошаттла">
-    <mxGraphModel dx="2159" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14877,7 +14910,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_me6ruCwiyQclE0XLIv--7" connectable="0" parent="_me6ruCwiyQclE0XLIv--6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Если шаттл закончил выполнение&lt;div&gt;задачи и прошло 15 мин и заряд ниже&lt;/div&gt;&lt;div&gt;80% процентов, то отправить сообщение&lt;/div&gt;" vertex="1">
+        <mxCell id="_me6ruCwiyQclE0XLIv--7" connectable="0" parent="_me6ruCwiyQclE0XLIv--6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Если шаттл закончил выполнение&lt;div&gt;задачи и прошло 15 мин&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.028" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
