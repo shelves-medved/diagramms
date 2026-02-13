@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="5054" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5702" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11038,82 +11038,82 @@
           <mxGeometry height="90" width="185" x="-920" y="880" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="154" y="2201.25" as="geometry" />
+          <mxGeometry height="80" width="80" x="-105" y="2529.5" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="234" y="2201.25" as="geometry" />
+          <mxGeometry height="80" width="80" x="-25" y="2529.5" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="164" y="2291.25" as="sourcePoint" />
-            <mxPoint x="164" y="2191.25" as="targetPoint" />
+            <mxPoint x="-95" y="2619.5" as="sourcePoint" />
+            <mxPoint x="-95" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="224" y="2291.25" as="sourcePoint" />
-            <mxPoint x="224" y="2191.25" as="targetPoint" />
+            <mxPoint x="-35" y="2619.5" as="sourcePoint" />
+            <mxPoint x="-35" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="244" y="2291.25" as="sourcePoint" />
-            <mxPoint x="244" y="2191.25" as="targetPoint" />
+            <mxPoint x="-15" y="2619.5" as="sourcePoint" />
+            <mxPoint x="-15" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="304" y="2291.25" as="sourcePoint" />
-            <mxPoint x="304" y="2191.25" as="targetPoint" />
+            <mxPoint x="45" y="2619.5" as="sourcePoint" />
+            <mxPoint x="45" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="164" y="2291.25" as="sourcePoint" />
-            <mxPoint x="224" y="2191.25" as="targetPoint" />
+            <mxPoint x="-95" y="2619.5" as="sourcePoint" />
+            <mxPoint x="-35" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="244" y="2291.25" as="sourcePoint" />
-            <mxPoint x="304" y="2191.25" as="targetPoint" />
+            <mxPoint x="-15" y="2619.5" as="sourcePoint" />
+            <mxPoint x="45" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="314" y="2201.25" as="geometry" />
+          <mxGeometry height="80" width="80" x="55" y="2529.5" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="324" y="2291.25" as="sourcePoint" />
-            <mxPoint x="324" y="2191.25" as="targetPoint" />
+            <mxPoint x="65" y="2619.5" as="sourcePoint" />
+            <mxPoint x="65" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="384" y="2291.25" as="sourcePoint" />
-            <mxPoint x="384" y="2191.25" as="targetPoint" />
+            <mxPoint x="125" y="2619.5" as="sourcePoint" />
+            <mxPoint x="125" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="324" y="2291.25" as="sourcePoint" />
-            <mxPoint x="384" y="2191.25" as="targetPoint" />
+            <mxPoint x="65" y="2619.5" as="sourcePoint" />
+            <mxPoint x="125" y="2519.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="234" y="2311.25" as="sourcePoint" />
-            <mxPoint x="234" y="2171.25" as="targetPoint" />
+            <mxPoint x="-25" y="2639.5" as="sourcePoint" />
+            <mxPoint x="-25" y="2499.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="313.68000000000006" y="2311.25" as="sourcePoint" />
-            <mxPoint x="313.68000000000006" y="2171.25" as="targetPoint" />
+            <mxPoint x="54.680000000000064" y="2639.5" as="sourcePoint" />
+            <mxPoint x="54.680000000000064" y="2499.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iyBXvz_-8PYdn-pXPdOp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Если оператор что-то забрал со склада, то после проверки при переходе в автоматический режим&amp;nbsp;&lt;div&gt;Спрашивать ДЕЙСТВИТЕЛЬНО ЛИ ПАЛЛЕТ УКРАЛИ?? Если &quot;ДА&quot;, то&amp;nbsp; сбросить Busy у транпортёра и очистить маршрут&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Что деласть если, он ошибётся&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Что делать с маршрутом?&lt;br&gt;Ответ:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0.14994px; text-align: start; background-color: rgb(245, 245, 245);&quot;&gt;При условии что один транспортёр имеет status busy:= false, а другой busy:= true. То соответственно первый транспортёр выдаёт предупреждение &quot;Препятствие&quot;, а второй не имеет никаких активных предупреждений.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="208.5" width="290" x="129" y="1953" as="geometry" />
+          <mxGeometry height="208.5" width="290" x="-130" y="2281.25" as="geometry" />
         </mxCell>
         <mxCell id="G40cG1DcJJnBQy5KuKv2-1" edge="1" parent="1" source="JABKz9dvm_IEtt6UAQoE-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="G40cG1DcJJnBQy5KuKv2-3">
           <mxGeometry relative="1" as="geometry">
@@ -11426,22 +11426,19 @@
           <mxGeometry height="195.32" width="230" x="1501.5" y="2495" as="geometry" />
         </mxCell>
         <mxCell id="QbgxgzkHA37OqO2Fru4z-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;busy&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="20" x="264" y="2173" as="geometry" />
+          <mxGeometry height="20" width="20" x="5" y="2501.25" as="geometry" />
         </mxCell>
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="70" width="70" x="254" y="2343" as="geometry" />
+          <mxGeometry height="70" width="70" x="-5" y="2671.25" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="70" width="70" x="159" y="2206.25" as="geometry" />
+          <mxGeometry height="70" width="70" x="-100" y="2534.5" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;busy&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="20" x="184" y="2173" as="geometry" />
+          <mxGeometry height="20" width="20" x="-75" y="2501.25" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Паллет разобрали&lt;div&gt;во время ручного режима&lt;/div&gt;" vertex="1">
-          <mxGeometry height="74" width="340" x="604" y="1893.8600000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="VJuaCJ966bGTLKImgcEW-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Паллет был&amp;nbsp;&lt;div&gt;для задачи загрузки&lt;/div&gt;" vertex="1">
-          <mxGeometry height="56.82" width="145" x="474" y="2057.86" as="geometry" />
+          <mxGeometry height="74" width="340" x="720" y="1968.18" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-16" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-15">
           <mxGeometry relative="1" as="geometry" />
@@ -11489,18 +11486,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-19" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Проверяет, что:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- транспортёр действительно занят и у него есть предупреждение, что паллет данным датчика не видит&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- в БД у продукта, есть device_id этого&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;транспортёра&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Если всё окей, то:&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- определить к какой задаче относился этот груз&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при задаче зарузки это ошибка (маршрута, задачи, сообщаем WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- при выгрузке это конец (маршрута, задачи, сообщаем в WMS)&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Если всё не окей, то сообщить оператору почему&amp;nbsp;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="234" width="537.5" x="991.5" y="1891" as="geometry" />
+          <mxGeometry height="234" width="537.5" x="260" y="2079.68" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-45" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-22" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;align=left;" value="&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- выполняется сброс данных (invent, manager, route-plan - очищаются)&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot; style=&quot;&quot;&gt;- выполнить команду &quot;ResetBusy&quot; у транспортёра&lt;/p&gt;" vertex="1">
-          <mxGeometry height="139.68" width="190" x="1037.5" y="2624.1600000000003" as="geometry" />
+          <mxGeometry height="139.68" width="190" x="1002.5" y="2636.4100000000003" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-27" edge="1" parent="1" source="VJuaCJ966bGTLKImgcEW-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VJuaCJ966bGTLKImgcEW-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VJuaCJ966bGTLKImgcEW-24" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br_invent.remove_pallet:&lt;div&gt;&quot;ok&quot;/&quot;not_ok&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="VJuaCJ966bGTLKImgcEW-24" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br_invent.remove_pallet:&lt;div&gt;&quot;done&quot;/&quot;error&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="205" x="1022.5" y="2281.25" as="geometry" />
         </mxCell>
         <mxCell id="VJuaCJ966bGTLKImgcEW-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
