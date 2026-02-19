@@ -6631,7 +6631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="2123" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9880,21 +9880,12 @@
           <mxGeometry height="24.9" width="120" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-75" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="103.08000000000041" width="170.63" x="669.37" y="2960" as="geometry" />
+          <mxGeometry height="110" width="290" x="669.37" y="2960" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-76" parent="2SUOixirsQg3OHZu3a4D-75" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Тоже что и у первого транспортёра&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" y="24.90000000000009" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-77" parent="2SUOixirsQg3OHZu3a4D-75" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Транспортёр 12&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="24.9" width="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-78" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="74.90000000000009" width="120" x="810" y="2960" as="geometry" />
-        </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-79" parent="2SUOixirsQg3OHZu3a4D-78" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Тоже что и у первого транспортёра&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" y="24.90000000000009" as="geometry" />
-        </mxCell>
-        <mxCell id="2SUOixirsQg3OHZu3a4D-80" parent="2SUOixirsQg3OHZu3a4D-78" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Транспортёр 13&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="24.9" width="120" as="geometry" />
         </mxCell>
         <mxCell id="2SUOixirsQg3OHZu3a4D-81" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -10131,8 +10122,26 @@
         <mxCell id="zqFrVZCKmTsfg_3UcuEg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Убрать паллет" vertex="1">
           <mxGeometry height="17" width="116" x="264" y="2924.9" as="geometry" />
         </mxCell>
-        <mxCell id="zqFrVZCKmTsfg_3UcuEg-2" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;fontSize=10;" value="убрать не возможно&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="210" x="760" y="2760" as="geometry" />
+        <mxCell id="xurwrByn2kdmtU46dCCB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Убрать паллет" vertex="1">
+          <mxGeometry height="17" width="116" x="392" y="2924.9" as="geometry" />
+        </mxCell>
+        <mxCell id="xurwrByn2kdmtU46dCCB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Убрать паллет" vertex="1">
+          <mxGeometry height="17" width="116" x="1247.5" y="3126.85" as="geometry" />
+        </mxCell>
+        <mxCell id="2SUOixirsQg3OHZu3a4D-78" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="77.85" width="150" x="810" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="2SUOixirsQg3OHZu3a4D-79" parent="2SUOixirsQg3OHZu3a4D-78" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Тоже что и у первого транспортёра&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" y="24.90000000000009" as="geometry" />
+        </mxCell>
+        <mxCell id="2SUOixirsQg3OHZu3a4D-80" parent="2SUOixirsQg3OHZu3a4D-78" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Транспортёр 13&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="24.9" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xurwrByn2kdmtU46dCCB-3" parent="2SUOixirsQg3OHZu3a4D-78" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Причина почему нельзя убрать паллет&lt;div&gt;(Ок)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77.85" width="300" x="-150" y="24.9" as="geometry" />
+        </mxCell>
+        <mxCell id="xurwrByn2kdmtU46dCCB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Убрать паллет" vertex="1">
+          <mxGeometry height="17" width="116" x="433.25" y="3341.18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
