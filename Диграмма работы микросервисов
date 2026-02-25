@@ -15102,7 +15102,7 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Микросервисы&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="-120" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;" vertex="1">
           <mxGeometry height="85" width="90" x="495" y="111.25" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-8" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-3">
@@ -15175,11 +15175,8 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="DockerHub&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="274.5" width="185" x="-450" y="45.5" as="geometry" />
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;" vertex="1">
           <mxGeometry height="85" width="90" x="-415" y="95.5" as="geometry" />
-        </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-41" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="скачивает образы&lt;div&gt;и запускает&lt;/div&gt;" vertex="1">
-          <mxGeometry x="-476.8189506122044" y="539.8776367799327" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-53" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-48">
           <mxGeometry relative="1" as="geometry" />
