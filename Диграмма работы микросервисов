@@ -15222,6 +15222,9 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Образы&lt;/div&gt;&lt;div&gt;Микросервисов&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="110" x="-415" y="235" as="geometry" />
         </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Как удобнее обновлять конкретный микросервис?" vertex="1">
+          <mxGeometry height="60" width="120" x="-460" y="450" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
