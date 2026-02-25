@@ -15176,7 +15176,7 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Микросервисы&lt;/div&gt;&lt;hr&gt;Остановка микросервиса из&lt;div&gt;докер компоуса&lt;/div&gt;&lt;div&gt;пересборка и&amp;nbsp;&lt;/div&gt;&lt;div&gt;запуск&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="180" x="-180" y="88.75" as="geometry" />
         </mxCell>
-        <mxCell id="Sba_h6V0PPZyc9PQAHOH-3" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-42">
+        <mxCell id="Sba_h6V0PPZyc9PQAHOH-3" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" target="UCZiGQlZe3TvzdP2Uf5k-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sba_h6V0PPZyc9PQAHOH-4" connectable="0" parent="Sba_h6V0PPZyc9PQAHOH-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Подключение к серверу" vertex="1">
@@ -15184,7 +15184,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sba_h6V0PPZyc9PQAHOH-5" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-30">
+        <mxCell id="Sba_h6V0PPZyc9PQAHOH-5" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" target="UCZiGQlZe3TvzdP2Uf5k-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-830" y="520" />
@@ -15196,7 +15196,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="Инфраструктура для заказчика" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Инфраструктура для заказчика" vertex="1">
           <mxGeometry height="30" width="200" x="-930" y="290" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;" vertex="1">
@@ -15221,7 +15221,7 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-42" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Инфраструктура&lt;div&gt;&lt;hr&gt;Сборка через&lt;div&gt;докер компоус&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="-805" y="111.25" as="geometry" />
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-57" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" target="UCZiGQlZe3TvzdP2Uf5k-30">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-57" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="UCZiGQlZe3TvzdP2Uf5k-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-600" y="320" as="sourcePoint" />
           </mxGeometry>
