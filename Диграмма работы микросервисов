@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="13">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="5778" dy="-2579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -15053,6 +15053,134 @@
         </mxCell>
         <mxCell id="_me6ruCwiyQclE0XLIv--2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Решить как забирать шаттл с зарядки, если пришли задачи, а шаттл ещё не зарядился&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;при получении любой команды шаттлу, br-plc проверяет, активна ли команда зарядки (или любая) и снимает её, а потом даёт команду&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="250" x="630" y="1040" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="knoPg5jrrAASeLq2Z-5f" name="Деплой">
+    <mxGraphModel dx="3080" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="GitHub&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="147.5" width="390" x="-190" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="Сервер локальный&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="147.5" width="620" x="-190" y="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="DockerHub&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="147.5" width="185" x="460" y="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-5" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-29" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="подключение к серверу&lt;div&gt;и&lt;/div&gt;&lt;div&gt;пулл с гитхаба&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1442" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Инфраструктура&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="50" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-32" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-33" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="пуш в гитхаб" vertex="1">
+          <mxGeometry relative="1" x="-0.1214" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Микросервисы&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="-120" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="90" x="495" y="111.25" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-8" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-10" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="скачивает образы&lt;div&gt;и запускает&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0608" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Инфраструктура&lt;div&gt;&lt;hr&gt;Сборка через&lt;div&gt;докер компоус&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="180" y="113" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запуск приложения локально" vertex="1">
+          <mxGeometry height="30" width="230" x="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запуск приложения на объекте" vertex="1">
+          <mxGeometry height="30" width="230" x="-885" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-27" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="410" as="sourcePoint" />
+            <mxPoint x="244" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-28" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="пуш в гитхаб" vertex="1">
+          <mxGeometry relative="1" x="-0.3267" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Сохранение&lt;/div&gt;&lt;div&gt;Тесты&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="323.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-35" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-36" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="подключение к серверу&lt;div&gt;и&lt;/div&gt;&lt;div&gt;пулл с гитхаба&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1292" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Сохранение&lt;/div&gt;&lt;div&gt;Тесты&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="-140" y="323.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Микросервисы&lt;/div&gt;&lt;hr&gt;Остановка микросервиса из&lt;div&gt;докер компоуса&lt;/div&gt;&lt;div&gt;пересборка и&amp;nbsp;&lt;/div&gt;&lt;div&gt;запуск&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-145" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Инфраструктура для заказчика&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="-850" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="GitHub&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="147.5" width="390" x="-1070" y="658.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="DockerHub&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="324.5" width="185" x="-450" y="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Образы библиотек&lt;div&gt;rabbit&lt;/div&gt;&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;postgre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="90" x="-415" y="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-41" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="скачивает образы&lt;div&gt;и запускает&lt;/div&gt;" vertex="1">
+          <mxGeometry x="-476.8189506122044" y="539.8776367799327" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-42" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Инфраструктура&lt;div&gt;&lt;hr&gt;Сборка через&lt;div&gt;докер компоус&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="-690" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-43" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-770" y="918.75" as="sourcePoint" />
+            <mxPoint x="-636" y="583.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-44" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="пуш в гитхаб" vertex="1">
+          <mxGeometry relative="1" x="-0.3267" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Сохранение&lt;/div&gt;&lt;div&gt;Тесты&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="-830" y="712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="Сервер на объекте&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="147.5" width="620" x="-1080" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-47" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-240" y="963" as="sourcePoint" />
+            <mxPoint x="-240" y="-40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
