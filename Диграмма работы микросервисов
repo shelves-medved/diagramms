@@ -15232,7 +15232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Образы&lt;/div&gt;&lt;div&gt;Микросервисов&lt;br&gt;с версиями&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="110" x="-415" y="220" as="geometry" />
+          <mxGeometry height="65" width="110" x="-415" y="208.75" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Как удобнее обновлять конкретный микросервис?&lt;br&gt;Ответ: в git actions" vertex="1">
           <mxGeometry height="100" width="120" x="-473" y="620" as="geometry" />
