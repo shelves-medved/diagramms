@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0" pages="13">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
     <mxGraphModel dx="5778" dy="-2579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -15157,7 +15157,7 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-35" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-36" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="подключение к серверу&lt;div&gt;и&lt;/div&gt;&lt;div&gt;пулл с гитхаба&lt;/div&gt;" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-36" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="подключение к серверу&lt;div&gt;и&lt;/div&gt;&lt;div&gt;пулл с гитхаба&lt;br&gt;в любом случае&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1292" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -15165,7 +15165,7 @@
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-51" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" target="UCZiGQlZe3TvzdP2Uf5k-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-52" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" value="Нужно также сохранять образ&lt;div&gt;в докерхабе&lt;/div&gt;&lt;div&gt;с версией образа&lt;/div&gt;&lt;div&gt;(указываем в pyproject.toml)&lt;/div&gt;" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-52" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" value="сохранять образ&lt;div&gt;в докерхабе&lt;/div&gt;&lt;div&gt;с версией образа&lt;br&gt;если ветка main&lt;/div&gt;&lt;div&gt;(указываем в pyproject.toml)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1102" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
