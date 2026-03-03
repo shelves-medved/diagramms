@@ -15266,19 +15266,14 @@
             <mxPoint x="-1715.0000000000002" y="553.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-15" connectable="0" parent="I_CbKErHg-1hfsWCITI_-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;применялись&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;alembic upgrade head&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.3165" y="-2" as="geometry">
-            <mxPoint x="-2" y="-23" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="I_CbKErHg-1hfsWCITI_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="Библиотека orm" vertex="1">
-          <mxGeometry height="30" width="110" x="-1770" y="690" as="geometry" />
+          <mxGeometry height="30" width="110" x="-1770" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="Сервер на объекте&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="147.5" width="410" x="-2230" y="183.75" as="geometry" />
+        <mxCell id="I_CbKErHg-1hfsWCITI_-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="Сервер на объекте&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="410" x="-2230" y="160" as="geometry" />
         </mxCell>
         <mxCell id="I_CbKErHg-1hfsWCITI_-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="Инфраструктура&lt;div&gt;&lt;hr&gt;Сборка через&lt;div&gt;докер компоус&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="120" x="-2060" y="232.5" as="geometry" />
+          <mxGeometry height="70" width="120" x="-2170" y="230" as="geometry" />
         </mxCell>
         <mxCell id="I_CbKErHg-1hfsWCITI_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="DockerRegisty&lt;div&gt;(локальный DockerHub)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="185" x="-1800" y="163.75" as="geometry" />
@@ -15286,25 +15281,19 @@
         <mxCell id="I_CbKErHg-1hfsWCITI_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Образ" vertex="1">
           <mxGeometry height="30" width="60" x="-1745" y="320.5" as="geometry" />
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-1550" y="380" as="sourcePoint" />
-            <mxPoint x="-1500" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="I_CbKErHg-1hfsWCITI_-11" edge="1" parent="1" source="I_CbKErHg-1hfsWCITI_-5" style="endArrow=classic;html=1;rounded=0;" target="I_CbKErHg-1hfsWCITI_-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-1730" y="310" as="sourcePoint" />
             <mxPoint x="-1680" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-17" connectable="0" parent="I_CbKErHg-1hfsWCITI_-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="При старте компоуза&lt;div&gt;скачивает образ&lt;/div&gt;&lt;div&gt;берет нужную версию&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="I_CbKErHg-1hfsWCITI_-17" connectable="0" parent="I_CbKErHg-1hfsWCITI_-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="При старте компоуза&lt;div&gt;скачивает образ&lt;/div&gt;&lt;div&gt;берет нужную версию&lt;/div&gt;&lt;div&gt;и выполняет&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;alembic upgrade head&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4947" y="-1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Добавить докерфайл&amp;nbsp;&lt;div&gt;добавить в воркфлоу&lt;/div&gt;&lt;div&gt;подключение к серверу&lt;/div&gt;&lt;div&gt;билд образа&lt;/div&gt;&lt;div&gt;сохранение образа в registry&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="200" x="-1600" y="430" as="geometry" />
+        <mxCell id="I_CbKErHg-1hfsWCITI_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Добавить докерфайл&amp;nbsp;&lt;div&gt;добавить в воркфлоу:&lt;/div&gt;&lt;div&gt;- подключение к серверу&lt;/div&gt;&lt;div&gt;-билд образа&lt;/div&gt;&lt;div&gt;-сохранение образа в registry&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="-1640" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
