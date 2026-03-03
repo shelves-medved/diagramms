@@ -6405,10 +6405,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1LcbQfbKsldzHop_ktiE" name="Порты WCS">
-    <mxGraphModel dx="2411" dy="2032" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1987" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="280" width="392" x="176" y="1654" as="geometry" />
+        </mxCell>
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="333" width="534" x="387" y="141" as="geometry" />
         </mxCell>
@@ -6566,8 +6569,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="сервер&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="209" y="1631" as="geometry" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="сервер&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="120" x="209" y="1631" as="geometry" />
         </mxCell>
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-32" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="n_cw4DdgLFtuQ0QRWtHw-29">
           <mxGeometry relative="1" as="geometry">
@@ -6577,8 +6580,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;миниПК с Windows&lt;/div&gt;&lt;div&gt;для удалённого рабочего стола&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="387" y="1632" as="geometry" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;миниПК с Windows&lt;/div&gt;&lt;div&gt;для удалённого рабочего стола&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="120" x="387" y="1634" as="geometry" />
         </mxCell>
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-34" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="WMS (API gateway)" vertex="1">
           <mxGeometry height="80" width="180" x="107" y="1232" as="geometry" />
@@ -6604,8 +6607,8 @@
             <mxPoint x="1" y="-41" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Локальная сеть" vertex="1">
-          <mxGeometry height="30" width="120" x="356" y="1708" as="geometry" />
+        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Локальная сеть где всё шаттловое оборудование&amp;nbsp;" vertex="1">
+          <mxGeometry height="52" width="149" x="299" y="1838" as="geometry" />
         </mxCell>
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-41" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;strokeWidth=2;" target="n_cw4DdgLFtuQ0QRWtHw-29">
           <mxGeometry relative="1" as="geometry">
@@ -6624,8 +6627,29 @@
         <mxCell id="n_cw4DdgLFtuQ0QRWtHw-45" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Подключение через NAT:&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;- используется обычный коммутатор&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;- в NAT прописываются порты для доступа&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; text-align: center; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;1. WMS (API gateway)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2. дают доступ к белому ip для удалённого&lt;span&gt;&amp;nbsp;&lt;/span&gt;подключения (&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;color: currentcolor;&quot;&gt;93.153.253.106&lt;/span&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="137" width="447" x="-393" y="1018" as="geometry" />
         </mxCell>
-        <mxCell id="n_cw4DdgLFtuQ0QRWtHw-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="268" width="392" x="176" y="1508" as="geometry" />
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-1" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-31" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="1830" as="sourcePoint" />
+            <mxPoint x="256" y="1777" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-2" edge="1" parent="1" source="n_cw4DdgLFtuQ0QRWtHw-33" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="408" y="1784" as="sourcePoint" />
+            <mxPoint x="444" y="1826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="порт:&lt;br&gt;&amp;lt;ip для локальной сети&amp;gt;" vertex="1">
+          <mxGeometry height="44" width="75" x="227" y="1715" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="порт:&lt;br&gt;&amp;lt;ip для локальной сети&amp;gt;" vertex="1">
+          <mxGeometry height="44" width="75" x="407" y="1726" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="318" width="642" x="162" y="1336" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1-SDcimwsvpP1LYzt9z-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Гостевая сеть" vertex="1">
+          <mxGeometry height="52" width="149" x="607" y="1431" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
