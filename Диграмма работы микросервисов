@@ -615,16 +615,16 @@
           <mxGeometry height="30" width="100" x="22.5" y="7337" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AGV" vertex="1">
-          <mxGeometry height="61" width="110" x="188" y="7529" as="geometry" />
+          <mxGeometry height="61" width="110" x="236" y="7539" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3d shuttle" vertex="1">
-          <mxGeometry height="61" width="110" x="-141" y="7529" as="geometry" />
+          <mxGeometry height="61" width="110" x="-138" y="7529" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 1 чел на 2-3 мес&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;для изучения продукта&lt;/span&gt;&lt;div&gt;потом&lt;br&gt;&lt;div&gt;- команда из 2-4 чел (с менеджером, лидом, разработчиками) на 12 мес.&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="88" width="418" x="140" y="7623" as="geometry" />
+          <mxGeometry height="88" width="418" x="135" y="7622" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 2-3 чел. на реализацию следующих проектов" vertex="1">
-          <mxGeometry height="52" width="288" x="-227" y="7641" as="geometry" />
+          <mxGeometry height="52" width="288" x="-224" y="7635" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 1 менеджер проектов (очень важен для формирования и понимания объёма работ, там можно видеть сколько других людей нужно)&lt;div&gt;- 1 джун&lt;/div&gt;" vertex="1">
           <mxGeometry height="132" width="143" x="9" y="7510" as="geometry" />
