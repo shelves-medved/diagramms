@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0" pages="13">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="5778" dy="-2579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5551" dy="-2791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -589,6 +589,30 @@
         </mxCell>
         <mxCell id="qUhQA46fOZUOQvhV4IXk-32" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;HASH ТАБЛИЦА РЕДИС&lt;/span&gt;" vertex="1">
           <mxGeometry height="28" width="145" x="-4025" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-INVENT" vertex="1">
+          <mxGeometry height="25" width="90" x="-207" y="7409" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION" vertex="1">
+          <mxGeometry height="26" width="87" x="152" y="7408" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MONITOR" vertex="1">
+          <mxGeometry height="30" width="100" x="839.0500000000001" y="7491" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-FRONT" vertex="1">
+          <mxGeometry height="30" width="90" x="27.500000000000114" y="7267" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
+          <mxGeometry height="30" width="70" x="262" y="7405" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-ROUTE_PLAN" vertex="1">
+          <mxGeometry height="26" width="119" x="13" y="7408" as="geometry" />
+        </mxCell>
+        <mxCell id="T85sCsySrtwyE3rjwGRX-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MANAGER" vertex="1">
+          <mxGeometry height="26" width="99" x="-102" y="7409" as="geometry" />
+        </mxCell>
+        <mxCell id="bDeB71kjBIUhW_2AoFyX-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MONITOR" vertex="1">
+          <mxGeometry height="30" width="100" x="22.5" y="7337" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
