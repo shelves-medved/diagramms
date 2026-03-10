@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0" pages="13">
   <diagram id="FYZa3y9ffoIoKMOvkfMJ" name="Общий вид">
-    <mxGraphModel dx="5897" dy="-2602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5720" dy="-2699" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -599,9 +599,6 @@
         <mxCell id="T85sCsySrtwyE3rjwGRX-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION" vertex="1">
           <mxGeometry height="26" width="87" x="152" y="7408" as="geometry" />
         </mxCell>
-        <mxCell id="T85sCsySrtwyE3rjwGRX-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MONITOR" vertex="1">
-          <mxGeometry height="30" width="100" x="839.0500000000001" y="7491" as="geometry" />
-        </mxCell>
         <mxCell id="T85sCsySrtwyE3rjwGRX-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-FRONT" vertex="1">
           <mxGeometry height="30" width="90" x="27.500000000000114" y="7267" as="geometry" />
         </mxCell>
@@ -618,10 +615,22 @@
           <mxGeometry height="30" width="100" x="22.5" y="7337" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AGV" vertex="1">
-          <mxGeometry height="61" width="110" x="196" y="7590" as="geometry" />
+          <mxGeometry height="61" width="110" x="188" y="7529" as="geometry" />
         </mxCell>
         <mxCell id="bDeB71kjBIUhW_2AoFyX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3d shuttle" vertex="1">
-          <mxGeometry height="61" width="110" x="-142" y="7590" as="geometry" />
+          <mxGeometry height="61" width="110" x="-141" y="7529" as="geometry" />
+        </mxCell>
+        <mxCell id="bDeB71kjBIUhW_2AoFyX-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 1 чел на 2-3 мес&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;для изучения продукта&lt;/span&gt;&lt;div&gt;потом&lt;br&gt;&lt;div&gt;- команда из 2-4 чел (с менеджером, лидом, разработчиками) на 12 мес.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="418" x="140" y="7623" as="geometry" />
+        </mxCell>
+        <mxCell id="bDeB71kjBIUhW_2AoFyX-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 2-3 чел. на реализацию следующих проектов" vertex="1">
+          <mxGeometry height="52" width="288" x="-227" y="7641" as="geometry" />
+        </mxCell>
+        <mxCell id="bDeB71kjBIUhW_2AoFyX-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- 1 менеджер проектов (очень важен для формирования и понимания объёма работ, там можно видеть сколько других людей нужно)&lt;div&gt;- 1 джун&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="143" x="9" y="7510" as="geometry" />
+        </mxCell>
+        <mxCell id="bDeB71kjBIUhW_2AoFyX-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Пока из камчатки в текущем виде ничего не взять (только ввиде каркаса)" vertex="1">
+          <mxGeometry height="30" width="268" x="144" y="7496" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
