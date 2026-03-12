@@ -15341,7 +15341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wHJMNVcKnURwC-_F027" name="Обработка событий">
-    <mxGraphModel dx="731" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15432,11 +15432,62 @@
         <mxCell id="pMgFSjCDOg8xokGMdgjI-18" edge="1" parent="1" source="pMgFSjCDOg8xokGMdgjI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pMgFSjCDOg8xokGMdgjI-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Перемещение паллета с транспортёра на транспортёр&lt;/div&gt;Когда транспортёр или лифт уходят в ошибку (error=true) то&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;li&gt;команды с аварийного транспортёра и транспортёра участвующего в текущем шаге снимаются&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="340" x="1720" y="220" as="geometry" />
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Когда транспортёр или лифт уходят в ошибку (error=true) то&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 204, 153);&quot;&gt;команды с аварийного транспортёра и транспортёра участвующего в текущем шаге снимаются&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="340" x="1880" y="215" as="geometry" />
         </mxCell>
-        <mxCell id="pMgFSjCDOg8xokGMdgjI-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="340" x="1720" y="410" as="geometry" />
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;li&gt;при необходимости, вернуть груз в начальное положение&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="1880" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-2" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Перемещение паллета с транспортёра на транспортёр&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1990" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-5" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D4v8_11FGYDU4p5pzqwu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Устройство не участвует в работе, но случилась ошибка&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="1565" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-7" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D4v8_11FGYDU4p5pzqwu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="230" x="1510" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="330" x="1490" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-8" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D4v8_11FGYDU4p5pzqwu-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 204, 153);&quot;&gt;команды с аварийного лифта снимаются&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="310" x="2365" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;li&gt;при необходимости, вернуть лифт в начальное положение&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="2350" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-11" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D4v8_11FGYDU4p5pzqwu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4v8_11FGYDU4p5pzqwu-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Перемещение лифта между уровнями&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N1E3qZYMDhDYnwCam5Nu-1" edge="1" parent="1" source="N1E3qZYMDhDYnwCam5Nu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N1E3qZYMDhDYnwCam5Nu-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N1E3qZYMDhDYnwCam5Nu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 204, 153);&quot;&gt;команды с аварийного шаттла снимаются&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="310" x="2740" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="N1E3qZYMDhDYnwCam5Nu-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;li&gt;при необходимости, вернуть шаттл в начальное положение&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="2725" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="N1E3qZYMDhDYnwCam5Nu-4" edge="1" parent="1" source="N1E3qZYMDhDYnwCam5Nu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N1E3qZYMDhDYnwCam5Nu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N1E3qZYMDhDYnwCam5Nu-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Перемещение шаттла&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2835" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
