@@ -15429,6 +15429,15 @@
         <mxCell id="pMgFSjCDOg8xokGMdgjI-15" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="warehouse.current_status_name&lt;br&gt;= &quot;down&quot; / &quot;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); letter-spacing: 0.14994px; text-align: start; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;operational&lt;/font&gt;&lt;/span&gt;&quot;" vertex="1">
           <mxGeometry height="90" width="190" x="1420" y="535.0000000000002" as="geometry" />
         </mxCell>
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-18" edge="1" parent="1" source="pMgFSjCDOg8xokGMdgjI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Перемещение паллета с транспортёра на транспортёр&lt;/div&gt;Когда транспортёр или лифт уходят в ошибку (error=true) то&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;li&gt;команды с аварийного транспортёра и транспортёра участвующего в текущем шаге снимаются&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="340" x="1720" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="1720" y="410" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
