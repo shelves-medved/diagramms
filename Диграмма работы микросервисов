@@ -15341,7 +15341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wHJMNVcKnURwC-_F027" name="Обработка событий">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15454,10 +15454,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D4v8_11FGYDU4p5pzqwu-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;система переходит в ручной режим (все устройства не связанные с аварией довыполняют шаг)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="230" x="1510" y="240" as="geometry" />
+          <mxGeometry height="80" width="190" x="1530" y="240" as="geometry" />
         </mxCell>
         <mxCell id="D4v8_11FGYDU4p5pzqwu-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Оператор должен&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;определить и исправить ошибку&amp;nbsp;&lt;/li&gt;&lt;li&gt;нажать сброс&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="85" width="240" x="1505" y="405" as="geometry" />
+          <mxGeometry height="85" width="240" x="1505" y="380" as="geometry" />
         </mxCell>
         <mxCell id="D4v8_11FGYDU4p5pzqwu-8" edge="1" parent="1" source="D4v8_11FGYDU4p5pzqwu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D4v8_11FGYDU4p5pzqwu-10" value="">
           <mxGeometry relative="1" as="geometry" />
