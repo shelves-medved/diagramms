@@ -10243,7 +10243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="6977" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7215" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11626,8 +11626,16 @@
         <mxCell id="OUidrx_AGlIvsY5Vnw5L-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="70" width="70" x="59" y="2534.5" as="geometry" />
         </mxCell>
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-7" edge="1" parent="1" source="j2QgJUi8OgMn9t0aJ7i6-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zoR_rhMrGh7wCLyeHpJP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-9" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Как только перешёл в ручной режим&lt;div&gt;сообщает, что статус команды&amp;nbsp;&lt;/div&gt;&lt;div&gt;failed&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.134" as="geometry">
+            <mxPoint x="44" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-PLC" vertex="1">
-          <mxGeometry height="30" width="70" x="-4900" y="810" as="geometry" />
+          <mxGeometry height="30" width="70" x="-5130" y="830" as="geometry" />
         </mxCell>
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-2" edge="1" parent="1" source="j2QgJUi8OgMn9t0aJ7i6-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2QgJUi8OgMn9t0aJ7i6-15">
           <mxGeometry relative="1" as="geometry">
@@ -11679,7 +11687,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4240" y="1220" />
-              <mxPoint x="-4870" y="1220" />
+              <mxPoint x="-5095" y="1220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -11724,11 +11732,11 @@
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="j2QgJUi8OgMn9t0aJ7i6-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-5170" y="824" as="sourcePoint" />
-            <mxPoint x="-4670" y="890" as="targetPoint" />
+            <mxPoint x="-5380" y="845" as="sourcePoint" />
+            <mxPoint x="-4840" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j2QgJUi8OgMn9t0aJ7i6-32" connectable="0" parent="j2QgJUi8OgMn9t0aJ7i6-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал об аварии&lt;div&gt;устройства&lt;/div&gt;" vertex="1">
+        <mxCell id="j2QgJUi8OgMn9t0aJ7i6-32" connectable="0" parent="j2QgJUi8OgMn9t0aJ7i6-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал об аварии&lt;div&gt;устройства&lt;/div&gt;&lt;div&gt;снимает команду с устройва&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
             <mxPoint x="-48" as="offset" />
           </mxGeometry>
@@ -11788,6 +11796,12 @@
           <mxGeometry relative="1" x="-0.3659" as="geometry">
             <mxPoint x="11" y="15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-8" edge="1" parent="1" source="zoR_rhMrGh7wCLyeHpJP-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2QgJUi8OgMn9t0aJ7i6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.{id}.command_status" vertex="1">
+          <mxGeometry height="90" width="235" x="-5030" y="1013.68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
