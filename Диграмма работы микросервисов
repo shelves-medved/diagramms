@@ -11629,7 +11629,7 @@
         <mxCell id="zoR_rhMrGh7wCLyeHpJP-7" edge="1" parent="1" source="j2QgJUi8OgMn9t0aJ7i6-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zoR_rhMrGh7wCLyeHpJP-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zoR_rhMrGh7wCLyeHpJP-9" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Как только перешёл в ручной режим&lt;div&gt;сообщает, что статус команды&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;failed&lt;/span&gt;&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-9" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 Как только перешёл в ручной режим&lt;div&gt;сообщает, что статус команды&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;failed&lt;/span&gt;&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.134" as="geometry">
             <mxPoint x="44" y="32" as="offset" />
           </mxGeometry>
@@ -11691,7 +11691,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j2QgJUi8OgMn9t0aJ7i6-22" connectable="0" parent="j2QgJUi8OgMn9t0aJ7i6-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="j2QgJUi8OgMn9t0aJ7i6-22" connectable="0" parent="j2QgJUi8OgMn9t0aJ7i6-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1608" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11800,7 +11800,7 @@
         <mxCell id="zoR_rhMrGh7wCLyeHpJP-8" edge="1" parent="1" source="zoR_rhMrGh7wCLyeHpJP-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2QgJUi8OgMn9t0aJ7i6-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zoR_rhMrGh7wCLyeHpJP-10" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 При получении команды&amp;nbsp;&lt;div&gt;со статусом &quot;&lt;span style=&quot;background-color: rgb(248, 206, 204); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;failed&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;уже находится в ручном режиме&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;и должен перекинуть этот шаг снова в очередь&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;чтобы при возвращении в автоматический режим&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;начать заного его реализовывать&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="zoR_rhMrGh7wCLyeHpJP-10" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 При получении команды&amp;nbsp;&lt;div&gt;со статусом &quot;&lt;span style=&quot;background-color: rgb(248, 206, 204); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;failed&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;уже находится в ручном режиме&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;и должен перекинуть этот шаг снова в очередь&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;чтобы при возвращении в автоматический режим&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;начать заного его реализовывать&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2958" y="2" as="geometry">
             <mxPoint x="37" y="-5" as="offset" />
           </mxGeometry>
