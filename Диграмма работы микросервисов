@@ -11802,7 +11802,7 @@
         </mxCell>
         <mxCell id="zoR_rhMrGh7wCLyeHpJP-10" connectable="0" parent="zoR_rhMrGh7wCLyeHpJP-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 При получении команды&amp;nbsp;&lt;div&gt;со статусом &quot;&lt;span style=&quot;background-color: rgb(248, 206, 204); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;failed&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;уже находится в ручном режиме&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;и должен перекинуть этот шаг снова в очередь&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;чтобы при возвращении в автоматический режим&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;начать заного его реализовывать&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2958" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="37" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zoR_rhMrGh7wCLyeHpJP-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.{device_id}.command_status" vertex="1">
