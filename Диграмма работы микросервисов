@@ -11732,13 +11732,13 @@
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="j2QgJUi8OgMn9t0aJ7i6-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-5380" y="845" as="sourcePoint" />
+            <mxPoint x="-5510" y="845" as="sourcePoint" />
             <mxPoint x="-4840" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-32" connectable="0" parent="j2QgJUi8OgMn9t0aJ7i6-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал об аварии&lt;div&gt;устройства&lt;/div&gt;&lt;div&gt;снимает команду с устройва&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
-            <mxPoint x="-48" as="offset" />
+            <mxPoint x="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j2QgJUi8OgMn9t0aJ7i6-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Механизм взаимодейсвия микросервисов&lt;div&gt;при аварии устройства&lt;/div&gt;" vertex="1">
