@@ -15216,7 +15216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="knoPg5jrrAASeLq2Z-5f" name="Деплой">
-    <mxGraphModel dx="3721" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4675" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15284,7 +15284,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sba_h6V0PPZyc9PQAHOH-8" connectable="0" parent="Sba_h6V0PPZyc9PQAHOH-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Берёт образы из&lt;div&gt;локольного докер регистра&lt;/div&gt;" vertex="1">
+        <mxCell id="Sba_h6V0PPZyc9PQAHOH-8" connectable="0" parent="Sba_h6V0PPZyc9PQAHOH-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFCC99;" value="Берёт образы из&lt;div&gt;локольного докер регистра&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0842" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -15320,7 +15320,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-51" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" target="UCZiGQlZe3TvzdP2Uf5k-48">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-51" edge="1" parent="1" source="UCZiGQlZe3TvzdP2Uf5k-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UCZiGQlZe3TvzdP2Uf5k-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-52" connectable="0" parent="UCZiGQlZe3TvzdP2Uf5k-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" value="сохранять образ&lt;div&gt;в докерхабе&lt;/div&gt;&lt;div&gt;с версией образа&lt;br&gt;если ветка main&lt;/div&gt;&lt;div&gt;(указываем в pyproject.toml)&lt;/div&gt;" vertex="1">
@@ -15389,7 +15389,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Образы&lt;/div&gt;&lt;div&gt;Микросервисов&lt;br&gt;с версиями&lt;/div&gt;" vertex="1">
+        <mxCell id="UCZiGQlZe3TvzdP2Uf5k-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="&lt;div&gt;Образы&lt;/div&gt;&lt;div&gt;Микросервисов&lt;br&gt;с версиями&lt;/div&gt;" vertex="1">
           <mxGeometry height="65" width="110" x="-415" y="208.75" as="geometry" />
         </mxCell>
         <mxCell id="UCZiGQlZe3TvzdP2Uf5k-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Как удобнее обновлять конкретный микросервис?&lt;br&gt;Ответ: в git actions" vertex="1">
@@ -15412,7 +15412,7 @@
         <mxCell id="I_CbKErHg-1hfsWCITI_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" value="DockerRegisty&lt;div&gt;(локальный DockerHub)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="185" x="-1800" y="163.75" as="geometry" />
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Образ" vertex="1">
+        <mxCell id="I_CbKErHg-1hfsWCITI_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;autosize=1;" value="Образ" vertex="1">
           <mxGeometry height="30" width="60" x="-1745" y="320.5" as="geometry" />
         </mxCell>
         <mxCell id="I_CbKErHg-1hfsWCITI_-11" edge="1" parent="1" source="I_CbKErHg-1hfsWCITI_-5" style="endArrow=classic;html=1;rounded=0;" target="I_CbKErHg-1hfsWCITI_-8" value="">
@@ -15426,7 +15426,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_CbKErHg-1hfsWCITI_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Добавить докерфайл&amp;nbsp;&lt;div&gt;добавить в воркфлоу:&lt;/div&gt;&lt;div&gt;- подключение к серверу&lt;/div&gt;&lt;div&gt;-билд образа&lt;/div&gt;&lt;div&gt;-сохранение образа в registry&lt;/div&gt;" vertex="1">
+        <mxCell id="I_CbKErHg-1hfsWCITI_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Добавить докерфайл&amp;nbsp;&lt;div&gt;добавить в воркфлоу:&lt;/div&gt;&lt;div&gt;- подключение к серверу&lt;/div&gt;&lt;div&gt;-билд образа&lt;/div&gt;&lt;div&gt;-сохранение образа в registry&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="-1640" y="430" as="geometry" />
         </mxCell>
       </root>
