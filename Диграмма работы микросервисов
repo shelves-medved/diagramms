@@ -14681,7 +14681,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wHJMNVcKnURwC-_F027" name="Обработка событий">
-    <mxGraphModel dx="2593" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14708,7 +14708,7 @@
         <mxCell id="kjR9CFb1jNfjiYTW6_3W-13" edge="1" parent="1" source="kjR9CFb1jNfjiYTW6_3W-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kjR9CFb1jNfjiYTW6_3W-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kjR9CFb1jNfjiYTW6_3W-14" connectable="0" parent="kjR9CFb1jNfjiYTW6_3W-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправляет уведомление на фронт&lt;div&gt;где&amp;nbsp;&lt;/div&gt;&lt;div&gt;во вкладке &quot;История событий&quot; появляется эта ошибка&amp;nbsp;&lt;/div&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;во вкладке &quot;Активные события&quot; появляется ошибка&lt;/div&gt;" vertex="1">
+        <mxCell id="kjR9CFb1jNfjiYTW6_3W-14" connectable="0" parent="kjR9CFb1jNfjiYTW6_3W-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправляет уведомление на фронт&lt;div&gt;где&amp;nbsp;&lt;/div&gt;&lt;div&gt;во вкладке &quot;Все события&quot; появляется эта ошибка&amp;nbsp;&lt;/div&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;во вкладке &quot;Активные события&quot; появляется ошибка&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14716,7 +14716,7 @@
         <mxCell id="pMgFSjCDOg8xokGMdgjI-2" edge="1" parent="1" source="kjR9CFb1jNfjiYTW6_3W-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pMgFSjCDOg8xokGMdgjI-3" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Сохраняет ошибку в&lt;div&gt;таблице&lt;br&gt;с указанием, что ошибка is_active&lt;/div&gt;" vertex="1">
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-3" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Сохраняет ошибку в&lt;div&gt;таблице&lt;br&gt;с указанием, что ошибка is_active=true&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1304" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14750,7 +14750,7 @@
         <mxCell id="pMgFSjCDOg8xokGMdgjI-8" edge="1" parent="1" source="pMgFSjCDOg8xokGMdgjI-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pMgFSjCDOg8xokGMdgjI-9" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправляет уведомление на фронт&lt;div&gt;где&amp;nbsp;&lt;/div&gt;&lt;div&gt;во вкладке &quot;История событий&quot; появляется запись о завершении ошибки&amp;nbsp;&lt;/div&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;во вкладке &quot;Активные события&quot; эта ошибка должна пропасть&lt;/div&gt;" vertex="1">
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-9" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="При изменении отправляет уведомление на фронт&lt;div&gt;где&amp;nbsp;&lt;/div&gt;&lt;div&gt;во вкладке &quot;Все события&quot; у этой актиивной записи появляется &quot;время завершения&quot; ошибки&amp;nbsp;&lt;/div&gt;&lt;div&gt;и&lt;/div&gt;&lt;div&gt;во вкладке &quot;Активные события&quot; эта ошибка должна пропасть&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -14758,7 +14758,7 @@
         <mxCell id="pMgFSjCDOg8xokGMdgjI-10" edge="1" parent="1" source="pMgFSjCDOg8xokGMdgjI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pMgFSjCDOg8xokGMdgjI-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pMgFSjCDOg8xokGMdgjI-11" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Если существует запись, что&amp;nbsp;&lt;div&gt;эта ошибка имеет is_active=true&lt;/div&gt;&lt;div&gt;то&amp;nbsp;&lt;/div&gt;&lt;div&gt;создаёт запись, что ошибка успешно завершена&lt;/div&gt;&lt;div&gt;и меняет у существующей записи is_active = false&lt;/div&gt;&lt;div&gt;в противном случае&lt;/div&gt;&lt;div&gt;игнорируется&lt;/div&gt;" vertex="1">
+        <mxCell id="pMgFSjCDOg8xokGMdgjI-11" connectable="0" parent="pMgFSjCDOg8xokGMdgjI-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Если существует запись, что&amp;nbsp;&lt;div&gt;эта ошибка имеет is_active=true&lt;/div&gt;&lt;div&gt;то&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;меняет у существующей записи is_active = false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;и фиксируется время завершения&amp;nbsp;&lt;/div&gt;&lt;div&gt;в противном случае&lt;/div&gt;&lt;div&gt;игнорируется&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1304" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
