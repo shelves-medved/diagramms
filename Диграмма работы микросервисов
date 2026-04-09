@@ -12208,7 +12208,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ieVmyXHZbqFz790sFnM" name="Калибровка шаттла ">
-    <mxGraphModel dx="2832" dy="1817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2511" dy="1640" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13657,68 +13657,74 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- проверяем наличие матрикс-кодов у узлов по оси X для текущей Y&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="31" width="418" x="-854" y="3993" as="geometry" />
+          <mxGeometry height="31" width="418" x="-879" y="4206" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-7" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;матрикс кодов нет слева&lt;div&gt;- калибруемся во все матрикс кода слева&lt;/div&gt;&lt;div&gt;- возвращаемся в текущий матрикс код&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="57" width="235" x="-945" y="4085" as="geometry" />
+          <mxGeometry height="57" width="235" x="-970" y="4298" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-8" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-540.6842105263158" y="4268.473684210527" as="targetPoint" />
+            <mxPoint x="-565.6842105263158" y="4481.473684210527" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-18" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;матрикс кодов нет справа (слева точно есть)&lt;div&gt;- калибруемся во все матрикс кода&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;справа&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-если, добрались до верхнего, то помечаем, что склад до верха откалиброван&lt;/div&gt;&lt;div&gt;- если добрались до нижнего, &lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;то уровень откалиброван&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="109" width="264" x="-648" y="4085" as="geometry" />
+          <mxGeometry height="109" width="264" x="-673" y="4298" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-12" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1017" y="4359" />
-              <mxPoint x="-1017" y="4011" />
+              <mxPoint x="-1042" y="4572" />
+              <mxPoint x="-1042" y="4224" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-9" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;html=1;" value="- находим ближайщий узел, у которого есть связь с узлом выше по оси Y&lt;br&gt;- перемещаемся в этот узел&lt;br&gt;- калибруемся наверх&lt;br&gt;&lt;br&gt;" vertex="1">
-          <mxGeometry height="81.33" width="264" x="-806.75" y="4319.67" as="geometry" />
+          <mxGeometry height="81.33" width="264" x="-831.75" y="4532.67" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-11" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;- калибруемся на месте&lt;/span&gt;" vertex="1">
-          <mxGeometry height="29" width="161" x="-725.5" y="3924" as="geometry" />
+          <mxGeometry height="29" width="161" x="-750.5" y="4137" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-16" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-15" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-516" y="4194" as="sourcePoint" />
-            <mxPoint x="-651" y="4317" as="targetPoint" />
+            <mxPoint x="-541" y="4407" as="sourcePoint" />
+            <mxPoint x="-676" y="4530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-15" parent="1" style="text;whiteSpace=wrap;html=1;" value="- склад до верха ещё не откалиброван" vertex="1">
-          <mxGeometry height="36" width="220.5" x="-785" y="4238" as="geometry" />
+          <mxGeometry height="36" width="220.5" x="-810" y="4451" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-20" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-17" parent="1" style="text;whiteSpace=wrap;html=1;" value="- склад до верха откалиброван" vertex="1">
-          <mxGeometry height="36" width="186.57" x="-469" y="4238" as="geometry" />
+          <mxGeometry height="36" width="186.57" x="-494" y="4451" as="geometry" />
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-21" edge="1" parent="1" source="7rgZqqkt-HA_q5d94duw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-376" y="4441" />
-              <mxPoint x="-1017" y="4441" />
-              <mxPoint x="-1017" y="4011" />
+              <mxPoint x="-401" y="4654" />
+              <mxPoint x="-1042" y="4654" />
+              <mxPoint x="-1042" y="4224" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7rgZqqkt-HA_q5d94duw-19" parent="1" style="text;whiteSpace=wrap;" value="- находим ближайщий узел, у которого есть связь с узлом ниже по оси Y&#xa;- перемещаемся в этот узел&#xa;- калибруемся вниз" vertex="1">
-          <mxGeometry height="67" width="229.29" x="-490.36" y="4312" as="geometry" />
+          <mxGeometry height="67" width="229.29" x="-515.36" y="4525" as="geometry" />
+        </mxCell>
+        <mxCell id="NYUqCexL5Ce54HSUfsOj-2" edge="1" parent="1" source="NYUqCexL5Ce54HSUfsOj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7rgZqqkt-HA_q5d94duw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYUqCexL5Ce54HSUfsOj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="считываем данные о калибровке из файла csv" vertex="1">
+          <mxGeometry height="45" width="201" x="-770.5" y="4010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
