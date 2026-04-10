@@ -10243,7 +10243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="7557" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6799" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10949,7 +10949,7 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-28" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-29" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 Как только в БД поисходит&lt;div&gt;переход в ручной режим&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-29" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 Как только в БД поисходит&lt;div&gt;переход в ручной режим&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1457" y="1" as="geometry">
             <mxPoint x="-45" y="60" as="offset" />
           </mxGeometry>
@@ -10979,7 +10979,7 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-32" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-33" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-33" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2467" y="2" as="geometry">
             <mxPoint x="30" y="-2" as="offset" />
           </mxGeometry>
@@ -10989,7 +10989,7 @@
             <mxPoint x="-2335.0008821524316" y="2080.4120498381503" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-35" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-35" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1018" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11002,7 +11002,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-37" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-37" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 При получении &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;div&gt;проверяет БД и&amp;nbsp;&lt;br&gt;&lt;div&gt;переходит в ручной&lt;/div&gt;&lt;div&gt;режим&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1608" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11021,7 +11021,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-41" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Сообщает, что система&lt;div&gt;перешла в ручной режим&lt;br&gt;(можно управлять)&lt;/div&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-41" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 Сообщает, что система&lt;div&gt;перешла в ручной режим&lt;br&gt;(можно управлять)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
             <mxPoint y="16" as="offset" />
           </mxGeometry>
@@ -11029,7 +11029,7 @@
         <mxCell id="Y9i0HF_a-nDgkBS1g6Wt-5" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y9i0HF_a-nDgkBS1g6Wt-6" connectable="0" parent="Y9i0HF_a-nDgkBS1g6Wt-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Сообщает, что система&lt;div&gt;сбросила состояния&lt;/div&gt;" vertex="1">
+        <mxCell id="Y9i0HF_a-nDgkBS1g6Wt-6" connectable="0" parent="Y9i0HF_a-nDgkBS1g6Wt-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 Сообщает, что система&lt;div&gt;сбросила состояния&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1228" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11418,7 +11418,7 @@
             <mxPoint x="-2420" y="2144" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW3u8eeDC1qVGvo4_2E5-3" connectable="0" parent="vW3u8eeDC1qVGvo4_2E5-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 Как только в БД поисходит&lt;div&gt;переход в ручной режим&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="vW3u8eeDC1qVGvo4_2E5-3" connectable="0" parent="vW3u8eeDC1qVGvo4_2E5-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 Как только в БД поисходит&lt;div&gt;переход в ручной режим&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;manual&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1457" y="1" as="geometry">
             <mxPoint y="18" as="offset" />
           </mxGeometry>
