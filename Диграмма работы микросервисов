@@ -10243,7 +10243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="6337" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7074" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11011,7 +11011,7 @@
           <mxGeometry height="90" width="175" x="-2660" y="2019.68" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-MOTION" vertex="1">
-          <mxGeometry height="24" width="90" x="-2939" y="2100" as="geometry" />
+          <mxGeometry height="24" width="90" x="-2980" y="2126.41" as="geometry" />
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-40" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-45">
           <mxGeometry relative="1" as="geometry">
@@ -11348,8 +11348,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-3" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gUhtsWeM8x0GSHc6pz2I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-4" connectable="0" parent="gUhtsWeM8x0GSHc6pz2I-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 При получении&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выполняется&lt;/span&gt;&lt;div&gt;сброс данных&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0295" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="StPsDZGUPlWKYEAph_lh-152" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fanout exchange:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;warehouse_clear_data&lt;/div&gt;&lt;/div&gt;&lt;div&gt;=без тела сообщения&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="205" x="-2930" y="1869.68" as="geometry" />
+          <mxGeometry height="80" width="205" x="-3120" y="1914.68" as="geometry" />
         </mxCell>
         <mxCell id="StPsDZGUPlWKYEAph_lh-153" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-152" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-39">
           <mxGeometry relative="1" as="geometry">
@@ -11362,8 +11370,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zbqtti6S27qpr1SPOMy-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="&lt;div&gt;&lt;/div&gt;BR-MANAGER&lt;hr&gt;&lt;div&gt;BR-ROUTE_PLAN&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-3150" y="1994.68" as="geometry" />
+        <mxCell id="1zbqtti6S27qpr1SPOMy-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="&lt;div&gt;&lt;/div&gt;BR-MANAGER" vertex="1">
+          <mxGeometry height="28.82" width="100" x="-3150" y="2124" as="geometry" />
         </mxCell>
         <mxCell id="1zbqtti6S27qpr1SPOMy-2" edge="1" parent="1" source="StPsDZGUPlWKYEAph_lh-152" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1zbqtti6S27qpr1SPOMy-1">
           <mxGeometry relative="1" as="geometry">
@@ -11377,7 +11385,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zqdrKcygBbW3dtA1L--m-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="может возникнуть гонка" vertex="1">
-          <mxGeometry height="60" width="120" x="-2767.5" y="1944.68" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2755" y="1949.68" as="geometry" />
         </mxCell>
         <mxCell id="UThnYU5JSw23sjhKSOdU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="Не актуально&lt;br&gt;до ПНР не удаляем" vertex="1">
           <mxGeometry height="40" width="140" x="-2950" y="1131" as="geometry" />
@@ -11789,6 +11797,29 @@
         </mxCell>
         <mxCell id="zoR_rhMrGh7wCLyeHpJP-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="br-plc.{device_id}.command_status" vertex="1">
           <mxGeometry height="90" width="235" x="-5197" y="1011" as="geometry" />
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-2" edge="1" parent="1" source="gUhtsWeM8x0GSHc6pz2I-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G40cG1DcJJnBQy5KuKv2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-7" connectable="0" parent="gUhtsWeM8x0GSHc6pz2I-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Отправляет &quot;&lt;span style=&quot;text-wrap-mode: wrap; font-size: 12px; background-color: rgb(248, 206, 204);&quot;&gt;emergency&lt;/span&gt;&quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.1111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-ROUTE_PLAN" vertex="1">
+          <mxGeometry height="30" width="145" x="-2935" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="gUhtsWeM8x0GSHc6pz2I-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-2610" y="1825" as="sourcePoint" />
+            <mxPoint x="-2400" y="1821" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUhtsWeM8x0GSHc6pz2I-6" connectable="0" parent="gUhtsWeM8x0GSHc6pz2I-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 Что-сломалось&lt;div&gt;в маршрутах!&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2161" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
