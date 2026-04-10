@@ -10243,7 +10243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="7074" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7557" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10930,7 +10930,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-24" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 получает&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-24" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 получает&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.5619" y="3" as="geometry">
             <mxPoint x="3" y="4" as="offset" />
           </mxGeometry>
@@ -11043,13 +11043,13 @@
         <mxCell id="_MJaH7Yva5svVvRwwv8s-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="_MJaH7Yva5svVvRwwv8s-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-3470" y="1830" as="sourcePoint" />
+            <mxPoint x="-3340" y="1830" as="sourcePoint" />
             <mxPoint x="-2970" y="1896" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал об аварии" vertex="1">
+        <mxCell id="_MJaH7Yva5svVvRwwv8s-47" connectable="0" parent="_MJaH7Yva5svVvRwwv8s-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 получен сигнал&lt;div&gt;об аварии&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2161" as="geometry">
-            <mxPoint x="-48" as="offset" />
+            <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_MJaH7Yva5svVvRwwv8s-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Механизм взаимодейсвия микросервисов&lt;div&gt;при нажатии на аварийную кнопку&lt;/div&gt;" vertex="1">
@@ -11807,12 +11807,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUhtsWeM8x0GSHc6pz2I-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;autosize=1;" value="BR-ROUTE_PLAN" vertex="1">
-          <mxGeometry height="30" width="145" x="-2935" y="1810" as="geometry" />
+          <mxGeometry height="30" width="115" x="-2935" y="1810" as="geometry" />
         </mxCell>
         <mxCell id="gUhtsWeM8x0GSHc6pz2I-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="gUhtsWeM8x0GSHc6pz2I-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-2610" y="1825" as="sourcePoint" />
+            <mxPoint x="-2660" y="1825" as="sourcePoint" />
             <mxPoint x="-2400" y="1821" as="targetPoint" />
           </mxGeometry>
         </mxCell>
