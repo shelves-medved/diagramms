@@ -10965,7 +10965,7 @@
         <mxCell id="G40cG1DcJJnBQy5KuKv2-6" edge="1" parent="1" source="_MJaH7Yva5svVvRwwv8s-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_MJaH7Yva5svVvRwwv8s-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G40cG1DcJJnBQy5KuKv2-7" connectable="0" parent="G40cG1DcJJnBQy5KuKv2-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 Как только в БД поисходит&lt;div&gt;переход в сброс состояний&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="G40cG1DcJJnBQy5KuKv2-7" connectable="0" parent="G40cG1DcJJnBQy5KuKv2-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 Как только в БД поисходит&lt;div&gt;переход в сброс состояний&lt;/div&gt;&lt;div&gt;отправляет &quot;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(248, 206, 204);&quot;&gt;down&lt;/span&gt;&quot;&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1578" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
