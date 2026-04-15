@@ -12239,7 +12239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ieVmyXHZbqFz790sFnM" name="Калибровка шаттла ">
-    <mxGraphModel dx="2712" dy="2205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="2140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12278,7 +12278,7 @@
           <mxGeometry height="60" width="120" x="490" y="3080" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" value="Для удобства и абстракции команды описывать не буду и направление буду задавать просто в декартовой системе координат" vertex="1">
-          <mxGeometry height="160" width="290" x="-105" y="32" as="geometry" />
+          <mxGeometry height="160" width="290" x="464" y="-417" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-16" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w8p8tOSl53tYicBNzV4c-15" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -12891,7 +12891,7 @@
           <mxGeometry height="60" width="120" x="5134.7699999999995" y="4380" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-165" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;Система знает все узлы склада и их связи (склад был сконфигурирован через конфигуратор)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="300" x="-120" y="293" as="geometry" />
+          <mxGeometry height="110" width="300" x="780.5" y="-363" as="geometry" />
         </mxCell>
         <mxCell id="w8p8tOSl53tYicBNzV4c-168" edge="1" parent="1" source="w8p8tOSl53tYicBNzV4c-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w8p8tOSl53tYicBNzV4c-152" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -13171,6 +13171,9 @@
         </mxCell>
         <mxCell id="6VG3M1X6D3_q5nrk9-8g-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=200;" value="старый вариант" vertex="1">
           <mxGeometry height="557" width="2625" x="803" y="1711" as="geometry" />
+        </mxCell>
+        <mxCell id="6TJsqKsp93Ib2TA0Y_-7-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Склад должен быт ьв автоматическом режиме!&lt;div&gt;Потому что команда перемещения выполняется, та же что и для автоматичекого режима&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="130" y="-367" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
