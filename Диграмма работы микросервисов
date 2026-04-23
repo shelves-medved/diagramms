@@ -12680,11 +12680,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8229" dy="432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8071" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="1630" width="1620" x="117" y="2535" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
@@ -13843,22 +13843,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="обновляется ПЛК&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="206" x="799" y="3156" as="geometry" />
+          <mxGeometry height="30" width="206" x="1021" y="3150" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-3" edge="1" parent="1" source="nrA7NhQl8ZyIMI8Q_agk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nrA7NhQl8ZyIMI8Q_agk-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Добавляется новое устройство, br-plc его найдет (opc_state.devices), т.к. произойдёт переподключение, но подписка произойдёт только на устройства из БД" vertex="1">
-          <mxGeometry height="70" width="206" x="799" y="3221.96" as="geometry" />
+          <mxGeometry height="70" width="206" x="1021" y="3226.96" as="geometry" />
         </mxCell>
-        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-5" edge="1" parent="1" source="nrA7NhQl8ZyIMI8Q_agk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nrA7NhQl8ZyIMI8Q_agk-7" value="">
+        <mxCell id="QXCeRaGolyNAYkGXpvtf-3" edge="1" parent="1" source="nrA7NhQl8ZyIMI8Q_agk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QXCeRaGolyNAYkGXpvtf-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;в&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;br-config есть ручка /add_new_device&lt;br&gt;которая принимает на вход координаты&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;и&lt;/span&gt;&lt;/div&gt;&amp;nbsp;дергает ручку br-plc /resibscribe_to_devices&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="206" x="799" y="3395" as="geometry" />
+        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;в&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;br-config есть ручка /add_new_device&lt;br&gt;которая принимает на вход координаты&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;и&lt;/span&gt;&lt;/div&gt;&amp;nbsp;дергает ручку br-plc /devices&lt;div&gt;получает&amp;nbsp;&lt;br&gt;opc_name&lt;br&gt;opc_id&lt;br&gt;type&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;br-config проверяет по opc_name устройсвта и обновляет opc_id +&lt;br&gt;создаёт новое устройсвто&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="224" width="260" x="1021" y="3326" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="br-plc при срабатывании ручки /add_new_device подписывается на новое устройство" vertex="1">
-          <mxGeometry height="80" width="206" x="799" y="3686" as="geometry" />
+          <mxGeometry height="80" width="206" x="1038" y="3796" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Добавление нового шаттла в существующую систему" vertex="1">
           <mxGeometry height="557" width="1422" x="200" y="2562" as="geometry" />
@@ -14024,6 +14024,9 @@
         </mxCell>
         <mxCell id="QXCeRaGolyNAYkGXpvtf-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=15;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="device_id у нас не должно быть привязанно к каким-то местам" vertex="1">
           <mxGeometry height="118" width="102" x="636" y="3255" as="geometry" />
+        </mxCell>
+        <mxCell id="QXCeRaGolyNAYkGXpvtf-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/set_device_id&lt;div&gt;по opc_name обновляет данные в БД&lt;/div&gt;&lt;div&gt;и возвращает&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="206" x="1048" y="3604" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
