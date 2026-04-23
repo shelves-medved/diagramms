@@ -13843,13 +13843,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="обновляется ПЛК&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="206" x="1021" y="3150" as="geometry" />
+          <mxGeometry height="30" width="206" x="1048" y="3141" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-3" edge="1" parent="1" source="nrA7NhQl8ZyIMI8Q_agk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nrA7NhQl8ZyIMI8Q_agk-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Добавляется новое устройство, br-plc его найдет (opc_state.devices), т.к. произойдёт переподключение, но подписка произойдёт только на устройства из БД" vertex="1">
-          <mxGeometry height="70" width="206" x="1021" y="3226.96" as="geometry" />
+          <mxGeometry height="70" width="206" x="1048" y="3218" as="geometry" />
         </mxCell>
         <mxCell id="QXCeRaGolyNAYkGXpvtf-3" edge="1" parent="1" source="nrA7NhQl8ZyIMI8Q_agk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QXCeRaGolyNAYkGXpvtf-2" value="">
           <mxGeometry relative="1" as="geometry" />
