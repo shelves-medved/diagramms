@@ -12680,7 +12680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8071" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8355" dy="501" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13856,9 +13856,6 @@
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;в&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;br-config есть ручка /add_new_device&lt;br&gt;которая принимает на вход координаты&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;и&lt;/span&gt;&lt;/div&gt;&amp;nbsp;дергает ручку br-plc /devices&lt;div&gt;получает&amp;nbsp;&lt;br&gt;opc_name&lt;br&gt;opc_id&lt;br&gt;type&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;br-config проверяет по opc_name устройсвта и обновляет opc_id +&lt;br&gt;создаёт новое устройсвто&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="224" width="260" x="1021" y="3326" as="geometry" />
-        </mxCell>
-        <mxCell id="nrA7NhQl8ZyIMI8Q_agk-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="br-plc при срабатывании ручки /add_new_device подписывается на новое устройство" vertex="1">
-          <mxGeometry height="80" width="206" x="1038" y="3796" as="geometry" />
         </mxCell>
         <mxCell id="nrA7NhQl8ZyIMI8Q_agk-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Добавление нового шаттла в существующую систему" vertex="1">
           <mxGeometry height="557" width="1422" x="200" y="2562" as="geometry" />
