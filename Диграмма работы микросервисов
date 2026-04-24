@@ -11098,7 +11098,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="6799" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7034" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11277,7 +11277,7 @@
           <mxGeometry height="60" width="450" x="775" y="790" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-7" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;gradientColor=#97d077;" value="Все маршруты отменяются&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="180" x="484" y="1440" as="geometry" />
+          <mxGeometry height="30" width="180" x="484" y="1419" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -11289,7 +11289,7 @@
           <mxGeometry height="30" width="180" x="490" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-12" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Маршруты встают на паузу&lt;br&gt;Ожидается получение&amp;nbsp;&lt;div&gt;выполненного шага&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="204" y="1425" as="geometry" />
+          <mxGeometry height="60" width="180" x="204" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="Rw_EYRBsicRL5hegqyzp-14" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Маршруты встают на паузу&lt;br&gt;Действий не требуется" vertex="1">
           <mxGeometry height="40" width="180" x="210" y="1555" as="geometry" />
@@ -11307,7 +11307,7 @@
           <mxGeometry height="30" width="150" x="925" y="920" as="geometry" />
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-5" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Действий не требуется" vertex="1">
-          <mxGeometry height="30" width="150" x="1060" y="1440" as="geometry" />
+          <mxGeometry height="30" width="150" x="1060" y="1429" as="geometry" />
         </mxCell>
         <mxCell id="oDz6dN463QDuHpmDB9P7-6" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Действий не требуется" vertex="1">
           <mxGeometry height="30" width="150" x="932.5" y="1560" as="geometry" />
@@ -11370,7 +11370,7 @@
           <mxGeometry height="30" width="150" x="782.5" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="z652Go-HNQ4klQfrpYbq-2" parent="1" style="rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Запустить фоновые&lt;div&gt;задачи&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="130" x="797.5" y="1435" as="geometry" />
+          <mxGeometry height="40" width="130" x="797.5" y="1422" as="geometry" />
         </mxCell>
         <mxCell id="z652Go-HNQ4klQfrpYbq-3" parent="1" style="rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;convertToSvg=0;whiteSpace=wrap;html=1;autosize=1;" value="Возможно выполнение&amp;nbsp;&lt;div&gt;маршрута&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="150" x="225" y="1190" as="geometry" />
@@ -12676,11 +12676,20 @@
             <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="T0C9SWvt2AxLMXxH-2OZ-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; float: none; display: inline !important;&quot;&gt;fanout exchange:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;warehouse_mode =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&quot;manual&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="170" y="1478" as="geometry" />
+        </mxCell>
+        <mxCell id="T0C9SWvt2AxLMXxH-2OZ-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; float: none; display: inline !important;&quot;&gt;fanout exchange:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; float: none; display: inline !important;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;warehouse_clear_data =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&quot;{}&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="450" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="T0C9SWvt2AxLMXxH-2OZ-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; float: none; display: inline !important;&quot;&gt;fanout exchange:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;warehouse_recovery =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&quot;{&quot;operation&quot;: &quot;restore&quot;}&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="736" y="1473" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="9211" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
