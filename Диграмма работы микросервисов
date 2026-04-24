@@ -11098,7 +11098,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZjOZs56dJqj8K6sDRMD" name="Ручной режим">
-    <mxGraphModel dx="7034" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12689,7 +12689,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8673" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14031,7 +14031,7 @@
         <mxCell id="QXCeRaGolyNAYkGXpvtf-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=15;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="device_id у нас не должно быть привязанно к каким-то местам" vertex="1">
           <mxGeometry height="118" width="102" x="827" y="3160" as="geometry" />
         </mxCell>
-        <mxCell id="QXCeRaGolyNAYkGXpvtf-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/set_device_id&lt;div&gt;по opc_name обновляет данные в БД&lt;/div&gt;&lt;div&gt;и возвращает&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="QXCeRaGolyNAYkGXpvtf-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="br-config дергает ручку br-plc /set_device_id&lt;div&gt;и br-plc переподписывается на устройства с учётом новго устройства&lt;/div&gt;" vertex="1">
           <mxGeometry height="81" width="206" x="1048" y="3604" as="geometry" />
         </mxCell>
       </root>
