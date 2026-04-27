@@ -3594,7 +3594,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aTeCdshyJF51pHVVfX8q" name="Конфигурация склада">
-    <mxGraphModel dx="1447" dy="1776" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1630" dy="1876" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8071" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9107" dy="914" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13759,9 +13759,6 @@
         <mxCell id="QWlfwXju-qCJ-aOApChP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;2. Базовый режим&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 1 конвеер на загрузку&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 1 конвеер на выгрузку&lt;/div&gt;" vertex="1">
           <mxGeometry height="127" width="194" x="3315" y="3080" as="geometry" />
         </mxCell>
-        <mxCell id="QWlfwXju-qCJ-aOApChP-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;1. Выгрузка всегда в приоритере:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- работает загрузка&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- приходит выгрузка, задачи на загрузку текущие выполняются, новые не обрабатываются&lt;/div&gt;" vertex="1">
-          <mxGeometry height="127" width="194" x="4137" y="3042" as="geometry" />
-        </mxCell>
         <mxCell id="QWlfwXju-qCJ-aOApChP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 255, 204);&quot;&gt;3. Что раньше, то и выбирается (выбрали этот вариант)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- работает загрузка, пока паллеты ставятся&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- выгрузка отправляется на конвеер выгрузки&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- как только все задачи на загрузку выполнены, то выгрузка начитает работать и на конвеер загрузки&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="300" x="3537" y="3081.5" as="geometry" />
         </mxCell>
@@ -13771,7 +13768,7 @@
         <mxCell id="k3Cl_26uurAxwyzJ9IJW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Блокирование шаттла в WCS" vertex="1">
           <mxGeometry height="284" width="1422" x="4721" y="4667" as="geometry" />
         </mxCell>
-        <mxCell id="k3Cl_26uurAxwyzJ9IJW-4" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;Бронировать&amp;nbsp;&lt;/div&gt;&lt;div&gt;блокировать узел, где находится шаттл&lt;/div&gt;br-invent - не бронировать заблокированный узел шаттла&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="k3Cl_26uurAxwyzJ9IJW-4" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Блокировать шаттл.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;блокировать узел, где находится шаттл&lt;/li&gt;&lt;li&gt;br-invent - не бронировать заблокированный узел шаттла на загрузку паллета&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="191" width="371" x="4647" y="4954" as="geometry" />
         </mxCell>
       </root>
