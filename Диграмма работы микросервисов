@@ -13736,7 +13736,7 @@
           <mxGeometry height="1292" width="1718" x="5199" y="2560" as="geometry" />
         </mxCell>
         <mxCell id="zxWKxyMFLE9qjimgJuT3-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Работа светофора при загрузке" vertex="1">
-          <mxGeometry height="284" width="1422" x="5367" y="2628" as="geometry" />
+          <mxGeometry height="262" width="1155" x="5512" y="2630" as="geometry" />
         </mxCell>
         <mxCell id="zxWKxyMFLE9qjimgJuT3-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Горит зеленый: можно ставить на 1 транспортёр&amp;nbsp;&lt;div&gt;Горит жёлный: перемещение на габаритную рамку, проверка габарита, ожидание пермещения с габаритной рамки(если очередь)&lt;/div&gt;&lt;div&gt;Горит красный: возврат паллета, который не прошёл габаритную рамку (нужно паллет забрать)&lt;br&gt;Мигает красный: выгрузка через транспортёр загрузки&lt;/div&gt;" vertex="1">
           <mxGeometry height="103" width="434" x="5743" y="3030" as="geometry" />
