@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="9107" dy="914" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8931" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13759,6 +13759,9 @@
         <mxCell id="QWlfwXju-qCJ-aOApChP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;2. Базовый режим&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 1 конвеер на загрузку&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 1 конвеер на выгрузку&lt;/div&gt;" vertex="1">
           <mxGeometry height="127" width="194" x="3315" y="3080" as="geometry" />
         </mxCell>
+        <mxCell id="BPB68Dip4TPtV744yFIn-2" edge="1" parent="1" source="QWlfwXju-qCJ-aOApChP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BPB68Dip4TPtV744yFIn-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QWlfwXju-qCJ-aOApChP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 255, 204);&quot;&gt;3. Что раньше, то и выбирается (выбрали этот вариант)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- работает загрузка, пока паллеты ставятся&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- выгрузка отправляется на конвеер выгрузки&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- как только все задачи на загрузку выполнены, то выгрузка начитает работать и на конвеер загрузки&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="300" x="3537" y="3081.5" as="geometry" />
         </mxCell>
@@ -13770,6 +13773,9 @@
         </mxCell>
         <mxCell id="k3Cl_26uurAxwyzJ9IJW-4" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Блокировать шаттл.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;блокировать узел, где находится шаттл&lt;/li&gt;&lt;li&gt;br-invent - не бронировать заблокированный узел шаттла на загрузку паллета&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="191" width="371" x="4647" y="4954" as="geometry" />
+        </mxCell>
+        <mxCell id="BPB68Dip4TPtV744yFIn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Определяет узел (транспортёр) для выгрузки на основе активных маршрутов.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Если активных маршрутов нет — выбирается случайный узел типа `end`.&lt;br&gt;2. Если есть маршруты с действиями `load` или `move` — выбор выполняется только среди узлов типа `end`.&lt;br&gt;3. Если маршрутов `load` нет — выбор выполняется среди узлов типов `start` и `end`.&lt;br&gt;4. Для выбранного набора узлов считается количество активных маршрутов на выгрузку.&lt;br&gt;5. Выбирается узел с минимальным количеством активных маршрутов.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="227.5" width="300" x="3537" y="3285.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
