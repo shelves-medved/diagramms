@@ -13777,6 +13777,51 @@
         <mxCell id="BPB68Dip4TPtV744yFIn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Определяет узел (транспортёр) для выгрузки на основе активных маршрутов.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Если активных маршрутов нет — выбирается случайный узел типа `end`.&lt;br&gt;2. Если есть маршруты с действиями `load` или `move` — выбор выполняется только среди узлов типа `end`.&lt;br&gt;3. Если маршрутов `load` нет — выбор выполняется среди узлов типов `start` и `end`.&lt;br&gt;4. Для выбранного набора узлов считается количество активных маршрутов на выгрузку.&lt;br&gt;5. Выбирается узел с минимальным количеством активных маршрутов.&lt;/div&gt;" vertex="1">
           <mxGeometry height="227.5" width="300" x="3537" y="3285.5" as="geometry" />
         </mxCell>
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="добавить функционал Permission" vertex="1">
+          <mxGeometry height="60" width="120" x="5082" y="4959" as="geometry" />
+        </mxCell>
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-4" edge="1" parent="1" source="cSYm_o0Xw4HKZPiHL1ph-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cSYm_o0Xw4HKZPiHL1ph-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="скачиваем граф&amp;nbsp;" vertex="1">
+          <mxGeometry height="47" width="98" x="5306" y="4943" as="geometry" />
+        </mxCell>
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="вырезаем узлы&amp;nbsp; с блокированным графом" vertex="1">
+          <mxGeometry height="47" width="116" x="5297" y="5042" as="geometry" />
+        </mxCell>
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если ошибка шаттла, то можно сделать реализацию частичной работы склада" vertex="1">
+          <mxGeometry height="84" width="145" x="5467" y="5028" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 блокировать узел (также блокируется узлы, к которым есть доступ через этот узел)&lt;div&gt;2 визуально можно отобразить&lt;/div&gt;&lt;div&gt;3 проверка через граф, потому что шаттл может сломаться на лифе или узле перед лифтом&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="119" width="252" x="4647" y="5191" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-5" edge="1" parent="1" source="QQ1kghNqqXmnNis8oWBP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QQ1kghNqqXmnNis8oWBP-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-7" edge="1" parent="1" source="QQ1kghNqqXmnNis8oWBP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QQ1kghNqqXmnNis8oWBP-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-9" edge="1" parent="1" source="QQ1kghNqqXmnNis8oWBP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QQ1kghNqqXmnNis8oWBP-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Варинты, где может заблокироваться шаттл&amp;nbsp;" vertex="1">
+          <mxGeometry height="77" width="184" x="5128" y="5215" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Шаттл сломался в ручье" vertex="1">
+          <mxGeometry height="60" width="120" x="4965" y="5380.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Шаттл сломался в проезде" vertex="1">
+          <mxGeometry height="60" width="120" x="5160" y="5380.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Шаттл ломается вместе с паллетом в лифте&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="5362" y="5380.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если шаттл заблокировали, то нужно следить за узлом, где он был&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="145" x="4404" y="5257" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-11" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;если физически шаттл вынесли со склада, как ПЛК будет взяимодействовать?&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="191" width="371" x="4573" y="5382" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
