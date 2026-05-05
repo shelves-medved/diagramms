@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8931" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9618" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13817,7 +13817,7 @@
           <mxGeometry height="60" width="120" x="5362" y="5380.5" as="geometry" />
         </mxCell>
         <mxCell id="QQ1kghNqqXmnNis8oWBP-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если шаттл заблокировали, то нужно следить за узлом, где он был&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="84" width="145" x="4404" y="5257" as="geometry" />
+          <mxGeometry height="84" width="145" x="4407" y="5121" as="geometry" />
         </mxCell>
         <mxCell id="QQ1kghNqqXmnNis8oWBP-11" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;если физически шаттл вынесли со склада, как ПЛК будет взяимодействовать?&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="191" width="371" x="4573" y="5382" as="geometry" />
