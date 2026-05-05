@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="9618" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8673" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13776,9 +13776,6 @@
         </mxCell>
         <mxCell id="BPB68Dip4TPtV744yFIn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Определяет узел (транспортёр) для выгрузки на основе активных маршрутов.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Если активных маршрутов нет — выбирается случайный узел типа `end`.&lt;br&gt;2. Если есть маршруты с действиями `load` или `move` — выбор выполняется только среди узлов типа `end`.&lt;br&gt;3. Если маршрутов `load` нет — выбор выполняется среди узлов типов `start` и `end`.&lt;br&gt;4. Для выбранного набора узлов считается количество активных маршрутов на выгрузку.&lt;br&gt;5. Выбирается узел с минимальным количеством активных маршрутов.&lt;/div&gt;" vertex="1">
           <mxGeometry height="227.5" width="300" x="3537" y="3285.5" as="geometry" />
-        </mxCell>
-        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="добавить функционал Permission" vertex="1">
-          <mxGeometry height="60" width="120" x="5082" y="4959" as="geometry" />
         </mxCell>
         <mxCell id="cSYm_o0Xw4HKZPiHL1ph-4" edge="1" parent="1" source="cSYm_o0Xw4HKZPiHL1ph-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cSYm_o0Xw4HKZPiHL1ph-3" value="">
           <mxGeometry relative="1" as="geometry" />
