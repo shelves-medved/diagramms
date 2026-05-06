@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="7987" dy="299" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8728" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13769,7 +13769,7 @@
           <mxGeometry height="1040" width="2260" x="4277" y="4585" as="geometry" />
         </mxCell>
         <mxCell id="k3Cl_26uurAxwyzJ9IJW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Блокирование шаттла в WCS" vertex="1">
-          <mxGeometry height="284" width="1422" x="4721" y="4667" as="geometry" />
+          <mxGeometry height="187" width="1422" x="4776" y="4628" as="geometry" />
         </mxCell>
         <mxCell id="k3Cl_26uurAxwyzJ9IJW-4" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Блокировать шаттл.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;блокировать узел, где находится шаттл&lt;/li&gt;&lt;li&gt;br-invent - не бронировать заблокированный узел шаттла на загрузку паллета&lt;/li&gt;&lt;li&gt;определить условия бокирования узла (не должно быть паллет на узле, узел должен быть крайний)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="191" width="371" x="4647" y="4954" as="geometry" />
@@ -13786,8 +13786,8 @@
         <mxCell id="cSYm_o0Xw4HKZPiHL1ph-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="вырезаем узлы&amp;nbsp; с блокированным графом" vertex="1">
           <mxGeometry height="47" width="116" x="5297" y="5042" as="geometry" />
         </mxCell>
-        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если ошибка шаттла, то можно сделать реализацию частичной работы склада" vertex="1">
-          <mxGeometry height="84" width="145" x="5467" y="5028" as="geometry" />
+        <mxCell id="cSYm_o0Xw4HKZPiHL1ph-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=#FFCCCC;" value="если ошибка шаттла, то можно сделать реализацию частичной работы склада" vertex="1">
+          <mxGeometry height="84" width="145" x="5512" y="4924.5" as="geometry" />
         </mxCell>
         <mxCell id="QQ1kghNqqXmnNis8oWBP-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 блокировать узел (также блокируется узлы, к которым есть доступ через этот узел)&lt;div&gt;2 визуально можно отобразить&lt;/div&gt;&lt;div&gt;3 проверка через граф, потому что шаттл может сломаться на лифе или узле перед лифтом&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="119" width="252" x="4647" y="5191" as="geometry" />
@@ -13814,9 +13814,9 @@
           <mxGeometry height="60" width="120" x="5362" y="5380.5" as="geometry" />
         </mxCell>
         <mxCell id="QQ1kghNqqXmnNis8oWBP-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="если шаттл заблокировали, то нужно следить за узлом, где он был&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="84" width="145" x="4407" y="5121" as="geometry" />
+          <mxGeometry height="84" width="145" x="5439" y="5042" as="geometry" />
         </mxCell>
-        <mxCell id="QQ1kghNqqXmnNis8oWBP-11" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;если физически шаттл вынесли со склада, как ПЛК будет взяимодействовать?&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="QQ1kghNqqXmnNis8oWBP-11" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;если физически шаттл вынесли со склада, как ПЛК будет взаимодействовать?&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="191" width="371" x="4573" y="5382" as="geometry" />
         </mxCell>
         <mxCell id="I1qwTosd2IZgAN8OTw0R-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Коллизия&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 7px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;На уровне 2 заблокирован лифт выгрузки.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Со второго уровня строится выгрузка через лифт загрузки, чтобы перекинуть паллет на 1 уровне с лифта загрузки на лифт выгрузки, чтобы выгрузить его по конвеерам выгрузки&lt;/font&gt;&lt;/div&gt;" vertex="1">
