@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8168" dy="398" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8790" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13839,6 +13839,17 @@
         </mxCell>
         <mxCell id="9qCoAqxUQr37-y3dwazG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=9;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Коллизия&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Надо при проверке устройств&amp;nbsp; учитывать статус blokced&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Активный маршрут у заблокированного шаттла, надо отменять на стороне инвента при проверке перехода в автоматический режим&lt;br&gt;&lt;br&gt;Для разных действий (загрузка, выгрузка) подумать как в разных ситуациях нужно отменять маршрут&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="128.5" width="225" x="6487" y="5121" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCoAqxUQr37-y3dwazG-4" edge="1" parent="1" source="9qCoAqxUQr37-y3dwazG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9qCoAqxUQr37-y3dwazG-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5410" y="1450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qCoAqxUQr37-y3dwazG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка соответствия дистанций на уровнях относительно первого&amp;nbsp; уровня" vertex="1">
+          <mxGeometry height="47" width="246" x="-5503" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCoAqxUQr37-y3dwazG-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;Собираем длины связей первого уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; Собираем длины связей текущего уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; Перебираем связи первого уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Получаем длину такой же связи на текущем уровне.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Если такой связи нет, значит структура уровней отличается.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Если длины отличаются, значит данные неконсистентны.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="483" x="-5617" y="1517" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
