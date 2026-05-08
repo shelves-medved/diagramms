@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8355" dy="501" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9211" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13848,11 +13848,14 @@
             <mxPoint x="-5375.516129032258" y="1517" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9qCoAqxUQr37-y3dwazG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка соответствия дистанций на уровнях относительно первого&amp;nbsp; уровня" vertex="1">
+        <mxCell id="9qCoAqxUQr37-y3dwazG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=#E6FFCC;" value="Проверка соответствия дистанций на уровнях относительно первого&amp;nbsp; уровня" vertex="1">
           <mxGeometry height="47" width="246" x="-5503" y="1390" as="geometry" />
         </mxCell>
         <mxCell id="7-nj8JfWpKsTKMY7fLbV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Собираем длины связей первого уровня.&#xa;    Собираем длины связей текущего уровня.&#xa;    Перебираем связи первого уровня.&#xa;        - Получаем длину такой же связи на текущем уровне.&#xa;        - Если такой связи нет, значит структура уровней отличается.&#xa;        - Если длины отличаются, значит данные неконсистентны." vertex="1">
           <mxGeometry height="158" width="388" x="-5574" y="1489" as="geometry" />
+        </mxCell>
+        <mxCell id="7-nj8JfWpKsTKMY7fLbV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=#E6FFCC;" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;если матрикс код не правильно расположен, то будет авария шаттла (ЕЩЁ НЕ ПРИДУМАЛИ) конфигурирование остановился и его надо будет запустить заного&lt;/p&gt;" vertex="1">
+          <mxGeometry height="108" width="322" x="-5116" y="1366" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
