@@ -13251,10 +13251,12 @@
           <mxGeometry height="765" width="1091" x="-6676" y="465" as="geometry" />
         </mxCell>
         <mxCell id="a16m388O-ku0qJ0cR-kK-191" edge="1" parent="1" source="a16m388O-ku0qJ0cR-kK-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="a16m388O-ku0qJ0cR-kK-197">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5883" y="1666" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a16m388O-ku0qJ0cR-kK-192" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;калибруем левые узлы по оси X для текущей Y:&lt;/div&gt;&lt;div&gt;- находим самый левый неоткалиброванный и перемещаемся в узел перед ним&lt;/div&gt;&lt;div&gt;- калибруемся налево&lt;br&gt;&lt;div&gt;- как только все левые соседние узлы по графу закончились проверяем, что это действительно крайний узел&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Аналогично калибруем правые узлы по оси X для текущей Y&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;----------------------&lt;br&gt;все узлы по оси&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;по оси X для текущей Y откалиброваны&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="151" width="418" x="-6190" y="1507.0033333333322" as="geometry" />
+          <mxGeometry height="151" width="418" x="-6190" y="1489.0033333333322" as="geometry" />
         </mxCell>
         <mxCell id="a16m388O-ku0qJ0cR-kK-193" edge="1" parent="1" source="a16m388O-ku0qJ0cR-kK-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="a16m388O-ku0qJ0cR-kK-201">
           <mxGeometry relative="1" as="geometry" />
@@ -13272,8 +13274,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a16m388O-ku0qJ0cR-kK-197" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-если, добрались до верхнего, то проверяем крайний ли он и&amp;nbsp; помечаем, что склад до верха откалиброван&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;Уровень откалиброван если:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- если добрались до нижнего значения по оси Y&lt;/div&gt;&lt;div&gt;или&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;&quot;&gt;&amp;nbsp;если количество заданых значений по Y совпало с откалиброванными&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="289" x="-6125.5" y="1688.0033333333322" as="geometry" />
+        <mxCell id="a16m388O-ku0qJ0cR-kK-197" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-если, добрались до верхнего, то проверяем крайний ли он и&amp;nbsp; помечаем, что склад до верха откалиброван&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;Уровень откалиброван если:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- если добрались до нижнего значения по оси Y&lt;/div&gt;&lt;div&gt;или&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;&quot;&gt;&amp;nbsp;если количество заданых значений по Y совпало с откалиброванными&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="289" x="-6125.5" y="1674" as="geometry" />
         </mxCell>
         <mxCell id="a16m388O-ku0qJ0cR-kK-198" edge="1" parent="1" source="a16m388O-ku0qJ0cR-kK-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="a16m388O-ku0qJ0cR-kK-192">
           <mxGeometry relative="1" as="geometry">
@@ -13840,16 +13842,17 @@
         <mxCell id="9qCoAqxUQr37-y3dwazG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=9;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Коллизия&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Надо при проверке устройств&amp;nbsp; учитывать статус blokced&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Активный маршрут у заблокированного шаттла, надо отменять на стороне инвента при проверке перехода в автоматический режим&lt;br&gt;&lt;br&gt;Для разных действий (загрузка, выгрузка) подумать как в разных ситуациях нужно отменять маршрут&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="128.5" width="225" x="6487" y="5121" as="geometry" />
         </mxCell>
-        <mxCell id="9qCoAqxUQr37-y3dwazG-4" edge="1" parent="1" source="9qCoAqxUQr37-y3dwazG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9qCoAqxUQr37-y3dwazG-3" value="">
+        <mxCell id="9qCoAqxUQr37-y3dwazG-4" edge="1" parent="1" source="9qCoAqxUQr37-y3dwazG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7-nj8JfWpKsTKMY7fLbV-1" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5410" y="1450" as="sourcePoint" />
+            <mxPoint x="-5375.516129032258" y="1517" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9qCoAqxUQr37-y3dwazG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка соответствия дистанций на уровнях относительно первого&amp;nbsp; уровня" vertex="1">
           <mxGeometry height="47" width="246" x="-5503" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="9qCoAqxUQr37-y3dwazG-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;Собираем длины связей первого уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; Собираем длины связей текущего уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; Перебираем связи первого уровня.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Получаем длину такой же связи на текущем уровне.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Если такой связи нет, значит структура уровней отличается.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Если длины отличаются, значит данные неконсистентны.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="218" width="483" x="-5617" y="1517" as="geometry" />
+        <mxCell id="7-nj8JfWpKsTKMY7fLbV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Собираем длины связей первого уровня.&#xa;    Собираем длины связей текущего уровня.&#xa;    Перебираем связи первого уровня.&#xa;        - Получаем длину такой же связи на текущем уровне.&#xa;        - Если такой связи нет, значит структура уровней отличается.&#xa;        - Если длины отличаются, значит данные неконсистентны." vertex="1">
+          <mxGeometry height="158" width="388" x="-5574" y="1489" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
