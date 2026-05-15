@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="8490" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7948" dy="278" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13856,6 +13856,9 @@
         </mxCell>
         <mxCell id="7-nj8JfWpKsTKMY7fLbV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=#E6FFCC;" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;если матрикс код не правильно расположен, то будет авария шаттла (ЕЩЁ НЕ ПРИДУМАЛИ) конфигурирование остановился и его надо будет запустить заного&lt;/p&gt;" vertex="1">
           <mxGeometry height="108" width="322" x="-5116" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="CW9l6SAiRV8IIO5hazSf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="При блокировке одного шаттла, может быть заблокирован лифт и&amp;nbsp; узлы на которых работает этот лифт. При разблокировке лифта учитывается сто" vertex="1">
+          <mxGeometry height="123.9" width="246" x="5066" y="4865.1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
