@@ -12378,7 +12378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rlnlzg2tO2cvIsbPuR1Q" name="Функции WCS">
-    <mxGraphModel dx="7948" dy="278" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8621" dy="648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13439,7 +13439,7 @@
         <mxCell id="eSC4_zFaOHdWusuWMVBW-29" edge="1" parent="1" source="eSC4_zFaOHdWusuWMVBW-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eSC4_zFaOHdWusuWMVBW-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eSC4_zFaOHdWusuWMVBW-30" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+        <mxCell id="eSC4_zFaOHdWusuWMVBW-30" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="80" width="205" x="1437" y="1275" as="geometry" />
         </mxCell>
         <mxCell id="eSC4_zFaOHdWusuWMVBW-31" edge="1" parent="1" source="eSC4_zFaOHdWusuWMVBW-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eSC4_zFaOHdWusuWMVBW-10">
@@ -13767,7 +13767,7 @@
         <mxCell id="QWlfwXju-qCJ-aOApChP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 255, 204);&quot;&gt;3. Что раньше, то и выбирается (выбрали этот вариант)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- работает загрузка, пока паллеты ставятся&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- выгрузка отправляется на конвеер выгрузки&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;- как только все задачи на загрузку выполнены, то выгрузка начитает работать и на конвеер загрузки&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="300" x="3537" y="3081.5" as="geometry" />
         </mxCell>
-        <mxCell id="k3Cl_26uurAxwyzJ9IJW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+        <mxCell id="k3Cl_26uurAxwyzJ9IJW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="1040" width="2863" x="4277" y="4585" as="geometry" />
         </mxCell>
         <mxCell id="k3Cl_26uurAxwyzJ9IJW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=100;" value="Блокирование шаттла в WCS" vertex="1">
