@@ -14008,7 +14008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5182" dy="2914" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5220" dy="3251" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15257,8 +15257,8 @@
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;" value="Стратегия размещения паллет" vertex="1">
           <mxGeometry height="65" width="955" x="572" y="505" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Данные, на которые можно ориентироваться :&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- в секции может быть только одна категория&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- на каждом уровне секции разделены на классы (A - ближайшие,  B - средняя достижимость, C - дальние) поровну&lt;/span&gt;&lt;div&gt;- паллеты поступают по одному (не знаем сколько ещё будет)&lt;br&gt;- известны активные загрузки (акцент именно на забронированныз узлах загрузок, чтобы понимать выбирать ли следующую секцию, а не загрузжать в текущую)&lt;/div&gt;&lt;div&gt;- известны все занятые узлы секций и их категории&lt;br&gt;- количество незаполненных секций одной категории не должно превышать количество активных шаттлов (не учитывать заблокированные шаттлы)&lt;/div&gt;&lt;div&gt;- количество активных загрузок в одну секцию не может быть больше одной&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="306" width="287" x="276" y="450" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Данные, на которые можно ориентироваться :&lt;br&gt;&lt;br&gt;&lt;div&gt;- мы не знаем, сколько паллет будет (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;паллеты поступают по одному, не знаем сколько ещё будет)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Но мы ориентируемся на то, что паллет одной категории будет больше 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- в секции может быть только одна категория&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- на каждом уровне секции разделены на классы (A - ближайшие,  B - средняя достижимость, C - дальние) поровну&lt;/span&gt;&lt;div&gt;- известны активные загрузки (акцент именно на забронированныз узлах загрузок, чтобы понимать выбирать ли следующую секцию, а не загрузжать в текущую)&lt;/div&gt;&lt;div&gt;- известны все занятые узлы секций и их категории&lt;br&gt;- количество незаполненных секций одной категории не должно превышать количество активных шаттлов (не учитывать заблокированные шаттлы)&lt;/div&gt;&lt;div&gt;- количество активных загрузок в одну секцию не может быть больше одной&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="373" width="287" x="103" y="482" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Правила :&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Выбор секции (то есть необходимо понять в какую из секций этой категории разместить груз):&lt;/div&gt;&lt;div&gt;Если такой категории нет, то создаём и отправляем&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Выбор расположения секции:&lt;/div&gt;- первая секция на самый нижний не занятый этой категорией уровень в класс A&lt;div&gt;- вторая секция в класс B на этом же уровне&lt;/div&gt;&lt;div&gt;- третья секция на уровень выше относительно&amp;nbsp; самого верхнего занятого этой категорией уровня&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="300" width="270" x="-299" y="759" as="geometry" />
@@ -15267,46 +15267,46 @@
           <mxGeometry height="128" width="210" x="790" y="756" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1484" y="1046" as="geometry" />
+          <mxGeometry height="30" width="30" x="1332" y="966" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1535" y="1092" as="geometry" />
+          <mxGeometry height="30" width="30" x="1572" y="1062" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1523" y="1048" as="geometry" />
+          <mxGeometry height="30" width="30" x="1511" y="1066" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1572" y="1091" as="geometry" />
+          <mxGeometry height="30" width="30" x="1609" y="1061" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1121" y="965" as="geometry" />
+          <mxGeometry height="30" width="30" x="1360" y="1066" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1158" y="965" as="geometry" />
+          <mxGeometry height="30" width="30" x="1405" y="1114" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1286" y="924" as="geometry" />
+          <mxGeometry height="30" width="30" x="1363" y="1111" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1251" y="925" as="geometry" />
+          <mxGeometry height="30" width="30" x="1210" y="966" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1537" y="1134" as="geometry" />
+          <mxGeometry height="30" width="30" x="1574" y="1104" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1577" y="1134" as="geometry" />
+          <mxGeometry height="30" width="30" x="1614" y="1104" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1452" y="884" as="geometry" />
+          <mxGeometry height="30" width="30" x="1275" y="1113" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1113" y="845" as="geometry" />
+          <mxGeometry height="30" width="30" x="1233" y="1114" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1085" y="965" as="geometry" />
+          <mxGeometry height="30" width="30" x="1083" y="964" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1213" y="925" as="geometry" />
+          <mxGeometry height="30" width="30" x="1208" y="926" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Класс A" vertex="1">
           <mxGeometry height="30" width="60" x="1102" y="680" as="geometry" />
@@ -15330,16 +15330,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-84" parent="1" style="text;whiteSpace=wrap;html=1;" value="Порядок поиска новой секции&lt;br&gt;&lt;br&gt;- Определить, какого класса сейчас нет среди незаполненных секций категории.&lt;div&gt;&lt;br&gt;&lt;div&gt;- Найти секцию этого класса на уровне, который ещё не используется незаполненными секциями категории&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Среди подходящих уровней выбрать нижний.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Если секции нужного класса на отдельном уровне нет — выбрать другую секцию на отдельном уровне.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Только если разнести секции по уровням невозможно, разрешить создание секции на уже используемом уровне.&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="259" width="395" x="125" y="1078" as="geometry" />
+          <mxGeometry height="259" width="395" x="127" y="1213" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-85" parent="1" style="text;whiteSpace=wrap;html=1;" value="Правило загрузки для одной категории&lt;br&gt;&lt;br&gt;При поступлении паллеты категории X:&lt;br&gt;&lt;br&gt;- Найти все незаполненные секции категории X.&lt;br&gt;&lt;br&gt;- Для каждой секции определить количество забронированных узлов загрузки.&lt;br&gt;&lt;br&gt;- Выбрать секцию, в которой нет активной загрузки.&lt;br&gt;&lt;br&gt;- Если такой секции нет, проверить количество незаполненных секций этой категории.&lt;br&gt;&lt;br&gt;- Если незаполненных секций меньше трёх — назначить новую секцию категории X.&lt;br&gt;&lt;br&gt;- Если незаполненных секций уже три — новую секцию не создавать. Паллету необходимо направить в одну из существующих секций либо дождаться освобождения возможности загрузки." vertex="1">
-          <mxGeometry height="270" width="541" x="128" y="784" as="geometry" />
+          <mxGeometry height="270" width="541" x="117" y="912" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1209" y="845" as="geometry" />
+          <mxGeometry height="30" width="30" x="1270" y="1074" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1490" y="886" as="geometry" />
+          <mxGeometry height="30" width="30" x="1317" y="1113" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1401" y="1064" as="geometry" />
