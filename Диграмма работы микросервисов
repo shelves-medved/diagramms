@@ -14008,7 +14008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5220" dy="3251" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6070" dy="3252" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15330,10 +15330,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-84" parent="1" style="text;whiteSpace=wrap;html=1;" value="Порядок поиска новой секции&lt;br&gt;&lt;br&gt;- Определить, какого класса сейчас нет среди незаполненных секций категории.&lt;div&gt;&lt;br&gt;&lt;div&gt;- Найти секцию этого класса на уровне, который ещё не используется незаполненными секциями категории&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Среди подходящих уровней выбрать нижний.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Если секции нужного класса на отдельном уровне нет — выбрать другую секцию на отдельном уровне.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Только если разнести секции по уровням невозможно, разрешить создание секции на уже используемом уровне.&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="259" width="395" x="127" y="1213" as="geometry" />
+          <mxGeometry height="259" width="395" x="103" y="1102" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-85" parent="1" style="text;whiteSpace=wrap;html=1;" value="Правило загрузки для одной категории&lt;br&gt;&lt;br&gt;При поступлении паллеты категории X:&lt;br&gt;&lt;br&gt;- Найти все незаполненные секции категории X.&lt;br&gt;&lt;br&gt;- Для каждой секции определить количество забронированных узлов загрузки.&lt;br&gt;&lt;br&gt;- Выбрать секцию, в которой нет активной загрузки.&lt;br&gt;&lt;br&gt;- Если такой секции нет, проверить количество незаполненных секций этой категории.&lt;br&gt;&lt;br&gt;- Если незаполненных секций меньше трёх — назначить новую секцию категории X.&lt;br&gt;&lt;br&gt;- Если незаполненных секций уже три — новую секцию не создавать. Паллету необходимо направить в одну из существующих секций либо дождаться освобождения возможности загрузки." vertex="1">
-          <mxGeometry height="270" width="541" x="117" y="912" as="geometry" />
+          <mxGeometry height="270" width="541" x="104" y="841" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="3" vertex="1">
           <mxGeometry height="30" width="30" x="1455" y="884" as="geometry" />
