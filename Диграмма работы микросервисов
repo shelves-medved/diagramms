@@ -15267,7 +15267,7 @@
           <mxGeometry height="128" width="210" x="790" y="756" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1332" y="966" as="geometry" />
+          <mxGeometry height="30" width="30" x="1448" y="1041" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1572" y="1062" as="geometry" />
@@ -15288,7 +15288,7 @@
           <mxGeometry height="30" width="30" x="1363" y="1111" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1210" y="966" as="geometry" />
+          <mxGeometry height="30" width="30" x="1205" y="1041" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1574" y="1104" as="geometry" />
@@ -15296,17 +15296,17 @@
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1614" y="1104" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1275" y="1113" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="1086" y="927" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1233" y="1114" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="1210" y="926" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1083" y="964" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="1080" y="964" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1208" y="926" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="1213" y="963" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Класс A" vertex="1">
           <mxGeometry height="30" width="60" x="1102" y="680" as="geometry" />
@@ -15335,8 +15335,8 @@
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-85" parent="1" style="text;whiteSpace=wrap;html=1;" value="Правило загрузки для одной категории&lt;br&gt;&lt;br&gt;При поступлении паллеты категории X:&lt;br&gt;&lt;br&gt;- Найти все незаполненные секции категории X.&lt;br&gt;&lt;br&gt;- Для каждой секции определить количество забронированных узлов загрузки.&lt;br&gt;&lt;br&gt;- Выбрать секцию, в которой нет активной загрузки.&lt;br&gt;&lt;br&gt;- Если такой секции нет, проверить количество незаполненных секций этой категории.&lt;br&gt;&lt;br&gt;- Если незаполненных секций меньше трёх — назначить новую секцию категории X.&lt;br&gt;&lt;br&gt;- Если незаполненных секций уже три — новую секцию не создавать. Паллету необходимо направить в одну из существующих секций либо дождаться освобождения возможности загрузки." vertex="1">
           <mxGeometry height="270" width="541" x="117" y="912" as="geometry" />
         </mxCell>
-        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="1270" y="1074" as="geometry" />
+        <mxCell id="u1A9ZJDpQ9euES6ZlPJP-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="1455" y="884" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1317" y="1113" as="geometry" />
@@ -15346,6 +15346,9 @@
         </mxCell>
         <mxCell id="tWpnb5jdsnhqunCrno52-1" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;секция центральная на против лифта не будет заниматься (класс секций D - заполняется, начинает заполняться с верхнего уровня)&lt;/p&gt;" vertex="1">
           <mxGeometry height="75" width="222" x="720" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="LzSpsZWKMj_B_v5xtOD7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="6" vertex="1">
+          <mxGeometry height="30" width="30" x="1446" y="845" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
