@@ -14008,7 +14008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="7670" dy="4281" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5799" dy="3252" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14033,7 +14033,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="1208" width="2056" x="-15" y="445" as="geometry" />
+          <mxGeometry height="2558" width="3136" x="-15" y="445" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -15350,6 +15350,43 @@
         <mxCell id="LzSpsZWKMj_B_v5xtOD7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="6" vertex="1">
           <mxGeometry height="30" width="30" x="1446" y="845" as="geometry" />
         </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-3" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="берём все незаполненные секции выбранной категории&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="873" y="1295" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-5" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-6" connectable="0" parent="M6nSeF1VNj9ezzopu3p4-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
+          <mxGeometry relative="1" x="-0.4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-10" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-11" connectable="0" parent="M6nSeF1VNj9ezzopu3p4-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.4118" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;такие есть?&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="893" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-8" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает свободную секцию для первой загрузки новой категории.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Классы назначения обходятся в порядке приоритета. Для каждого класса&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; рассматриваются только не закреплённые за категорией секции, достижимые&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; от текущего узла по складскому графу. Кандидаты сравниваются по порядку:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. отсутствие активной операции на уровне;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. меньший номер уровня;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. меньшее расстояние до секции.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Уровни с активными операциями не исключаются и используются, если внутри&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; класса нет более приоритетного кандидата. После нахождения секции менее&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; приоритетные классы не рассматриваются. Если подходящих секций нет ни в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; одном классе, возвращает ``None``.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="344" width="666" x="1103" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-7" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="секция выбрана" vertex="1">
+          <mxGeometry height="60" width="120" x="1375" y="1868" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="617" y="1443" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -15735,7 +15772,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Du9B7Z_45N84ZoKkXBS3" name="Стратегии размещения">
-    <mxGraphModel dx="673" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15761,7 +15798,7 @@
           <mxGeometry height="410" width="110" x="640" y="130" as="geometry" />
         </mxCell>
         <mxCell id="yDfL3BA1ABOsv3nTpLQE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Каждый уровень склада разделён на зоны&lt;div&gt;В каждой зоне может находится только одна секция с SKU&lt;br&gt;&lt;div&gt;Партия - это одновременная загрузка паллет (партией может быть загрузка паллет в течении дня или есть отдельное поле &quot;партия&quot; при отправке задач от WMS)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Загрузка&lt;br&gt;&lt;div style=&quot;&quot;&gt;Груз размещается в зону 1 или зону 2, каждого уровня по одной секции&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Если зон не хватает для размещения грузов в секциях, то выделяется ещё одна секция для SKU в зоне&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Каждая новая партия размещается в новую секцию, даже если SKU совпадает&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Разные SKU размещаются в разные секции&lt;br&gt;&lt;br&gt;Выгрузка&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Самые поздние партии одного и того же SKU выгружаются в первую очередь параллельно из всех секций, где эта партия располагается&lt;/div&gt;" vertex="1">
-          <mxGeometry height="330" width="600" x="80" y="560" as="geometry" />
+          <mxGeometry height="330" width="600" x="80" y="585" as="geometry" />
         </mxCell>
         <mxCell id="LX55YcCncIMaDoEq4IsL-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;strokeWidth=5;" value="Стратегия 1" vertex="1">
           <mxGeometry height="74" width="340" x="300" y="20" as="geometry" />
