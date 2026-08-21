@@ -14008,7 +14008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="6492" dy="3633" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5799" dy="3252" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15395,6 +15395,11 @@
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-42" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-62" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.0176" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="Они достижимы?" vertex="1">
           <mxGeometry height="120" width="122" x="871" y="1564" as="geometry" />
         </mxCell>
@@ -15482,6 +15487,11 @@
         </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-49" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-48" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-63" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.1277" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="В секцию есть активные закрузки?" vertex="1">
           <mxGeometry height="120" width="122" x="871" y="1764" as="geometry" />
