@@ -14008,7 +14008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5799" dy="3252" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5549" dy="3115" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15356,36 +15356,101 @@
         <mxCell id="M6nSeF1VNj9ezzopu3p4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="берём все незаполненные секции выбранной категории&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="873" y="1295" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-5" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-4" value="">
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-10" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-6" connectable="0" parent="M6nSeF1VNj9ezzopu3p4-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
-          <mxGeometry relative="1" x="-0.4" as="geometry">
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-5" connectable="0" parent="M6nSeF1VNj9ezzopu3p4-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.4006" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-10" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-9" value="">
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-16" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-15" value="">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-11" connectable="0" parent="M6nSeF1VNj9ezzopu3p4-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
-          <mxGeometry relative="1" x="-0.4118" y="3" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="M6nSeF1VNj9ezzopu3p4-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;такие есть?&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="893" y="1425" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-8" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-7" value="">
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает свободную секцию для первой загрузки новой категории.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Классы назначения обходятся в порядке приоритета. Для каждого класса&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; рассматриваются только не закреплённые за категорией секции, достижимые&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; от текущего узла по складскому графу. Кандидаты сравниваются по порядку:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. отсутствие активной операции на уровне;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. меньший номер уровня;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. меньшее расстояние до секции.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Уровни с активными операциями не исключаются и используются, если внутри&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; класса нет более приоритетного кандидата. После нахождения секции менее&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; приоритетные классы не рассматриваются. Если подходящих секций нет ни в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; одном классе, возвращает ``None``.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="344" width="666" x="1957" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="M6nSeF1VNj9ezzopu3p4-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ищем новую секцию" vertex="1">
+          <mxGeometry height="60" width="120" x="1165" y="1594" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-2" edge="1" parent="1" source="M6nSeF1VNj9ezzopu3p4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893" y="1465" as="sourcePoint" />
+            <mxPoint x="723" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-3" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.4118" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="Они достижимы?" vertex="1">
+          <mxGeometry height="120" width="122" x="872" y="1564" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Ищем новую секцию, если категория создана" vertex="1">
+          <mxGeometry height="60" width="120" x="1033" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-18" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M6nSeF1VNj9ezzopu3p4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает свободную секцию для первой загрузки новой категории.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Классы назначения обходятся в порядке приоритета. Для каждого класса&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; рассматриваются только не закреплённые за категорией секции, достижимые&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; от текущего узла по складскому графу. Кандидаты сравниваются по порядку:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. отсутствие активной операции на уровне;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. меньший номер уровня;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. меньшее расстояние до секции.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Уровни с активными операциями не исключаются и используются, если внутри&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; класса нет более приоритетного кандидата. После нахождения секции менее&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; приоритетные классы не рассматриваются. Если подходящих секций нет ни в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; одном классе, возвращает ``None``.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="344" width="666" x="1103" y="1400" as="geometry" />
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Ищем новую секцию, если категория создана" vertex="1">
+          <mxGeometry height="60" width="120" x="2231" y="1289" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-7" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="секция выбрана" vertex="1">
-          <mxGeometry height="60" width="120" x="1375" y="1868" as="geometry" />
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-26" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M6nSeF1VNj9ezzopu3p4-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="617" y="1443" as="geometry" />
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-32" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.2464" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-19" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ищем новую секцию" vertex="1">
+          <mxGeometry height="60" width="120" x="1781" y="1708" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-20" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-21" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2163" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-22" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.1373" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="У категории есть все классы?" vertex="1">
+          <mxGeometry height="120" width="122" x="1965" y="1825" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="У категории есть все классы?" vertex="1">
+          <mxGeometry height="120" width="122" x="1981" y="2006" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-28" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1835" y="1787" as="sourcePoint" />
+            <mxPoint x="1837" y="1962" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-30" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-31" connectable="0" parent="9WLUrF0ox-Ps_hcm9H3c-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.0656" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Категория новая?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="122" x="1777" y="1828" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-29" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Ищем новую секцию, если категория создана" vertex="1">
+          <mxGeometry height="60" width="120" x="1778" y="2019" as="geometry" />
+        </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="2180" y="1856" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
