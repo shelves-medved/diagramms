@@ -15544,6 +15544,9 @@
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="Если существует достижимые секции без активных загрузок, то выбирается первая из них" vertex="1">
           <mxGeometry height="94" width="161" x="1058" y="1778" as="geometry" />
         </mxCell>
+        <mxCell id="9WLUrF0ox-Ps_hcm9H3c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Ищем уровень для класса, который не использовался" vertex="1">
+          <mxGeometry height="60" width="120" x="2196" y="1811" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
