@@ -14033,7 +14033,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="2558" width="3136" x="-15" y="445" as="geometry" />
+          <mxGeometry height="2558" width="5044" x="-15" y="445" as="geometry" />
         </mxCell>
         <mxCell id="u1A9ZJDpQ9euES6ZlPJP-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -15376,7 +15376,7 @@
           <mxGeometry height="80" width="80" x="892" y="1425" as="geometry" />
         </mxCell>
         <mxCell id="M6nSeF1VNj9ezzopu3p4-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает свободную секцию для первой загрузки новой категории.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Классы назначения обходятся в порядке приоритета. Для каждого класса&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; рассматриваются только не закреплённые за категорией секции, достижимые&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; от текущего узла по складскому графу. Кандидаты сравниваются по порядку:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. отсутствие активной операции на уровне;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. меньший номер уровня;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. меньшее расстояние до секции.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Уровни с активными операциями не исключаются и используются, если внутри&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; класса нет более приоритетного кандидата. После нахождения секции менее&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; приоритетные классы не рассматриваются. Если подходящих секций нет ни в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; одном классе, возвращает ``None``.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="344" width="666" x="1957" y="1394" as="geometry" />
+          <mxGeometry height="344" width="666" x="2095" y="1398" as="geometry" />
         </mxCell>
         <mxCell id="M6nSeF1VNj9ezzopu3p4-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ищем новую секцию" vertex="1">
           <mxGeometry height="60" width="120" x="1038" y="1594" as="geometry" />
@@ -15410,7 +15410,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Ищем новую секцию, если категория создана" vertex="1">
-          <mxGeometry height="60" width="120" x="2231" y="1289" as="geometry" />
+          <mxGeometry height="60" width="120" x="2369" y="1293" as="geometry" />
         </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-26" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-23">
           <mxGeometry relative="1" as="geometry" />
@@ -15479,6 +15479,9 @@
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Ищем класс и уровень для новой секции" vertex="1">
           <mxGeometry height="60" width="120" x="1578" y="1657" as="geometry" />
         </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-2" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YLWQ9VER93EvbDfekr2X-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-38" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="Ищем секцию с учётом класса и уровня" vertex="1">
           <mxGeometry height="60" width="120" x="1794" y="1657" as="geometry" />
         </mxCell>
@@ -15544,8 +15547,54 @@
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="Если существует достижимые секции без активных загрузок, то выбирается первая из них" vertex="1">
           <mxGeometry height="94" width="161" x="1058" y="1778" as="geometry" />
         </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-11" edge="1" parent="1" source="9WLUrF0ox-Ps_hcm9H3c-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YLWQ9VER93EvbDfekr2X-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WLUrF0ox-Ps_hcm9H3c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Ищем уровень для класса, который не использовался" vertex="1">
-          <mxGeometry height="60" width="120" x="2196" y="1811" as="geometry" />
+          <mxGeometry height="60" width="120" x="2358" y="1811" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-4" edge="1" parent="1" source="YLWQ9VER93EvbDfekr2X-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YLWQ9VER93EvbDfekr2X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-5" edge="1" parent="1" source="YLWQ9VER93EvbDfekr2X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9WLUrF0ox-Ps_hcm9H3c-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2024" y="1395.67" />
+              <mxPoint x="1640" y="1395.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="Секция выбрана?" vertex="1">
+          <mxGeometry height="80" width="80" x="1814" y="1787" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Секциня&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;выбрана&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="1815" y="1901" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-8" edge="1" parent="1" source="YLWQ9VER93EvbDfekr2X-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YLWQ9VER93EvbDfekr2X-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1894" y="1827" as="sourcePoint" />
+            <mxPoint x="1640" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-9" connectable="0" parent="YLWQ9VER93EvbDfekr2X-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.89" y="-1" as="geometry">
+            <mxPoint x="26" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="добавляем уровень или класс секций (в зависимости от ситуации) в исключения при выборе" vertex="1">
+          <mxGeometry height="108" width="120" x="1969" y="1772" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;Выбирает приоритетный отдельный уровень для нового класса категории.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Новый класс по возможности размещается на уровне, который ещё не используется&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; другими классами этой категории. Сначала рассматриваются уровни без конфликтной&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; активной операции, затем уровни с конфликтом; внутри группы сохраняется порядок&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; по номеру уровня. Уже безрезультатно проверенные уровни также пропускаются.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Если все подходящие уровни использованы или исключены, записывает ``None`` в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ``choosen_level``. Это служит сигналом вызывающему рекурсивному поиску перейти к&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; следующему классу назначения.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="361" width="694" x="2073" y="1947" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-14" edge="1" parent="1" source="YLWQ9VER93EvbDfekr2X-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YLWQ9VER93EvbDfekr2X-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Ищем класс и уровень для новой секции" vertex="1">
+          <mxGeometry height="60" width="120" x="3117" y="1263" as="geometry" />
+        </mxCell>
+        <mxCell id="YLWQ9VER93EvbDfekr2X-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает наименее заполненный класс и делегирует выбор его уровня.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Класс выбирается по минимальному общему числу секций текущей категории; при&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; равенстве используется настроенный приоритет класса. Классы, для которых поиск&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; уже перебрал все уровни, не рассматриваются.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; После выбора класса метод передаёт ``except_levels`` в&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ``_find_level_for_choosen_class``. Этот отдельный этап выбирает уровень с учётом&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; представленности класса, количества его секций и конфликтующих операций.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Если доступных классов не осталось, ``choosen_class`` и ``choosen_level``&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; остаются равны ``None``. Если класс выбран, но его уровни уже перебраны,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ``choosen_level`` будет равен ``None``. Эти состояния позволяют рекурсивному&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; поиску завершиться либо перейти к следующему классу.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;Выбирает уровень для ранее выбранного класса назначения.&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Сначала рассматриваются ещё не проверенные уровни, на которых выбранный класс&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; пока не представлен. Их порядок задаёт ``_levels_by_load_priority``: уровни без&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; конфликтующих операций идут раньше, а при одинаковом состоянии выбирается&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; меньший номер.&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Если выбранный класс уже представлен на каждом доступном уровне, метод выбирает&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; уровень с наименьшим количеством секций этого класса. При равном количестве&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; предпочтение снова отдаётся неконфликтующему уровню с меньшим номером.&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Если все уровни находятся в ``except_levels``, подходящего кандидата нет и&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ``choosen_level`` остаётся равен ``None``. Рекурсивный вызывающий метод использует&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; это состояние, чтобы исключить текущий класс и перейти к следующему.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="663" width="804" x="2833" y="1385" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
