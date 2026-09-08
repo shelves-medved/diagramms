@@ -636,7 +636,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1CLdpw-gNjXeI79vcDzF" name="БД">
-    <mxGraphModel dx="793" dy="616" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3935" dy="2343" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2539,11 +2539,10 @@
         <mxCell id="fZX3TdI5J-K-GzJUfRij-35" edge="1" parent="1" source="bb3DtQ7Yqg_6Dk2fnRnX-516" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="x-e_3jfQO4tLAFLYvRJ6-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-40" y="-105" />
-              <mxPoint x="-40" y="450" />
-              <mxPoint x="819.26" y="450" />
-              <mxPoint x="819.26" y="520.67" />
-              <mxPoint x="870" y="520.67" />
+              <mxPoint x="-39.99" y="-105" />
+              <mxPoint x="-39.99" y="450.01" />
+              <mxPoint x="819.25" y="450.01" />
+              <mxPoint x="819.25" y="521" />
             </Array>
             <mxPoint x="870" y="554" as="targetPoint" />
           </mxGeometry>
