@@ -8281,7 +8281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHWUpgpS9f6x8NTHWIek" name="Интерфейс">
-    <mxGraphModel dx="2154" dy="1946" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2711" dy="2029" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11829,7 +11829,7 @@
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Паллетоместо&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="3130" y="-480" as="geometry" />
         </mxCell>
-        <mxCell id="RQ-EbiqEtL0T06hF2wwq-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Матрикс-код" vertex="1">
+        <mxCell id="RQ-EbiqEtL0T06hF2wwq-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: rgb(255, 102, 102);&quot;&gt;Матрикс-код&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="80" x="3130" y="-450" as="geometry" />
         </mxCell>
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;значение&amp;gt;" vertex="1">
@@ -12006,13 +12006,13 @@
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Стало" vertex="1">
           <mxGeometry height="30" width="60" x="4906" y="-527" as="geometry" />
         </mxCell>
-        <mxCell id="RQ-EbiqEtL0T06hF2wwq-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Положение, мм" vertex="1">
+        <mxCell id="RQ-EbiqEtL0T06hF2wwq-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(255, 102, 102);&quot;&gt;Положение, мм&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="4881" y="-343" as="geometry" />
         </mxCell>
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;значение&amp;gt;" vertex="1">
           <mxGeometry height="30" width="60" x="4891" y="-323" as="geometry" />
         </mxCell>
-        <mxCell id="RQ-EbiqEtL0T06hF2wwq-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Матрикс-код" vertex="1">
+        <mxCell id="RQ-EbiqEtL0T06hF2wwq-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;Матрикс-код&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="80" x="5333" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;lt;значение&amp;gt;" vertex="1">
@@ -12074,6 +12074,12 @@
         </mxCell>
         <mxCell id="RQ-EbiqEtL0T06hF2wwq-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Было" vertex="1">
           <mxGeometry height="30" width="60" x="4703" y="-532" as="geometry" />
+        </mxCell>
+        <mxCell id="IR6pcrh5sEOZ0IAFPTgs-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="WMS ID (текущий)" vertex="1">
+          <mxGeometry height="30" width="118" x="3982" y="-225" as="geometry" />
+        </mxCell>
+        <mxCell id="IR6pcrh5sEOZ0IAFPTgs-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;значение&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="3992" y="-205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
