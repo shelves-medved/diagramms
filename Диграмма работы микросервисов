@@ -15357,7 +15357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RjLbMXBy9FlaK1VKqVaL" name="invent">
-    <mxGraphModel dx="5734" dy="3274" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5241" dy="2986" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17048,6 +17048,47 @@
         </mxCell>
         <mxCell id="79Q84O320dJUX5YXmXxZ-27" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Возвращаем None" vertex="1">
           <mxGeometry height="60" width="120" x="2296" y="-103" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="2658" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="2549" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="2622" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="34" width="312" x="2382" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#A50040;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="2506" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2514.02" y="167.81" as="sourcePoint" />
+            <mxPoint x="2515" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-12" edge="1" parent="1" source="zJHU6Dv8jAuP_zgHQXfU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2602.961538461538" y="123.57692307692287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Пропущенное паллетоместо" vertex="1">
+          <mxGeometry height="30" width="60" x="2622" y="170.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Забронированное под загрузку паллетоместо" vertex="1">
+          <mxGeometry height="30" width="60" x="2490" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2385" y="189.81" as="sourcePoint" />
+            <mxPoint x="2472.67" y="121.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Место, которое выберется для загрузки" vertex="1">
+          <mxGeometry height="30" width="60" x="2337" y="201" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
