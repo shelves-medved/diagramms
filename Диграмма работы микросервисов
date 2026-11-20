@@ -17090,6 +17090,12 @@
         <mxCell id="zJHU6Dv8jAuP_zgHQXfU-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Место, которое выберется для загрузки" vertex="1">
           <mxGeometry height="30" width="60" x="2337" y="201" as="geometry" />
         </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Начало секции" vertex="1">
+          <mxGeometry height="30" width="60" x="2271" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="zJHU6Dv8jAuP_zgHQXfU-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Конец секции" vertex="1">
+          <mxGeometry height="30" width="60" x="2705" y="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
