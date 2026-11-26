@@ -17516,7 +17516,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oSWhu4DjPEBiMdYk7Aqr" name="kubernetes">
-    <mxGraphModel dx="2760" dy="1817" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2981" dy="1946" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17601,8 +17601,32 @@
         <mxCell id="Usp4lxI3XYXIdG0sT-xZ-30" edge="1" parent="1" source="Usp4lxI3XYXIdG0sT-xZ-24" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Usp4lxI3XYXIdG0sT-xZ-26">
           <mxGeometry relative="1" x="-0.0002" as="geometry" />
         </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-35" edge="1" parent="1" source="Usp4lxI3XYXIdG0sT-xZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Usp4lxI3XYXIdG0sT-xZ-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Usp4lxI3XYXIdG0sT-xZ-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;strong&gt;Проверка работоспособности&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;На Control Plane выполняем:&lt;/p&gt;&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;kubectl get nodes -o wide&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ожидаемый результат:&lt;/p&gt;&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;NAME            STATUS   ROLES           INTERNAL-IP&lt;br/&gt;control-plane   Ready    control-plane   192.168.1.10&lt;br/&gt;worker-01       Ready    &amp;lt;none&amp;gt;          192.168.1.11&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Затем проверяем системные Pod:&lt;/p&gt;&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;kubectl get pods -A -o wide&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="256" width="422" x="-424" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-38" edge="1" parent="1" source="Usp4lxI3XYXIdG0sT-xZ-34" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Usp4lxI3XYXIdG0sT-xZ-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-42" edge="1" parent="1" source="Usp4lxI3XYXIdG0sT-xZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Usp4lxI3XYXIdG0sT-xZ-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;strong&gt;Развёртывание тестового приложения&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Создаём Deployment:&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Создаём Service:&lt;/p&gt;" vertex="1">
+          <mxGeometry height="98" width="275" x="-356" y="1878" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-40" edge="1" parent="1" source="Usp4lxI3XYXIdG0sT-xZ-34" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Usp4lxI3XYXIdG0sT-xZ-39" value="">
+          <mxGeometry relative="1" x="0.8214" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;strong&gt;Deployment — deployment.yaml&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;apiVersion: apps/v1&lt;br&gt;kind: Deployment&lt;br&gt;&lt;br&gt;metadata:&lt;br&gt;&amp;nbsp; name: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Имя Deployment&lt;br&gt;&lt;br&gt;spec:&lt;br&gt;&amp;nbsp; replicas: 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Требуемое количество Pod&lt;br&gt;&lt;br&gt;&amp;nbsp; selector:&lt;br&gt;&amp;nbsp; &amp;nbsp; matchLabels:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; app: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Какими Pod управляет Deployment&lt;br&gt;&lt;br&gt;&amp;nbsp; template:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Шаблон создаваемого Pod&lt;br&gt;&amp;nbsp; &amp;nbsp; metadata:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; labels:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; app: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Метка Pod&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; spec:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; containers:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Имя контейнера&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; image: nginx:latest&amp;nbsp; # Docker-образ&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ports:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - containerPort: 80 # Порт приложения" vertex="1">
+          <mxGeometry height="402" width="382" x="102" y="1681" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;strong&gt;Service — service.yaml&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;apiVersion: v1&lt;br&gt;kind: Service&lt;br&gt;&lt;br&gt;metadata:&lt;br&gt;&amp;nbsp; name: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Имя Service&lt;br&gt;&lt;br&gt;spec:&lt;br&gt;&amp;nbsp; type: ClusterIP&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Доступ внутри кластера&lt;br&gt;&lt;br&gt;&amp;nbsp; selector:&lt;br&gt;&amp;nbsp; &amp;nbsp; app: nginx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Метка выбираемых Pod&lt;br&gt;&lt;br&gt;&amp;nbsp; ports:&lt;br&gt;&amp;nbsp; &amp;nbsp; - protocol: TCP&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Сетевой протокол&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; port: 80&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Порт Service&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; targetPort: 80&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Порт приложения внутри Pod" vertex="1">
+          <mxGeometry height="274" width="382" x="111" y="2109" as="geometry" />
+        </mxCell>
+        <mxCell id="Usp4lxI3XYXIdG0sT-xZ-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;&lt;strong&gt;Применение манифестов&lt;br&gt;&lt;/strong&gt;&lt;br&gt;kubectl apply -f deployment.yaml&lt;br&gt;kubectl apply -f service.yaml&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;На Worker Node ничего дополнительно выполнять не нужно.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;Kubernetes самостоятельно разместит на нём Pod.&lt;/span&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="123" width="350" x="-448" y="2021" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
